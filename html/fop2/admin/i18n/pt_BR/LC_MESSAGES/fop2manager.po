@@ -1,0 +1,808 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FOP2 Manager portuguese translation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-16 22:30+0100\n"
+"PO-Revision-Date: 2020-05-20 12:26+0100\n"
+"Last-Translator: Antonio Fonseca <antonio.fonseca@teledatabrasil.com.br>\n"
+"Language-Team: Nicolas Gudino <asternic@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+msgid "Field %s added to table %s"
+msgstr "Campo %s adicionado à tabela %s"
+
+msgid  "Add User"
+msgstr "Adicionar usuário"
+
+msgid  "From here you can manage FOP2 users and permissions, and also mark the groups the user will be able to view or the plugins it will have enabled."
+msgstr "A partir daqui, você pode gerenciar usuários e permissões do FOP2 e também marcar os grupos que o usuário poderá visualizar ou os plugins que ele terá ativado."
+
+msgid "From here you can install, uninstall, upload and configure FOP2 plugins. You can get plugins from FOP2 repositories, or upload and manage local plugins."
+msgstr "A partir daqui, você pode instalar, desinstalar, fazer upload e configurar plug-ins do FOP2. Você pode obter plugins de repositórios do FOP2 ou fazer upload e gerenciar plugins locais."
+
+msgid  "Login Details"
+msgstr "Detalhes de Login"
+
+msgid  "Group Details"
+msgstr "Detalhes do Grupo"
+
+msgid  "Restricted Permission Details"
+msgstr "Detalhes de Permissão Restrita"
+
+msgid  "The extension number for this user."
+msgstr "O número do ramal para este usuário."
+
+msgid  "Extension"
+msgstr "Extensão"
+
+msgid  "The secret to login to fop2. If the user was autocreated on install time, the password will be the voicemail pin, if it has no voicemail enabled, it will be the same extension number."
+msgstr "A chave para fazer login no fop2. Se o usuário foi criado automaticamente no momento da instalação, a senha será o PIN do correio de voz; se não houver correio de voz ativado, será o mesmo número do ramal."
+
+msgid  "Secret"
+msgstr "Chave"
+
+msgid "User Preferences"
+msgstr "Preferências de Usuário"
+
+msgid  "Choose a template to quickly set or change permissions, groups and plugins."
+msgstr "Escolha um modelo para definir ou alterar rapidamente permissões, grupos e plugins."
+
+msgid  "(pick group)"
+msgstr "(escolher grupo)"
+
+msgid  "(pick plugin)"
+msgstr "(escolher plug-in)"
+
+msgid  "(pick template)"
+msgstr "(escolher modelo)"
+
+msgid  "Restricted Permissions"
+msgstr "Permissões Restritas"
+
+msgid  "Permissions"
+msgstr "Permissões"
+
+msgid  "Permissions let you specify what actions the user will be able to perform inside FOP2. For example, if you do not want to give the users the ability to listen to ongoing calls, do not select the spy permission."
+msgstr "As permissões permitem especificar quais ações o usuário poderá executar dentro do FOP2. Por exemplo, se você não quiser dar aos usuários a capacidade de ouvir chamadas em andamento, não selecione a permissão de espionagem."
+
+msgid  "Template"
+msgstr "Modelo"
+
+msgid  "Choose the permission you want to grant to the user."
+msgstr "Escolha a permissão que você deseja conceder ao usuário."
+
+msgid  "(pick permission)"
+msgstr "(escolha a permissão)"
+
+msgid  "Groups"
+msgstr "Grupos"
+
+msgid  "Group"
+msgstr "Grupo"
+
+msgid  "Select the groups you want the user to see in the panel. If no groups are selected the user will be able to see all buttons."
+msgstr "Selecione os grupos que você deseja que o usuário veja no painel. Se nenhum grupo for selecionado, o usuário poderá ver todos os botões."
+
+msgid  "All Buttons"
+msgstr "Todos os Botões"
+
+msgid  "All Extensions"
+msgstr "Todas as Extensões"
+
+msgid  "All Queues"
+msgstr "Todas as Filas"
+
+msgid  "All Conferences"
+msgstr "Todas as Conferências"
+
+msgid  "All Trunks"
+msgstr "Todos os Troncos"
+
+msgid  "Plugins"
+msgstr "Plug-ins"
+
+msgid  "Select the plugins you want to load for this user."
+msgstr "Selecione os plugins que você deseja carregar para este usuário."
+
+msgid  "Submit Changes"
+msgstr "Enviar Alterações"
+
+msgid  "Delete User %s"
+msgstr "Eliminar Usuario %s"
+
+msgid  "Are you sure?"
+msgstr "Você tem certeza?"
+
+msgid  "Please insert an extension number."
+msgstr "Por favor insira um número de ramal."
+
+msgid  "The extension must be numeric."
+msgstr "A extensão deve ser numérica."
+
+msgid  "That extension already exists."
+msgstr "Essa extensão já existe."
+
+msgid  "Changes saved successfully"
+msgstr "Alterações salvas com sucesso"
+
+msgid  "Users"
+msgstr "Usuários"
+
+msgid  "Buttons"
+msgstr "Butões"
+
+msgid  "Templates"
+msgstr "Modelos"
+
+msgid  "Extensions"
+msgstr "Extensões"
+
+msgid  "Queues"
+msgstr "Filas"
+
+msgid  "Trunks"
+msgstr "Troncos"
+
+msgid  "Parks"
+msgstr "Estacionamentos"
+
+msgid  "Conferences"
+msgstr "Conferências"
+
+msgid  "Save"
+msgstr "Salvar"
+
+msgid  "Upload"
+msgstr "Subir"
+
+msgid  "Edit button options"
+msgstr "Opções do botão Editar"
+
+msgid  "You can change button labels and privacy options -to prevent the button to be monitored and/or hide the CallerID- among other things. You can also sort the list by dragging elements up and down or using the Sort options in the Actions menu."
+msgstr "Você pode alterar os rótulos dos botões e as opções de privacidade - para impedir que o botão seja monitorado e / ou ocultar o CallerID - entre outras coisas. Você também pode classificar a lista arrastando elementos para cima e para baixo ou usando as opções de classificação no menu Ações."
+
+msgid  "Sort by Name"
+msgstr "Ordenar por Nome"
+
+msgid  "Sort by Number"
+msgstr "Ordenar por Número"
+
+msgid  "If you changed any extension names and want to reread them from the regular FreePBX config and update the FOP2 config, click this button."
+msgstr "Se você alterou algum nome de extensão e deseja relê-lo da configuração normal do FreePBX e atualizar a configuração do FOP2, clique neste botão."
+
+msgid  "Show/Hide advanced fields for buttons."
+msgstr "Mostrar / ocultar campos avançados para botões."
+
+msgid  "%d buttons removed from system update"
+msgstr "%d botões removidos da atualização do sistema"
+
+msgid  "%d buttons added from system update"
+msgstr "%d botões adicionados a partir da atualização do sistema"
+
+msgid "%d buttons updated"
+msgstr "%d butões atualizados"
+
+msgid  "Enable or disable this button from the FOP2 panel view."
+msgstr "Ative ou desative este botão na visualização do painel FOP2."
+
+msgid  "You can change the button label to be displayed on FOP2 panel."
+msgstr "Você pode alterar o rótulo do botão a ser exibido no painel FOP2."
+
+msgid  "You can group extensions visually on FOP2 page. If no group is specified all the extensions are going to be displayed on the Extensions box. If you type another name, a new box will be added with the name you choose. Any buttons with the same group name will be displayed on that box."
+msgstr "Você pode agrupar extensões visualmente na página FOP2. Se nenhum grupo for especificado, todas as extensões serão exibidas na caixa Extensões. Se você digitar outro nome, uma nova caixa será adicionada ao nome que você escolher. Quaisquer botões com o mesmo nome de grupo serão exibidos nessa caixa."
+
+msgid "You can group queues visually on FOP2 page. If no group is specified all the queues are going to be displayed on the Queues box. If you type another name, a new box will be added with the name you choose. Any buttons with the same group name will be displayed on that box."
+msgstr "Você pode agrupar filas visualmente na página FOP2. Se nenhum grupo for especificado, todas as filas serão exibidas na caixa Filas. Se você digitar outro nome, uma nova caixa será adicionada ao nome que você escolher. Quaisquer botões com o mesmo nome de grupo serão exibidos nessa caixa."
+
+msgid  "This option can be used to disable monitoring or CallerID display on the button."
+msgstr "Esta opção pode ser usada para desativar o monitoramento ou a exibição do CallerID no botão."
+
+msgid  "ASTDB key to search for custom states. Default configuration is for displaying Call Forward Unconditional states."
+msgstr "Chave ASTDB para procurar estados personalizados. A configuração padrão é para exibir estados incondicionais de encaminhamento de chamadas."
+
+msgid  "You can set an email for every button to enable the option to email the user directly from the FOP2 panel."
+msgstr "Você pode definir um email para cada botão para ativar a opção de enviar um email diretamente ao usuário a partir do painel FOP2."
+
+msgid  "Channel to use as originator when performing a dial from FOP2. You can use a Local type channel and use sip headers for setting the phone to auto answer."
+msgstr "Canal a ser usado como originador ao executar uma discagem do FOP2. Você pode usar um canal do tipo local e usar cabeçalhos sip para configurar o telefone para atender automaticamente."
+
+msgid  "number@context for external/mobile transfers. If @context is omited it will use the default one for the extension."
+msgstr "numero@contexto para transferências externas/móveis. Se o @context for omitido, ele usará o padrão para a extensão."
+
+msgid  "Options to pass to chanspy. Can be used to restrict spying to certain groups (option g, SPYGROUP) or silence the beep (option q). Example: qg(SALES)"
+msgstr "Opções para passar para chanspy. Pode ser usado para restringir a espionagem a certos grupos (opção g, SPYGROUP) ou silenciar o sinal sonoro (opção q). Exemplo: qg(VENDAS)"
+
+msgid  "Extra Channel. You can use it to add extra channels to affect the status of this button."
+msgstr "Canal Extra. Você pode usá-lo para adicionar canais extras para afetar o status deste botão."
+
+msgid  "Comma separated lists of tags. They will be searched/matched when you use the Filter input box on the panel."
+msgstr "Listas de tags separadas por vírgula. Eles serão pesquisados / correspondidos quando você usar a caixa de entrada Filtro no painel."
+
+msgid  "Zap/Dahdi Channels (Eg: 1-24)"
+msgstr "Canais Zap/Dahdi (por exemplo: 1-24)"
+
+msgid  "You must specify the channel number range for zap/dahdi trunks in this field."
+msgstr "Você deve especificar o intervalo de número do canal para troncos zap / dahdi neste campo."
+
+msgid  "Extra Channel"
+msgstr "Canal Extra"
+
+msgid  "You might want to specify an additional device name or put the correct device name in case you are using custom trunks."
+msgstr "Você pode especificar um nome de dispositivo adicional ou colocar o nome correto do dispositivo, caso esteja usando troncos personalizados."
+
+msgid  "Channel to use as queue member when adding/removing/pausing this button into a queue."
+msgstr "Canal a ser usado como membro da fila ao adicionar/remover/pausar esse botão em uma fila."
+
+msgid  "Voicemail mailbox to query for new voicemail."
+msgstr "Caixa de correio de correio de voz para consultar um novo correio de voz."
+
+msgid  "Saving..."
+msgstr "Gravando..."
+
+msgid  "Label"
+msgstr "Etiqueta"
+
+msgid  "Synchronize Labels"
+msgstr "Sincronizar Etiquetas"
+
+msgid  "No"
+msgstr "Não"
+
+msgid  "Yes"
+msgstr "Sim"
+
+msgid  "Enabled"
+msgstr "Habilitado"
+
+msgid  "Privacy"
+msgstr "Privacidade"
+
+msgid  "Email"
+msgstr "E-mail"
+
+msgid  "External Transfer"
+msgstr "Número Externo"
+
+msgid  "Channel"
+msgstr "Canal"
+
+msgid  "Originate Channel"
+msgstr "Canal de Origem"
+
+msgid  "Tags"
+msgstr "Etiquetas"
+
+msgid  "Custom ASTDB"
+msgstr "ASTDB Personalizados"
+
+msgid  "ChanSpy Options"
+msgstr "Opções ChanSpy"
+
+msgid  "Add Group"
+msgstr "Adicionar Grupo"
+
+msgid  "Groups can be used to restrict the buttons a user should see in his panel. You can create a group with only 5 extensions and assign it to a user in the Users tab, so he can only see those extensions."
+msgstr "Grupos podem ser usados para restringir os botões que um usuário deve ver em seu painel. Você pode criar um grupo com apenas 5 extensões e atribuí-lo a um usuário na guia Usuários, para que ele possa ver apenas essas extensões."
+
+msgid  "Name"
+msgstr "Nome"
+
+msgid  "Included Buttons"
+msgstr "Botões Incluídos"
+
+msgid  "Select the buttons you want to include in this group."
+msgstr "Selecione os botões que você deseja incluir neste grupo."
+
+msgid  "Check All"
+msgstr "Marcar Todos"
+
+msgid  "Delete Group %s"
+msgstr "Eliminar Grupo %s"
+
+msgid  "Edit User %s"
+msgstr "Editar Usuário %s"
+
+msgid  "Edit Group %s"
+msgstr "Editar Grupo %s"
+
+msgid  "Please enter a group name."
+msgstr "Por favor, insira um nome de grupo."
+
+msgid  "Ringgroups"
+msgstr "Grupos de Chamada"
+
+msgid  "A template is a set of permissions, groups and plugins that you can assign to users in one step inside the Users menu for easy and quick management."
+msgstr "Um modelo é um conjunto de permissões, grupos e plug-ins que você pode atribuir aos usuários em uma etapa dentro do menu Usuários para um gerenciamento fácil e rápido."
+
+msgid  "Add Template"
+msgstr "Adiconar Modelo"
+
+msgid  "Edit Template %s"
+msgstr "Editar Modelo %s"
+
+msgid  "Template Details"
+msgstr "Detalles do Modelo"
+
+msgid  "Template %s deleted!"
+msgstr "Modelo %s excluído!"
+
+msgid  "Template %s inserted!"
+msgstr "Modelo %s inserido!"
+
+msgid  "User %s deleted!"
+msgstr "Usuário %s excluído!"
+
+msgid  "User %s inserted!"
+msgstr "Usuário %s inserido!"
+
+msgid  "Group %s deleted!"
+msgstr "Grupo %s excluído!"
+
+msgid  "Group %s inserted!"
+msgstr "Grupo %s inserido!"
+
+msgid  "Restricted Permission %s deleted!"
+msgstr "Permissão restrita %s excluída!"
+
+msgid  "Restricted Permission %s inserted!"
+msgstr "Permissão restrita %s inserida!"
+
+msgid  "Delete Template %s"
+msgstr "Eliminar Modelo %s"
+
+msgid  "Delete Restricted Permission %s"
+msgstr "Excluir Permissão Restrita %s"
+
+msgid  "Select the groups you want to add to this template. If no groups are selected the user will be able to see all buttons."
+msgstr "Selecione os grupos que você deseja adicionar a este modelo. Se nenhum grupo for selecionado, o usuário poderá ver todos os botões."
+
+msgid  "Select the plugins you want to enable in this template."
+msgstr "Selecione os plug-ins que você deseja ativar neste modelo."
+
+msgid  "Make Default"
+msgstr "Tornar Padrão"
+
+msgid  "Assign this template by default when adding new users."
+msgstr "Atribua este modelo por padrão ao adicionar novos usuários."
+
+msgid  "The name for this template."
+msgstr "O nome deste modelo."
+
+msgid  "Choose the permission you wish to include in this template."
+msgstr "Escolha a permissão que você deseja incluir neste modelo."
+
+msgid  "The name for this group."
+msgstr "O nome deste grupo."
+
+msgid  "Add Restricted Permission"
+msgstr "Adicionar permissão restrita"
+
+msgid  "Restricted permissions lets you limit actions to a specific set of extensions/groups. They are only used for restricting actions. If you want a quick way to assign permissions, then you should use Templates as restricted permissions will limit user actions."
+msgstr "Permissões restritas permitem limitar ações a um conjunto específico de extensões / grupos. Eles são usados apenas para restringir ações. Se você deseja uma maneira rápida de atribuir permissões, use Modelos, pois as permissões restritas limitarão as ações do usuário."
+
+msgid  "Edit Restricted Permission %s"
+msgstr "Editar Permissão Restrita %s"
+
+msgid  "The name for this permission."
+msgstr "O nome dessa permissão."
+
+msgid  "Choose the permission you want to include in this advanced permission."
+msgstr "Escolha a permissão que você deseja incluir nesta permissão avançada."
+
+msgid  "Restrict to Groups"
+msgstr "Restringir a Grupos"
+
+msgid  "Select the groups you want to restrict this permission to. You will be able to perform the actions only to the extension/buttons that are part of the selected groups. If no groups are selected, the permission will be allowed to every button on the panel."
+msgstr "Selecione os grupos aos quais você deseja restringir essa permissão. Você poderá executar as ações apenas nos extensões / botões que fazem parte dos grupos selecionados. Se nenhum grupo for selecionado, a permissão será permitida para todos os botões no painel."
+
+msgid  "Please insert a permission name."
+msgstr "Por favor, insira um nome de permissão."
+
+msgid  "That name is reserved for stock permissions, choose another one."
+msgstr "Esse nome está reservado para permissões de estoque, escolha outro."
+
+msgid  "Accept"
+msgstr "Aceitar"
+
+msgid  "Cancel"
+msgstr "Cancelar"
+
+
+msgid  "The following error(s) occurred processing the uploaded file: %s"
+msgstr "Ocorreram os seguintes erros ao processar o arquivo carregado: %s"
+
+msgid  "Plugin installed successfully. You need to enable it globally or assign it to some users to make it available."
+msgstr "Plug-in instalado com sucesso. Você precisa habilitá-lo globalmente ou atribuí-lo a alguns usuários para disponibilizá-lo."
+
+msgid  "FOP2 Repository - Available Plugins"
+msgstr "Repositório FOP2 - Plug-ins Disponíveis"
+
+msgid  "Globally Enabled"
+msgstr "Habilitar Globalmente"
+
+msgid  "Uninstall"
+msgstr "Desinstalar"
+
+msgid  "Install"
+msgstr "Instalar"
+
+msgid  "Buy"
+msgstr "Comprar"
+
+msgid  "Update"
+msgstr "Atualizar"
+
+msgid  "Free"
+msgstr "Grátis"
+
+msgid  "Online Repository not reachable/accessible"
+msgstr "Repositório on-line não alcançavel/acessível"
+
+msgid  "Locally Available Plugins"
+msgstr "Plugins Disponíveis Localmente"
+
+msgid  "Upload Plugin"
+msgstr "Subir Complemento"
+
+msgid  "You can upload a tar gzip file containing a FOP2 plugin from your local system. If a plugin with the same name already exists, it will be overwritten."
+msgstr "Você pode fazer upload de um arquivo tar gzip contendo um plug-in FOP2 do seu sistema local. Se já existir um plugin com o mesmo nome, ele será substituído."
+
+msgid  "Available Version"
+msgstr "Versião Disponível"
+
+msgid  "Installed Version"
+msgstr "Versão Instalada"
+
+msgid  "Browse"
+msgstr "Explorar"
+
+msgid  "Welcome"
+msgstr "Bem-vindo"
+
+msgid "Error extracting plugin archive"
+msgstr "Erro ao extrair o arquivo morto do plug-in"
+
+msgid "Hide/Show Plugin Settings"
+msgstr "Ocultar/Exibir Configurações do Plug-in"
+
+msgid "Settings"
+msgstr "Configurações"
+
+msgid "Add Section"
+msgstr "Adicionar Seção"
+
+msgid "Remove Section"
+msgstr "Remover Seção"
+
+msgid "Please wait..."
+msgstr "Por favor aguarde..."
+
+msgid "Enter Section"
+msgstr "Entrar na Seção"
+
+msgid "That section already exists!"
+msgstr "Essa seção já existe!"
+
+msgid "Section cannot be empty!"
+msgstr "A seção não pode estar vazia!"
+
+msgid  "%s users added"
+msgstr "%s usuarios adicionados"
+
+msgid  "%s buttons added"
+msgstr "%s botões adicionados"
+
+msgid  "Configuration saved"
+msgstr "Configuração salva"
+
+msgid "Error finding uploaded file. Did you select one? Check your PHP and/or web server configuration."
+msgstr "Erro ao encontrar o arquivo enviado. Você selecionou um? Verifique sua configuração de PHP e/ou servidor da web." 
+
+msgid "File must be in tar+gzip (.tgz or .tar.gz) format"
+msgstr "O arquivo deve estar no formato tar+gzip (.tgz ou .tar.gz)"
+
+msgid "Filename does not have the correct format: it must be pluginname-version.tar.gz (eg. customplugin-0.1.tar.gz)"
+msgstr "O nome do arquivo não tem o formato correto: ele deve ser pluginname-version.tar.gz (por exemplo: customplugin-0.1.tar.gz)"
+
+msgid  "FOP2 Server is not responding. Be sure the service is running!"
+msgstr "O servidor FOP2 não está respondendo. Verifique se o serviço está sendo executado!"
+
+msgid  "Licensed Plugins"
+msgstr "Plug-ins Licenciados"
+
+msgid  "There are no licensed plugins"
+msgstr "Não há plug-ins licenciados"
+
+msgid  "FOP2 Server Status: OK"
+msgstr "Estado de Servidor FOP2: OK"
+
+msgid  "lets you configure users, permissions, button details and options. It will also let you install, uninstall and configure FOP2 plugins. It will read data from your configuration backend (FreePBX, Thirdlane, etc) and populate its own tables with your preferences."
+msgstr "permite configurar usuários, permissões, detalhes e opções de botões. Também permitirá instalar, desinstalar e configurar os plug-ins do FOP2. Ele lerá dados do seu back-end de configuração (FreePBX, Thirdlane, etc) e preencherá suas próprias tabelas com suas preferências."
+
+msgid  "Close"
+msgstr "Fechar"
+
+msgid  "Upgrade Available"
+msgstr "Atualização disponível"
+
+msgid  "Upgrade"
+msgstr "Atualizar"
+
+msgid "New %s version %s available for download"
+msgstr "Nova versão %s %s disponível para download"
+
+msgid  "(Your current version is %s)"
+msgstr "(Sua versão atual é %s)"
+
+msgid  "FOP2 Reloaded"
+msgstr "FOP2 Recarregado"
+
+msgid  "Reload FOP2"
+msgstr "Recarregar FOP2"
+
+msgid  "Asterisk Reloaded"
+msgstr "Asterisk Recarregado"
+
+msgid  "Reload Asterisk"
+msgstr "Recarregar Asterisk"
+
+
+msgid  "Show Changelog"
+msgstr "Mostrar Changelog"
+
+msgid  "Hide Changelog"
+msgstr "Ocultar Changelog"
+
+msgid "File extracted successfully!"
+msgstr "Arquivo extraído com sucesso!"
+
+msgid  "Cannot read file %s for extraction"
+msgstr "Não é possível ler o arquivo %s para extração"
+
+msgid "Extraction directory %s does not exists!"
+msgstr "O diretório de extração% s não existe!"
+
+msgid "Error while extracting file %s into directory %s"
+msgstr "Erro ao extrair o arquivo% s no diretório %s"
+
+msgid "Problem trying to find the extracted upgrade files. There is no %s directory."
+msgstr "Problema ao tentar encontrar os arquivos de atualização extraídos. Não há diretório %s."
+
+msgid "The permission name is already in use."
+msgstr "O nome da permissão já está em uso."
+
+msgid "The template name is already in use."
+msgstr "O nome do modelo já está em uso."
+
+msgid "The name cannot be empty!"
+msgstr "O nome não pode estar vazio!"
+
+msgid "The user number is already in use."
+msgstr "O número do usuário já está em uso."
+
+msgid "Create option"
+msgstr "Criar opção"
+
+msgid "Price"
+msgstr "Preço"
+
+msgid "Backend Engine: %s"
+msgstr "Mecanismo de back-end: %s"
+
+msgid "Language" 
+msgstr "Idioma"
+
+msgid "User" 
+msgstr "Usuário"
+
+msgid "Password" 
+msgstr "Senha"
+
+msgid "Log in" 
+msgstr "Entrar"
+
+msgid "Invalid Credentials" 
+msgstr "Credenciais Inválidas"
+
+msgid "Actions"
+msgstr "Ações"
+
+msgid "That name is reserved for default groups, choose another one."
+msgstr "Como esse nome está reservado para grupos padrão, escolha outro."
+
+msgid "Logout"
+msgstr "Sair"
+
+msgid "Recreate Users"
+msgstr "Recriar Usuários"
+
+msgid "Variable to send to the Asterisk Manager when issuing Originate commands specific for setting a phone to auto answer via sip headers or similar. This will be used if the user toggles auto answer in its own FOP2 Preferences setting"
+msgstr "Variável a ser enviada ao Asterisk Manager ao emitir comandos Originate específicos para configurar um telefone para atender automaticamente por meio de cabeçalhos sip ou similares. Isso será usado se o usuário alternar a resposta automática em sua própria configuração de Preferências de FOP2"
+
+msgid "Variables to send to the Asterisk Manager when issuing Originate commands (performing a dial from FOP2)."
+msgstr "Variáveis a serem enviadas ao Asterisk Manager ao emitir comandos Originate (executando um dial do FOP2)."
+
+msgid "Originate Variables"
+msgstr "Gerar Variáveis"
+
+msgid "AutoAnswer Header"
+msgstr "Cabeçalho de Resposta Automática"
+
+msgid "Could not remove file %s!"
+msgstr "Não foi possível remover o arquivo %s!"
+
+msgid "File %s removed successfully"
+msgstr "O arquivo %s foi removido com sucesso"
+
+msgid "Edit Setting"
+msgstr "Editar Configuração"
+
+msgid "Enable javascript debugging on the browser."
+msgstr "Ative a depuração de javascript no navegador."
+
+msgid "To enable or disable desktop notifications (notification boxes that popup outside the browser, so you can see them with the browser minimized). This does not work with all browsers."
+msgstr "Para ativar ou desativar as notificações da área de trabalho (caixas de notificação que aparecem fora do navegador, para que você possa vê-las com o navegador minimizado). Isso não funciona com todos os navegadores."
+
+msgid "Dial prefix to use on click to call from phonebook or when using the dial box."
+msgstr "Prefixo de discagem para usar ao clicar para ligar da agenda telefônica ou ao usar a caixa de discagem."
+
+msgid "To enable or disable the 'Other' option on the FOP2 Presence selection, that lets users chose the reason for their state besides the predefined ones."
+msgstr "Para habilitar ou desabilitar a opção 'Outro' na seleção Presença FOP2, isso permite que os usuários escolham o motivo de seu estado além dos predefinidos."
+
+msgid "When you click on a queue button, the extension display will hide all extensions but the ones matching their names with its queue members. If this is enabled, then queue filtering won't be active."
+msgstr "Quando você clica em um botão da fila, a exibição da extensão oculta todas as extensões, exceto as que correspondem aos nomes dos membros da fila. Se isso estiver ativado, a filtragem da fila não estará ativa."
+
+msgid "Lets you control if you want to enable or disable the Voicemail Explorer feature. Requires a voicemail license to be effective."
+msgstr "Permite controlar se você deseja ativar ou desativar o recurso Explorador de correio de voz. Requer uma licença de correio de voz para ser eficaz."
+
+msgid "Lets you disable the use of HTML5 Websocket as the communications protocol. If disable FOP2 will use Adobe Flash instead."
+msgstr "Permite desativar o uso do HTML5 Websocket como o protocolo de comunicação. Se desativar o FOP2, o Adobe Flash será usado."
+
+msgid "Mode in which you want queue buttons to be displayed by default. The summary view will show only the number of logged in agents and number of waiting calls, while the full view will show every queue member and all waiting calls in detail."
+msgstr "Modo no qual você deseja que os botões da fila sejam exibidos por padrão. A exibição resumida mostrará apenas o número de agentes conectados e o número de chamadas em espera, enquanto a exibição completa mostrará todos os membros da fila e todas as chamadas em espera em detalhes."
+
+msgid "When enabled, extension buttons won't show any inactive lines, making them shorter. But also the display will be irregular as some buttons will be taller than others depending on the number of active lines."
+msgstr "Quando ativado, os botões de extensão não exibem nenhuma linha inativa, tornando-os mais curtos. Mas também a exibição será irregular, pois alguns botões serão mais altos que outros, dependendo do número de linhas ativas."
+
+msgid "This setting lets you control if you want drag&drop transfers to be enabled in FOP2."
+msgstr "Essa configuração permite controlar se você deseja que as transferências de arrastar e soltar sejam ativadas no FOP2."
+
+msgid "When enabled, this option will hide all extension buttons that are lagged or unregistered."
+msgstr "Quando ativada, esta opção oculta todos os botões de extensão que estão atrasados ou não registrados."
+
+msgid "Main Language"
+msgstr "Idioma Principal"
+
+msgid "URL to use when the logout button is clicked in the FOP2 UI. Useful if you are embedding FOP2 into some other web application and want to control what to show on logout."
+msgstr "URL a ser usado quando o botão Logout for clicado na interface do usuário do FOP2. Útil se você estiver incorporando o FOP2 em algum outro aplicativo da web e quiser controlar o que mostrar no logout."
+
+msgid "If you do not want to show the extension number in a button label, then enable this setting."
+msgstr "Se você não quiser mostrar o número do ramal em um rótulo de botão, ative essa configuração."
+
+msgid "Duration in seconds you want notifications to be displayed."
+msgstr "Duração em segundos em que você deseja que as notificações sejam exibidas."
+
+msgid "Date format to use on Chat events."
+msgstr "Formato de data a ser usado nos eventos de bate-papo."
+
+msgid "Number of lines to show per button."
+msgstr "Número de linhas a serem mostradas por botão."
+
+msgid "To control if you want sounds for chat events."
+msgstr "Para controlar se você deseja sons para eventos de bate-papo."
+
+msgid "To control if you want sounds for queue events."
+msgstr "Para controlar se você deseja sons para eventos na fila."
+
+msgid "To enable or disable the RING sound when your extension receives a call."
+msgstr "Para ativar ou desativar o som do toque quando o seu ramal recebe uma chamada."
+
+msgid "With this setting, all extension buttons will start in unregistered state (greyed out)."
+msgstr "Com essa configuração, todos os botões de extensão iniciarão em estado não registrado (acinzentado)."
+
+msgid "Format in which voicemail files are stored, this must be the same as configured in /etc/asterisk/voicemail.conf"
+msgstr "Formato no qual os arquivos de correio de voz estão armazenados, deve ser o mesmo que o configurado em /etc/asterisk/voicemail.conf"
+
+msgid "To control if you want a warning when the FOP2 page is about to be closed."
+msgstr "Para controlar se você deseja um aviso quando a página do FOP2 está prestes a ser fechada."
+
+msgid "To control if you want a confirmation when a hangup action is performed from FOP2."
+msgstr "Para controlar se você deseja uma confirmação quando uma ação de interrupção for executada a partir do FOP2."
+
+msgid "Search"
+msgstr "Buscar"
+
+msgid "Mass Update"
+msgstr "Atualização em massa"
+
+msgid "Mass Update via CSV File"
+msgstr "Atualização em massa via arquivo CSV"
+
+msgid "Select a CSV file to upload with data to perform the mass update. You must pass an extension field in the CSV file to match against the Button extension. For example:"
+msgstr "Selecione um arquivo CSV para carregar com dados para executar a atualização em massa. Você deve passar um campo de extensão no arquivo CSV para corresponder à extensão do botão. Por exemplo:"
+
+msgid "Please assign fields for your CSV file columns. The extension field is mandatory and will be used to match the corresponding extension in the FOP2 Buttons list. Columns with no assigned field will be discarded."
+msgstr "Atribua campos para suas colunas de arquivo CSV. O campo de extensão é obrigatório e será usado para corresponder à extensão correspondente na lista de botões do FOP2. As colunas sem campo atribuído serão descartadas."
+
+msgid "Empty file?"
+msgstr "Arquivo vazio?"
+
+msgid "Could not copy uploaded file"
+msgstr "Não foi possível copiar o arquivo enviado"
+
+msgid "Could not upload file"
+msgstr "Não foi possível fazer o upload do arquivo"
+
+msgid "Please assing data columns"
+msgstr "Por favor, assine colunas de dados"
+
+msgid "Please assign the extension field to a column"
+msgstr "Atribua o campo de extensão a uma coluna"
+
+msgid "Tenants"
+msgstr "Inquilinos"
+
+msgid "Version"
+msgstr "Versião"
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "Preferences"
+msgstr "Preferências"
+
+msgid "Sounds"
+msgstr "Sons"
+
+msgid "Chat Sounds"
+msgstr "Sons de Chat"
+
+msgid "Queue Sounds"
+msgstr "Sons da Fila"
+
+msgid "Ring Sounds"
+msgstr "Sons de Chamada"
+
+msgid "Display"
+msgstr "Exibição"
+
+msgid "Default Queue View"
+msgstr "Visualização de fila padrão"
+
+msgid "Dynamic Line Display"
+msgstr "Exibição de Linha Dinâmica"
+
+msgid "Popup"
+msgstr "Pop-up"
+
+msgid "Automatic Popup"
+msgstr "Pop-up Automático"
+
+msgid "Notify Duration"
+msgstr "Duração da notificação"
+
+msgid "Url"
+msgstr "Url"
+
+msgid "Phone"
+msgstr "Τelefone"
+
+msgid "Auto Answer"
+msgstr "Auto Responder"
+
+msgid "Summary"
+msgstr "Sumário"
+
+msgid "Detailed"
+msgstr "Detalhado"
+
+msgid "PHP SQLite module not installed"
+msgstr "Módulo PHP SQLite não instalado"
+
+msgid "You must install the SQLite module for PHP if you want to change/set global settings and user preferences from this tool."
+msgstr "Você deve instalar o módulo SQLite para PHP se desejar alterar / definir configurações globais e preferências do usuário a partir desta ferramenta."

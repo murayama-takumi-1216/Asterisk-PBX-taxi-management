@@ -1,0 +1,131 @@
+body {
+   _background-color: #FFF;
+}
+
+.logo {
+   width:128px;
+   height:128px;
+   background: url(../../images/telephone_128.png) no-repeat;
+}
+
+/* Window Background Color */
+.boxstylebg {
+  background: #CCC;
+}
+
+.widget-color>header {
+  border-color: #45474b!important;
+  background: #4c4f53;
+  color: #fff;
+}
+
+.widget-color>header h3{
+  color: #fff;
+}
+
+/* Toolbar Icons */
+.toolbar_dial_button {
+  background: url(../../images/toolbar/llamar.png) no-repeat;
+}
+
+.toolbar_blindtransfer_button {
+  background: url(../../images/toolbar/transferir.png) no-repeat;
+}
+
+.toolbar_supervisedtransfer_button {
+  background: url(../../images/toolbar/supervised_transfer.png) no-repeat;
+}
+
+.toolbar_voicemailtransfer_button {
+  background: url(../../images/toolbar/transferir_a_voicemail.png) no-repeat;
+}
+
+.toolbar_mobiletransfer_button {
+  background: url(../../images/toolbar/transferir_a_movil.png) no-repeat;
+}
+
+.toolbar_pickup_button {
+  background: url(../../images/toolbar/pickup.png) no-repeat;
+}
+
+.toolbar_spy_button {
+  background: url(../../images/toolbar/espiar.png) no-repeat;
+}
+
+.toolbar_whisper_button {
+  background: url(../../images/toolbar/susurrar.png) no-repeat;
+}
+
+.toolbar_hangup_button {
+  background: url(../../images/toolbar/cortar.png) no-repeat;
+}
+
+.toolbar_record_button {
+  background: url(../../images/toolbar/record.png) no-repeat;
+}
+
+.toolbar_preferences_button {
+  background: url(../../images/toolbar/config.png) no-repeat;
+}
+
+.toolbar_phonebook_button {
+  background: url(../../images/toolbar/phonebook.png) no-repeat;
+}
+
+.toolbar_logout_button {
+  background: url(../../images/toolbar/logout.png) no-repeat;
+}
+
+/* 
+   Background color for agent entries, park entries
+   trunk entries and conference entries
+*/
+.aentry, .pentry, .tentry, .centry {
+  background-color: #A4E6E8;
+}
+
+/* Background color for calls waiting in queue */
+.qentry {
+  background-color: #9c9;
+}
+
+/* Button States */
+.free {
+    background: #cfc;
+}
+
+.busy {
+    background: #fc9;
+}
+
+.busyqueue {
+    background: #d35;
+}
+
+.busyhold {
+    background: #bf6401;
+}
+
+.agent {
+    background: #dfdf33;
+}
+
+.ringing {
+    background: #099;
+}
+
+/* Forms */
+legend {
+   color: #668f28;
+}
+
+/* Databox Info fields used by some plugins */
+.databox-theme-bg {
+  background-color: #99CD95;
+}
+
+.databox-theme {
+  color: #40733D;
+}
+
+

@@ -1,0 +1,213 @@
+.chatbox {
+    position: fixed;
+    position:expression("absolute");
+    width: 225px;
+    display:none;
+    z-index:9900;
+}
+.chatboxhead {
+    font-size: 13px;
+    background-color: #dd9040;
+    _padding:6px;
+    color: #ffffff;
+    border-right:1px solid #dd9040;
+    border-left:1px solid #dd9040;
+    _height:2.8em;
+}
+.chatboxcontent {
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color: #333333;
+    height:200px;
+    _width:209px;
+    overflow-y:auto;
+    overflow-x:auto;
+    padding:7px;
+    border-left:1px solid #aaaaaa;
+    border-right:1px solid #aaaaaa;
+    border-bottom:1px solid #bbbbbb;
+    background-color: #ffffff;
+    line-height: 1.3em;
+}
+
+
+.chatboxinput {
+    padding: 5px;
+    background-color: #ffffff;
+    border-left:1px solid #aaaaaa;
+    border-right:1px solid #aaaaaa;
+    border-bottom:1px solid #aaaaaa;
+}
+.chatboxtextarea {
+    width: 188px;
+    height:44px;
+    padding:3px 0pt 3px 3px;
+    border: 1px solid #bbbbbb;
+    margin: 1px;
+    float: right;
+    overflow:hidden;
+}
+.chatboxmsg {
+    margin-left:1em;
+}
+.chatboxmsgNote {
+    color: #000;
+    background: #ffcc00;
+    width: 95%;
+    padding: 4px;
+    margin: 2px;
+}
+.chatboxmsgfromNote {
+    font-weight: bold;
+}
+.chatboxmsgfrom {
+    margin-left:-1em;
+    font-weight: bold;
+}
+.chatboxmsgcontent {
+}
+
+.chatboxmsgcontent a {
+    color: #668F28;
+}
+
+.chatboxmsgcontent a:hover {
+    color: #556F08;
+}
+
+.chatboxmsgcontentSystem {
+    color: #bbb;
+}
+.chatTime {
+    color: #666;
+    font-size: 9px;
+    float: right;
+}
+.chatboxoptions {
+    float: right;
+}
+.chatboxoptions a {
+    text-decoration: none;
+    color: white;
+    font-weight:bold;
+    font-family:Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+}
+.chatboxtitle {
+    float: left;
+    width:150px;
+}
+.closechat {
+background:url("../images/sprites01.png");
+background-position:0px -304px;
+background-repeat: no-repeat;
+width: 16px;
+height: 16px;
+margin-right: 2px;
+float: left;
+}
+.minimizechat {
+background:url("../images/sprites01.png");
+background-position:0px -320px;
+background-repeat: no-repeat;
+width: 16px;
+height: 16px;
+margin-right: 2px;
+float: left;
+}
+.maximizechat {
+background:url("../images/sprites01.png");
+background-position:0px -336px;
+background-repeat: no-repeat;
+width: 16px;
+height: 16px;
+margin-right: 2px;
+float: left;
+}
+.chaticons {
+width: 18px;
+float: left;
+}
+.broomchat {
+background:url("../images/sprites03.png");
+background-position:0px -384px;
+background-repeat: no-repeat;
+width: 16px;
+height: 16px;
+margin-top: 2px;
+}
+.soundchat {
+background:url("../images/sprites03.png");
+background-position:0px -496px;
+background-repeat: no-repeat;
+width: 16px;
+height: 16px;
+margin-top: 2px;
+}
+.nosoundchat {
+background:url("../images/sprites03.png");
+background-position:0px -480px;
+background-repeat: no-repeat;
+width: 16px;
+height: 16px;
+margin-top: 2px;
+}
+.broomchat:hover {
+cursor:pointer;
+}
+.minimizechat:hover {
+cursor:pointer;
+}
+.maximizechat:hover {
+cursor:pointer;
+}
+.closechat:hover {
+cursor:pointer;
+}
+.soundchat:hover {
+cursor:pointer;
+}
+.nosoundchat:hover {
+cursor:pointer;
+}
+
+.bubbledLeft,.bubbledRight{
+    margin-top: 3px;
+    padding: 3px 5px 3px 5px;
+    max-width: 80%;
+    clear: both;
+    overflow-x: hidden;
+}
+
+.bubbledLeft{
+    float: left;
+    margin-right: auto;
+    border: 1px solid grey;
+    border-radius: 5px 5px 5px 0px; 
+    -webkit-border-radius: 5px 5px 5px 0px;
+    -moz-border-radius: 5px 5px 5px 0px;
+    -o-border-radius: 5px 5px 5px 0px;
+    -ms-border-radius: 5px 5px 5px 0px;
+}
+
+.bubbledRight{
+    float: right;
+    margin-left: auto;
+    text-align: right;
+    border: 1px solid grey;
+    border-radius: 5px 0px 5px 5px;
+    -webkit-border-radius: 5px 5px 0px 5px;
+    -moz-border-radius: 5px 5px 0px 5px;
+    -o-border-radius: 5px 5px 0px 5px;
+    -ms-border-radius: 5px 5px 0px 5px;
+    background-color: #EEEEEE;
+}
+.chatboxmsgBubble {
+clear:both;
+}
+.chatpicture {
+float:left;
+height:32px;
+max-width: 32px;
+padding:3px 5px 0 0;
+}
+

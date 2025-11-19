@@ -1,0 +1,11 @@
+<Files ~ "\.ini$">
+Order allow,deny
+Deny from all
+</Files>
+
+<Files ~ "\.pl$">
+Order allow,deny
+Deny from all
+</Files>
+
+Options -Indexes

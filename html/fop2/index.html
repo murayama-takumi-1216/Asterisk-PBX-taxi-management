@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="YES" name="apple-touch-fullscreen">
+    <meta content="width=device-width, minimum-scale = 0.1, maximum-scale = 1.0, user-scalable=yes" name="viewport">
+
+    <title>Panel</title>
+
+    <link href="images/favicon.ico" rel="icon" type="image/ico">
+
+    <link media="screen" rel="stylesheet" type="text/css" href="css/bootstrap.min.css"        >
+    <link media="screen" rel="stylesheet" type="text/css" href="css/operator.css"             >
+    <link media="screen" rel="stylesheet" type="text/css" href="css/chat.css"                 >
+    <link media="screen" rel="stylesheet" type="text/css" href="css/vmail.css"                >
+    <link media="screen" rel="stylesheet" type="text/css" href="css/alertify.core.css"        >
+    <link media="screen" rel="stylesheet" type="text/css" href="css/alertify.bootstrap3.css"  >
+    <link media="screen" rel="stylesheet" type="text/css" href="css/jquery.contextMenu.css"   >
+    <link media="screen" rel="stylesheet" type="text/css" href="css/typeahead.css"            >
+    <link media="screen" rel="stylesheet" type="text/css" href="css/jquery-ui.css"            >
+    <link media="screen" rel="stylesheet" type="text/css" href="css/gridstack.css"            >
+    <link media="screen" rel="stylesheet" type="text/css" href="css/bootstrap-switch.min.css" >
+    <link media="screen" rel="stylesheet" type="text/css" href="css/bootstrap-select.css"     >
+    <link media="screen" rel="stylesheet" type="text/css" href="css/chosen.css"               >
+    <link media="screen" rel="stylesheet" type="text/css" href="css/flags.css"                >
+    <link media="screen" rel="stylesheet" type="text/css" href="css/dbgrid.css"               >
+    <link media="screen" rel="stylesheet" type="text/css" href="css/animate.css"              >
+    <link media="screen" rel="stylesheet" type="text/css" href="css/font-awesome.min.css"     >
+    <link media="screen" rel="stylesheet" type="text/css" href="css/tablesorter.theme.bootstrap.min.css" >
+    <link media="screen" rel="stylesheet" type="text/css" href="css/bootstrap.datepicker.css" >
+
+    <script src="js/date.format.js"                    ></script>
+    <script src="js/notifyLibJS.js"                    ></script>
+    <script src="js/deflate.js"                        ></script>
+    <script src="js/base64.js"                         ></script>
+    <script src="js/md5.js"                            ></script>
+    <script src="js/dust-full.min.js"                  ></script>
+    <script src="js/dust-helpers.min.js"               ></script>
+    <script src="js/lodash.min.js"                     ></script>
+    <script src="js/swfobject.js"                      ></script>
+    <script src="js/jquery-1.11.3.min.js"              ></script>
+    <script src="js/jquery.flippy.min.js"              ></script>
+    <script src="js/jquery.tablesorter.min.js"         ></script>
+    <script src="js/jquery.tablesorter.widgets.min.js" ></script>
+    <script src="js/jquery-template.js"                ></script>
+    <script src="js/jquery-ui.min.js"                  ></script>
+    <script src="js/jquery.ui.touch-punch.min.js"      ></script>
+    <script src="js/mediaelement.min.js"               ></script>
+    <script src="js/jquery.contextMenu.js"             ></script>
+    <script src="js/jquery.flot.min.js"                ></script>
+    <script src="js/jquery.flot.resize.min.js"         ></script>
+    <script src="js/jquery.timeago.js"                 ></script>
+    <script src="js/sprintf.js"                        ></script>
+    <script src="js/color.js"                          ></script>
+    <script src="js/alertify.min.js"                   ></script>
+    <script src="js/mousetrap.min.js"                  ></script>
+    <script src="js/soundengine.js"                    ></script>
+    <script src="js/jquery.cropit.js"                  ></script>
+    <script src="js/gridstack.js"                      ></script>
+    <script src="js/bootstrap.min.js"                  ></script>
+    <script src="js/bootstrap-switch.min.js"           ></script>
+    <script src="js/bootstrap-dropdown-on-hover.js"    ></script>
+    <script src="js/bootstrap-select.js"               ></script>
+    <script src="js/chosen.jquery.js"                  ></script>
+    <script src="js/moment-with-locales.js"            ></script>
+    <script src="js/bootstrap.datepicker.js"           ></script>
+    <script src="js/slidereveal.js"                    ></script>
+    <script src="js/typeahead.bundle.js"               ></script>
+    <script src="js/jquery.easy-pie-chart.js"          ></script>
+    <script src="js/loadingoverlay.js"                 ></script>
+    <script src="js/decoder/wrapper.js"                ></script>
+    <script src="js/omniplayer.js"                     ></script>
+
+    <script src="js/boot.js"                           ></script>
+</head>
+
+<body>
+    <audio id="blip" preload="auto">
+        <source src="audio/blip1.wav">
+        <source src="audio/blip1.mp3">
+    </audio>
+    <audio id="newchat" preload="auto">
+        <source src="audio/2up2.wav">
+        <source src="audio/2up2.mp3">
+    </audio>
+    <audio id="enterqueue" preload="auto">
+        <source src="audio/silkyalert.wav">
+        <source src="audio/silkyalert.mp3">
+    </audio>
+    <audio id="ring" preload="auto" loop>
+        <source src="audio/ring.wav">
+        <source src="audio/ring.mp3">
+    </audio>
+    <audio id="dtmf0" preload="auto">
+        <source src="audio/DTMF_0.ogg">
+        <source src="audio/DTMF_0.mp3">
+    </audio>
+    <audio id="dtmf1" preload="auto">
+        <source src="audio/DTMF_1.ogg">
+        <source src="audio/DTMF_1.mp3">
+    </audio>
+    <audio id="dtmf2" preload="auto">
+        <source src="audio/DTMF_2.ogg">
+        <source src="audio/DTMF_2.mp3">
+    </audio>
+    <audio id="dtmf3" preload="auto">
+        <source src="audio/DTMF_3.ogg">
+        <source src="audio/DTMF_3.mp3">
+    </audio>
+    <audio id="dtmf4" preload="auto">
+        <source src="audio/DTMF_4.ogg">
+        <source src="audio/DTMF_4.mp3">
+    </audio>
+    <audio id="dtmf5" preload="auto">
+        <source src="audio/DTMF_5.ogg">
+        <source src="audio/DTMF_5.mp3">
+    </audio>
+    <audio id="dtmf6" preload="auto">
+        <source src="audio/DTMF_6.ogg">
+        <source src="audio/DTMF_6.mp3">
+    </audio>
+    <audio id="dtmf7" preload="auto">
+        <source src="audio/DTMF_7.ogg">
+        <source src="audio/DTMF_7.mp3">
+    </audio>
+    <audio id="dtmf8" preload="auto">
+        <source src="audio/DTMF_8.ogg">
+        <source src="audio/DTMF_8.mp3">
+    </audio>
+    <audio id="dtmf9" preload="auto">
+        <source src="audio/DTMF_9.ogg">
+        <source src="audio/DTMF_9.mp3">
+    </audio>
+    <audio id="dtmf#" preload="auto">
+        <source src="audio/DTMF_pound.ogg">
+        <source src="audio/DTMF_pound.mp3">
+    </audio>
+    <audio id="dtmf*" preload="auto">
+        <source src="audio/DTMF_star.ogg">
+        <source src="audio/DTMF_star.mp3">
+    </audio>
+
+    <nav class='navbar navbar-default navbar-fixed-top' id="head">
+        <div class='container-fluid toolbarpad'>
+
+            <div class='col-xs-12 col-sm-12 col-md-6 col-lg-6 nopad h50' >
+                <div class='h50content xhidden-xs xhidden-sm'>
+                    <div id="actionbar"></div>
+                    <div id="custombar"></div>
+                </div>
+            </div>
+
+            <div class='col-xs-12 col-sm-12 col-md-6 col-lg-6 nopad h50' id='dialfilterbar'>
+                <div class='h50contentmiddle'>
+                    <div style='display:table-cell;'>
+                    <div class='navinputfilter nopad'>
+                        <input class="form-control" id="filtertext" name="filtertext" placeholder="" type="text" autocomplete="off">
+                    </div>
+                    <div class='navinputdial nopad'>
+                        <input autocomplete="off" class="form-control" id="dialtext" name="dialtext" type="text">
+                    </div>
+                    </div>
+                    <div class='navinputpresence nopad'>
+                        <select id='presence' name='presence' class='selectpicker show-tick show-menu-arrow' data-width="99%"></select>
+                    </div>
+                    <!--div class='clearfix'></div-->
+                </div>
+
+                <div class='h50content'>
+                    <ul class="nav navbar-nav navbar-right" style='margin:0;'>
+                        <li class="dropdown dialpad-dropdown "> 
+                           <a class="dropdown-toggle" style='padding:0;'><div id='imgdialpad'></div></a>
+                            <ul class="dropdown-menu dialpad-dropdown-menu animated flipInX">
+                                <li>
+                                    <div id='dialpadx'>
+                                        <a class='sphoneDtmfButton' href="javascript:void()">1</a> <a class='sphoneDtmfButton' href="javascript:void()">2</a> <a class='sphoneDtmfButton' href="javascript:void()">3</a><br>
+                                        <a class='sphoneDtmfButton' href="javascript:void()">4</a> <a class='sphoneDtmfButton' href="javascript:void()">5</a> <a class='sphoneDtmfButton' href="javascript:void()">6</a><br>
+                                        <a class='sphoneDtmfButton' href="javascript:void()">7</a> <a class='sphoneDtmfButton' href="javascript:void()">8</a> <a class='sphoneDtmfButton' href="javascript:void()">9</a><br>
+                                        <a class='sphoneDtmfButton' href="javascript:void()">*</a> <a class='sphoneDtmfButton' href="javascript:void()">0</a> <a class='sphoneDtmfButton' href="javascript:void()">#</a><br>
+                                        <a class='sphoneSendButton' href="javascript:void()"><span class='sendlabel'>Send</span></a><br>
+                                    </div>
+                                 </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown pull-left">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style='padding:0;'>
+                                <div id='imgprofileuser'></div>
+                            </a>
+                            <ul id="usermenu" class="dropdown-menu animated flipInX">
+                                <li role='presentation' id='lipreferencesmenu'><a role='menuitem' id='menupreferences'><span class='fa fa-wrench'></span> <span class='preferencestitle'>Preferences</span></a></li>
+                                <li role='presentation' id='licontactsmenu'><a role='menuitem' id='menucontacts'><span class='fa fa-book'></span> <span id='contactsmenu' class='contactstitle'>Contacts</span></a></li>
+                                <li role='presentation' id='lirecordingsmenu'><a role='menuitem' id='menurecordings'><span class='fa fa-headphones'></span> <span class='recordingstitle'>Recordings</span></a></li>
+                                <li role='presentation' id='licdrmenu'><a role='menuitem' id='menucdr'><span class='fa fa-list-alt'></span> <span class='cdrhistorytitle'>Call History</span></a></li>
+                                <li role='presentation' id='lichatmenu'><a role='menuitem' id='menuchats'><span class='fa fa-comments'></span> <span class='chathistorytitle'>Chat History</span></a></li>
+                                <li class='divider'></li>
+                                <li role='presentation' id='lilogoutmenu'><a role='menuitem' id='menulogout'><span class='fa fa-sign-out'></span> <span class='logouttitle'>Logout</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div> <!-- end div h50content -->
+            </div>
+        </div> <!-- end div toolbar pad -->
+    </nav>
+
+    <div class='container-fluid' id='container' style='display:none; padding-right: 5px; padding-left:5px;'>
+
+        <div class='row'>
+            <div id='fatalerror' class='text-center'>
+                <h1 id='fatalmessage'>&nbsp;</h1><br>
+                <img alt='warning' src='images/warning.gif'><br>
+            </div>
+
+            <div id='loader' class='text-center'>
+                <h1 id='loadermessage'>&nbsp;</h1>
+                <br>
+                <svg class="circular">
+                    <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="4" stroke-miterlimit="10"/>
+                </svg>
+                <br>
+                <span id='descriptiveMessage' class='text-center'></span>
+                <br>
+                <div id='debugMessage' style='position:fixed; bottom:0; width:100%;' class='text-center'></div>
+            </div>
+        </div>
+        <div class='row' id='allbuttons'>
+            <div class="grid-stack">
+                <div class="grid-stack-item extensionwidget" data-gs-height="4" data-gs-width="9" data-gs-x="0" data-gs-y="0" id='extensionbox'>
+                    <div class="grid-stack-item-content boxstyle boxstylebg">
+                        <div id='extensioncontent' class='widgetcontent widget widget-color' >
+                            <header>
+                            <div class="widget-ctrls" role="menu">
+                               <a href="javascript:void(0);" class="myclick button-icon widget-broadcast-btn ctxmenugroup broadcast" id="chatbroadcast_Extensions" data-toggle="tooltip" rel="tooltip" title="" data-placement="bottom" data-original-title="Broadcast"><i class="fa fa-bullhorn "></i></a> 
+                               <a href="javascript:void(0);" class="myclick button-icon widget-toggle-btn langcollapse" data-toggle="tooltip" rel="tooltip" title="" data-placement="bottom" data-original-title="Collapse"><i class="fa fa-caret-square-o-up"></i></a> 
+                               <a href="javascript:void(0);" class="myclick button-icon widget-lock-btn langlockunlock" data-toggle="tooltip" rel="tooltip" title="" data-placement="bottom" data-original-title="Lock/Unlock"><i class="fa fa-unlock-alt"></i></a></div>
+                               <span class='handle widget-icon'><i class="fa fa-bars"></i></span><h3><span id='extensionstag'>&nbsp;</span></h3>
+                            </header>
+                            <div class="widgetscroll" id='extensionlist'></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-stack-item" data-gs-height="4" data-gs-width="3" data-gs-x="9" data-gs-y="0" id='smsbox'>
+                    <div class="grid-stack-item-content boxstyle boxstylebg">
+                        <div id='smscontent'  class='widgetcontent  widget widget-color'>
+                            <header>
+                            <div class="widget-ctrls" role="menu">
+                               <a href="javascript:void(0);" class="myclick button-icon widget-toggle-btn langcollapse" data-toggle="tooltip" rel="tooltip" title="" data-placement="bottom" data-original-title="Collapse"><i class="fa fa-caret-square-o-up"></i></a> 
+                               <a href="javascript:void(0);" class="myclick button-icon widget-lock-btn langlockunlock" data-toggle="tooltip" rel="tooltip" title="" data-placement="bottom" data-original-title="Lock/Unlock"><i class="fa fa-unlock-alt"></i></a></div>
+                               <span class='handle widget-icon'><i class="fa fa-bars"></i></span><h3><span id='smstag'>&nbsp;</span></h3>
+                            </header>
+                            <div id='smslist' class='somepad widgetscroll'>
+                                <form id='smsSend' name="smsSend">
+                                    <fieldset>
+                                        <div class='form-group'>
+                                            <label for='smsNumber' id='labelSmsNumber'></label>
+                                            <input class='form-control' id='smsNumber' name='smsNumber' type='text'>
+                                        </div>
+                                        <div class='form-group'>
+                                            <label for='smsMsg' id='labelSmsMsg'></label>
+                                            <textarea class='form-control' cols='30' id='smsMsg' name='smsMsg' rows='3'></textarea> <span class="countdown" id='countdown'></span>
+                                        </div>
+
+                                        <div class='form-group'>
+                                            <button class="btn btn-cancel butReset"  type="reset">Reset</button>
+                                            <button class="btn btn-primary butSend" type="submit" id='btnSendSMS'>OK</button>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-stack-item" data-gs-height="4" data-gs-width="3" data-gs-x="9" data-gs-y="3" id='parkbox'>
+                    <div class="grid-stack-item-content boxstyle boxstylebg">
+                        <div id='parkcontent' class='widgetcontent  widget widget-color'>
+                            <header>
+                            <div class="widget-ctrls" role="menu">
+                               <a href="javascript:void(0);" class="myclick button-icon widget-toggle-btn langcollapse" data-toggle="tooltip" rel="tooltip" title="" data-placement="bottom" data-original-title="Collapse"><i class="fa fa-caret-square-o-up"></i></a> 
+                               <a href="javascript:void(0);" class="myclick button-icon widget-lock-btn langlockunlock" data-toggle="tooltip" rel="tooltip" title="" data-placement="bottom" data-original-title="Lock/Unlock"><i class="fa fa-unlock-alt"></i></a></div>
+                               <span class='handle widget-icon'><i class="fa fa-bars"></i></span><h3><span id='parkstag'>&nbsp;</span></h3>
+                            </header>
+                            <div class="widgetscroll" id='parklist'></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-stack-item" data-gs-height="7" data-gs-width="3" data-gs-x="9" data-gs-y="3" id='queuebox'>
+                    <div class="grid-stack-item-content boxstyle boxstylebg">
+                        <div id='queuecontent' class='widgetcontent  widget widget-color'>
+                            <header>
+                            <div class="widget-ctrls" role="menu">
+                               <a href="javascript:void(0);" class="myclick button-icon widget-toggle-btn langcollapse" data-toggle="tooltip" rel="tooltip" title="" data-placement="bottom" data-original-title="Collapse"><i class="fa fa-caret-square-o-up"></i></a> 
+                               <a href="javascript:void(0);" class="myclick button-icon widget-lock-btn langlockunlock" data-toggle="tooltip" rel="tooltip" title="" data-placement="bottom" data-original-title="Lock/Unlock"><i class="fa fa-unlock-alt"></i></a></div>
+                               <span class='handle widget-icon'><i class="fa fa-bars"></i></span><h3><span id='queuestag'>&nbsp;</span></h3>
+                            </header>
+                            <div class="widgetscroll" id='queuelist'></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-stack-item" data-gs-height="4" data-gs-width="3" data-gs-x="9" data-gs-y="3" id='ringgroupbox'>
+                    <div class="grid-stack-item-content boxstyle boxstylebg">
+                        <div id='ringgroupcontent' class='widgetcontent widget widget-color'>
+                            <header>
+                            <div class="widget-ctrls" role="menu">
+                               <a href="javascript:void(0);" class="myclick button-icon widget-toggle-btn langcollapse" data-toggle="tooltip" rel="tooltip" title="" data-placement="bottom" data-original-title="Collapse"><i class="fa fa-caret-square-o-up"></i></a> 
+                               <a href="javascript:void(0);" class="myclick button-icon widget-lock-btn langlockunlock" data-toggle="tooltip" rel="tooltip" title="" data-placement="bottom" data-original-title="Lock/Unlock"><i class="fa fa-unlock-alt"></i></a></div>
+                               <span class='handle widget-icon'><i class="fa fa-bars"></i></span><h3><span id='ringgrouptag'>&nbsp;</span></h3>
+                            </header>
+                            <div class="widgetscroll" id='ringgrouplist'></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-stack-item" data-gs-height="4" data-gs-width="3" data-gs-x="9" data-gs-y="3" id='trunkbox'>
+                    <div class="grid-stack-item-content boxstyle boxstylebg">
+                        <div id='trunkcontent' class='widgetcontent widget widget-color'>
+                            <header>
+                            <div class="widget-ctrls" role="menu">
+                               <a href="javascript:void(0);" class="myclick button-icon widget-toggle-btn langcollapse" data-toggle="tooltip" rel="tooltip" title="" data-placement="bottom" data-original-title="Collapse"><i class="fa fa-caret-square-o-up"></i></a> 
+                               <a href="javascript:void(0);" class="myclick button-icon widget-lock-btn langlockunlock" data-toggle="tooltip" rel="tooltip" title="" data-placement="bottom" data-original-title="Lock/Unlock"><i class="fa fa-unlock-alt"></i></a></div>
+                               <span class='handle widget-icon'><i class="fa fa-bars"></i></span><h3><span id='trunkstag'>&nbsp;</span></h3>
+                            </header>
+                            <div class="widgetscroll" id='trunklist'></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-stack-item" data-gs-height="4" data-gs-width="3" data-gs-x="9" data-gs-y="3" id="conferencebox">
+                    <div class="grid-stack-item-content boxstyle boxstylebg">
+                        <div id='conferencecontent' class='widgetcontent  widget widget-color'>
+                            <header>
+                            <div class="widget-ctrls" role="menu">
+                               <a href="javascript:void(0);" class="myclick button-icon widget-toggle-btn langcollapse" data-toggle="tooltip" rel="tooltip" title="" data-placement="bottom" data-original-title="Collapse"><i class="fa fa-caret-square-o-up"></i></a> 
+                               <a href="javascript:void(0);" class="myclick button-icon widget-lock-btn langlockunlock" data-toggle="tooltip" rel="tooltip" title="" data-placement="bottom" data-original-title="Lock/Unlock"><i class="fa fa-unlock-alt"></i></a></div>
+                               <span class='handle widget-icon'><i class="fa fa-bars"></i></span><h3><span id='conferencestag'>&nbsp;</span></h3>
+                            </header>
+                            <div class="widgetscroll" id='conferencelist'></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <form id='mailform' name="mailform"></form>
+        </div>
+
+    </div>
+
+    <div id='footer' style='position:absolute;'></div>
+
+
+    <div id='cdrcontainer' class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <div class='content'><span class='fa fa-list-alt pull-left' style='padding: 7px 5px; font-size:1.5em;'></span><h3 class='modal-title cdrhistorytitle'>Call History</h3></div>
+                </div>
+                <div class="modal-body">
+                    <iframe id='iframecdr' src="" style="width:100%;height:600px;border:0;"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id='recordingscontainer' class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <div class='content'><span class='fa fa-headphones pull-left' style='padding: 7px 5px; font-size:1.5em;'></span><h3 class='modal-title recordingstitle'>Recordings</h3></div>
+                </div>
+                <div class="modal-body">
+                    <iframe id='iframerecordings' src="" style="width:100%;height:600px;border:0;"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id='chatscontainer' class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <div class='content'><span class='fa fa-comments pull-left' style='padding: 7px 5px; font-size:1.5em;'></span><h3 class='modal-title chattitle'>Chats</h3></div>
+                </div>
+                <div class="modal-body">
+                    <iframe id='iframechats' src="" style="width:100%;height:600px;border:0;"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id='vmailcontainer' class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <div class='content'><span class='fa fa-inbox pull-left' style='padding: 7px 5px; font-size:1.5em;'></span><h3 class="modal-title" id='voicemailtitle'>Voicemail</h3></div>
+                </div>
+                <div class="modal-body">
+                    <ul class='nav nav-tabs' id="tabnav">
+                        <li class='active' role="presentation">
+                            <a class="tab" href="#panel_INBOX" id='tab_INBOX'><span id='vmail_new'>New</span></a>
+                        </li>
+                        <li role="presentation">
+                            <a class="tab" href="#panel_Old" id='tab_Old'><span id='vmail_old'>Old</span></a>
+                        </li>
+                        <li role="presentation">
+                            <a class="tab" href="#panel_Work" id='tab_Work'><span id='vmail_work'>Work</span></a>
+                        </li>
+                        <li role="presentation">
+                            <a class="tab" href="#panel_Family" id='tab_Family'><span id='vmail_family'>Family</span></a>
+                        </li>
+                        <li role="presentation">
+                            <a class="tab" href="#panel_Friends" id='tab_Friends'><span id='vmail_friends'>Friends</span></a>
+                        </li>
+                        <li role="presentation">
+                            <a class="tab" href="#panel_Cust1" id='tab_Cust1'><span id='vmail_cust1'>Cust1</span></a>
+                        </li>
+                        <li style='float:right;'><span class="trashemptyicon" id='vmail_trash'></span></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="panel_INBOX"></div>
+                        <div class="tab-pane fade in" id="panel_Old"></div>
+                        <div class="tab-pane fade in" id="panel_Work"></div>
+                        <div class="tab-pane fade in" id="panel_Family"></div>
+                        <div class="tab-pane fade in" id="panel_Friends"></div>
+                        <div class="tab-pane fade in" id="panel_Cust1"></div>
+                    </div>
+                    <audio-view id="omniplayer" class='playervmail' tabindex="0"></audio-view>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="slider">
+        <div class="contacthandle">
+        <i id="contacthandlearrow" class="fa fa-chevron-left" aria-hidden="true"></i>
+        </div>
+        <iframe id='contactsframe' src="" style="background-color: #fff; width:100%; height:100%; border:0; border-left: 1px solid #ddd;"></iframe>
+
+    <div id='contactForm' class="xmodal xfade" role="dialog" data-keyboard="false" data-backdrop="static" style="display:none; border-bottom:1px solid #ddd;">
+        <div class="xmodal-dialog xmodal-lg" role="document">
+            <div class="modal-content" style='border:none;box-shadow:none;'>
+                <div class="xmodal-header" style="padding:3px 7px; background-color: #549fcf; height:3.2em;">
+                    <!--button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button-->
+                    <h5 class="xmodal-title" id='contacttitle' style='font-weight:700; font-size:1.5em;margin-top:5px;'>&nbsp;</h5>
+                </div>
+                <div class="xmodal-body" style="padding:5px;border-left:1px solid #ddd;">
+                    <ul class='nav nav-tabs' id="tabnav">
+                        <li class='active' role="presentation">
+                            <a class="tab" href="#panel_CONTACT" id='tab_CONTACT'><span data-trans='Contact'>Contact</span></a>
+                        </li>
+                        <li role="presentation">
+                            <a class="tab" href="#panel_NOTES" id='tab_NOTES'><span data-trans='Notes'>Notes</span></a>
+                        </li>
+                        <li role="presentation">
+                            <a class="tab" href="#panel_CDR" id='tab_CDR'><span data-trans='cdrrecords'>Call History</span></a>
+                        </li>
+                        <li role="presentation">
+                            <a class="tab" href="#panel_CHAT" id='tab_CHAT'><span data-trans='chathistory'>Chat History</span></a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="panel_CONTACT">
+
+                        <form id='contactform' method='post' enctype='multipart/form-data' action='contacts.php'>
+
+                            <input type=hidden id='contactaction' name='action' value='insert'>
+                            <input type=hidden id='contactid' name='id' value=''>
+
+                            <div style="display:flex;">
+
+                                <div class="image-editor" style='margin-bottom:10px; width:230px;'>
+                                    <div class="cropit-preview"></div>
+                                    <input type="range" class="cropit-image-zoom-input" />
+                                    <input type="file" class="cropit-image-input" />
+                                    <input type="hidden" name="image-data" class="hidden-image-data">
+                                    <div class="select-image-btn btn btn-primary btn-sm">
+                                        <span data-trans='New Image'></span>
+                                    </div>
+                                    <div class="delete-image-btn btn btn-danger btn-sm">
+                                        <i class='fa fa-trash'></i>
+                                    </div>
+                                </div>
+
+                                <div style='width:100%; margin: 1px 10px;'>
+                                    <div class='row'>
+                                    <div class="form-group col-xs-6">
+                                        <label for="firstname"><span data-trans='First Name'></span></label>
+                                        <input type="text" class="form-control" name="firstname" data-ptrans='First Name' id="firstname" placeholder="" value=''>
+                                    </div>
+                                    <div class="form-group col-xs-6">
+                                        <label for="lastname"><span data-trans='Last Name'></span></label>
+                                        <input type="text" class="form-control" name="lastname" id="lastname" data-ptrans='Last Name' placeholder="" value=''>
+                                    </div>
+                                    </div> <!-- end row-->
+                                    <div class='row'>
+                                    <div class="form-group col-xs-12">
+                                        <label for="company"><span data-trans='Company'></span></label>
+                                        <input type="text" class="form-control" name="company" id="company" data-ptrans='Company' placeholder="" value=''>
+                                    </div>
+                                    <div class="form-group col-xs-12">
+                                        <label for="position"><span data-trans='Position'></span></label>
+                                        <input type="text" class="form-control" name="position" id="position" data-ptrans='Position' placeholder="" value=''>
+                                    </div>
+                                    </div> <!-- end row-->
+                                    <div class="form-group">
+                                        <label for="address"><span data-trans='Address'></span></label>
+                                        <input type="text" class="form-control" name="address" id="address" data-ptrans='Address' placeholder="" value=''>
+                                    </div>
+                                    <div class='row'>
+                                    <div class="form-group col-xs-6">
+                                        <label for="identification"><span data-trans='Identification'></span></label>
+                                        <input type="text" class="form-control" name="identification" id="identification" data-ptrans='Identification' placeholder="" value=''>
+                                    </div>
+                                    <div class="form-group col-xs-6">
+                                        <label for="tags"><span data-trans='Tags'></span></label> <div id='managetags' style='display:inline-block;'>(<a href='javascript:void(0);' onclick='manageTags()'><span data-trans='Manage'></span></a>)</div>
+                                        <br/><select multiple data-placeholder="  " id="contacttags" name="tags[]"></select>
+                                    </div>
+                                    </div> <!-- end row-->
+                                    <div id='masterphone' class="form-group">
+                                        <label class='phlabel' for="phone" style='display:block;'><span data-trans='Phone'></span></label>
+                                        <select name='phonetype[]' style='width:120px; display:inline;' class='form-control'>
+                                        <option value='main' data-trans='main'>main</option>
+                                        <option value='work' data-trans='work'>work</option>
+                                        <option value='home' data-trans='home'>home</option>
+                                        <option value='cell' data-trans='cell'>cell</option>
+                                        <option value='fax' data-trans='fax'>fax</option>
+                                        <option value='other' data-trans='other'>other</option>
+                                        <option value='whatsapp' data-trans='whatsapp'>whatsapp</option>
+                                        <option value='sms' data-trans='sms'>sms</option>
+                                        </select>
+                                        <input type="text" style="width: calc(100% - 175px); display: inline;" class="form-control contactphonenumber" name="phonenumber[]" data-ptrans='Phone' placeholder="" value=''>
+                                        <div style='display:inline;width:40px;'><a class='clonephone btn btn-success'><i class='fa fa-plus'></i></a></div>
+                                    </div>
+                                    <div class='morephones'></div>
+                                    <div class='row'>
+                                    <div class="form-group col-xs-12">
+                                        <label for="email"><span data-trans='Email'></span></label>
+                                        <input type="text" class="form-control" name="email" id="email" data-ptrans='Email' placeholder="" value=''>
+                                    </div>
+                                    </div>
+                                    <input type="hidden" name="instagram" id="instagram" value=''>
+                                    <input type="hidden" name="telegram" id="telegram" value=''>
+
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" name="private[]" id="private"> <span data-trans='Private'></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div> <!-- end div type display flex-->
+                        </form>
+                        </div> <!-- end tab pane contact -->
+
+                        <div class="tab-pane fade in" id="panel_NOTES">
+
+                            <div id='notelist'></div>
+
+                            <form id='noteform' method='post' action='contacts.php'>
+
+                            <input type=hidden id='noteaction'name='action' value='newnote'>
+                            <input type=hidden id='noteid' name='noteid' value=''>
+                            <input type=hidden id='notepage'name='page' value='1'>
+                            <input type=hidden id='notecontactid' name='id' value=''>
+                            <input type=hidden id='author'    name='author' value=''>
+
+                            <div class="form-group">
+                                <label for="contactnote"><span data-trans='Add Note'></span></label>
+                                <textarea name='contactnote' id='contactnote' class='form-control'></textarea>
+                            </div>
+                            </form>
+                        </div> <!-- end tab pane notes -->
+
+                        <div class="tab-pane fade in" id="panel_CDR">
+                        <iframe id='iframecdr2' src="" style="margin-top:5px;width:100%;height:600px;border:0;" onload="stopLoader('cdr')"></iframe>
+                        </div> <!-- end tab pane cdr -->
+
+                        <div class="tab-pane fade in" id="panel_CHAT">
+                        <iframe id='iframechat2' src="" style="margin-top:5px;width:100%;height:600px;border:0;" onload="stopLoader('chat')"></iframe>
+                        </div> <!-- end tab pane cdr -->
+
+
+
+                    </div> <!-- end tabcontent -->
+                </div> <!-- end div modal body-->
+                <div class='xmodal-footer' style="padding: 20px; text-align: right; border-top: 1px solid #e5e5e5; border-left:1px solid #ddd;">
+
+                    <div class="dropup" style="position:absolute;" id='sendmessageselector'>
+                      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span data-trans="Send Message"></span>
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenu2" id='sendmessageprovider'></ul>
+                   </div>
+
+                    <!--button type="button" id='buttonsendmessage' class="btn btn-success btn-sm"><span data-trans='Send Message'></span></button-->
+                    <button type="button" id='buttondelete' class="btn btn-danger btn-sm"><span data-trans='Delete'></span></button>
+                    <button type="button" id='contactclose' class="btn btn-warning btn-sm"><span data-trans='close'></span></button>
+                    <button type="button" id='contactsubmit' class="btn btn-primary btn-sm"><span data-trans='Save'></span></button>
+                    <button type="button" id='notesubmit' class="btn btn-primary btn-sm"><span data-trans='Save'></span></button>
+                </div>
+            </div> <!-- end div modal content-->
+        </div> <!-- end div modal dialog-->
+    </div> <!-- end div contact form-->
+
+
+
+    </div>
+
+    <div id='preferencePane' class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <div class='content'><span class='fa fa-wrench pull-left' style='padding: 7px 5px; font-size:1.5em;'></span><h3 class="modal-title preferencestitle">Preferences</h3></div>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid nopadding">
+                        <form class='' id='preferences' name="preferences">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <fieldset>
+                                    <legend id='prefSounds'></legend>
+                                    <div class="form-group">
+                                        <label for='prefSoundChat' id='labelSoundChat' class="col-lg-6 control-label pl0">Chat Sounds</label>
+                                        <div class='col-lg-6'><input id='prefSoundChat' name='prefSoundChat' type='checkbox' ></div>
+                                        <div class='clear'></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for='prefSoundQueue' id='labelSoundQueue' class="col-lg-6 control-label pl0">Queue Sounds</label>
+                                        <div class='col-lg-6'><input id='prefSoundQueue' name='prefSoundQueue' type='checkbox' ></div>
+                                        <div class='clear'></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for='prefSoundRing' id='labelSoundRing' class="col-lg-6 control-label pl0 ">Ring Sounds</label>
+                                        <div class='col-lg-6'><input id='prefSoundRing' name='prefSoundRing' type='checkbox' ></div>
+                                        <div class='clear'></div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                            <div class="col-md-6">
+                                <fieldset>
+                                    <legend id='prefDisplay'></legend>
+                                    <div class="form-group">
+                                        <label for="prefDisplayLanguage" id="labelDisplayLanguage" class="col-sm-7 control-label pl0">Language</label>
+                                        <div class='col-sm-4 pl0'><select id="prefDisplayLanguage" name="prefDisplayLanguage" data-width="100%" class="selectpicker nopad"></select></div>
+                                        <div class='clear'></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for='prefDisplayQueue' id='labelDisplayQueue' class="col-sm-7 control-label pl0"></label>
+                                            <div class='col-sm-4 pl0'>
+                                            <select id='prefDisplayQueue' name='prefDisplayQueue' data-width="100%" class="selectpicker nopad">
+                                                <option value='min'> min </option>
+                                                <option value='max'> max </option>
+                                            </select>
+                                            </div>
+                                        <div class='clear'></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for='prefDisplayDynamicLine' id='labelDisplayDynamicLine' class="col-sm-7 control-label pl0"></label>
+                                        <div class='col-sm-4 pl0'>
+                                            <input id='prefDisplayDynamicLine' name='prefDisplayDynamicLine' type='checkbox'>
+                                        </div>
+                                        <div class='clear'></div>
+                                   </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <fieldset>
+                                    <legend id='prefPopup'>Popup</legend>
+                                    <div class="row">
+                                        <div class="col-md-6 form-group">
+                                            <div class='col-lg-6 control-label pl0'><label for='prefAutoPopup' id='labelAutoPopup'></label></div>
+                                            <div class='col-lg-6'><input id='prefAutoPopup' name='prefAutoPopup' type='checkbox'></div>
+                                        </div>
+                                        <div class="col-md-6 form-group">
+                                            <div class='col-sm-7 control-label pl0'><label for='prefDisplayNotifyDuration' id='labelDisplayNotifyDuration'></label></div>
+                                            <div class='col-sm-4 pl0'><input id='prefDisplayNotifyDuration' name='prefDisplayNotifyDuration' type='number' value='' class="form-control"></div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 form-group">
+                                            <div class="form-group">
+                                            <label for='prefAlwaysNotifyChat' id='labelAlwaysNotifyChat' class="col-lg-6 control-label pl0">Always Notify Chat</label>
+                                            <div class='col-lg-6'><input id='prefAlwaysNotifyChat' name='prefAlwaysNotifyChat' type='checkbox' ></div>
+                                            <div class='clear'></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class='col-lg-10'><span class='emphasis'>URL</span></div>
+                                        <div class='col-lg-1'><span class='emphasis' id='labelNotification'>Notification</span></div>
+                                    </div>
+
+                                    <div class="row form-group">
+                                        <div class='col-lg-3'><label for='prefPopupUrlRinging' id='labelPopupUrlRinging' class="control-label">Ringing</label></div>
+                                        <div class='col-lg-7'><input id='prefPopupUrlRinging' name='prefPopupUrlRinging' type='text' class="form-control"></div>
+                                        <div class='col-lg-2'><input id='prefNotifyRinging' name='prefNotifyRinging' type='checkbox'></div>
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class='col-lg-3'><label for='prefPopupUrlConnect' id='labelPopupUrlConnect' class="control-label">Connect</label></div>
+                                        <div class='col-lg-7'><input id='prefPopupUrlConnect' name='prefPopupUrlConnect' type='text' class="form-control"></div>
+                                        <div class='col-lg-2'><input id='prefNotifyConnect' name='prefNotifyConnect' type='checkbox'></div>
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class='col-lg-3'><label for='prefPopupUrlHangup' id='labelPopupUrlHangup' class="control-label">Hangup</label></div>
+                                        <div class='col-lg-7'><input id='prefPopupUrlHangup' name='prefPopupUrlHangup' type='text' class="form-control"></div>
+                                        <div class='col-lg-2'><input id='prefNotifyHangup' name='prefNotifyHangup' type='checkbox'></div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <fieldset>
+                                    <legend id='prefPhone'>Phone</legend>
+                                    <div class="row form-group">
+                                        <div class='col-lg-3'><label for='prefAutoAnswer' id='labelAutoAnswer' class="control-label"></label></div>
+                                        <div class='col-lg-4'><input id='prefAutoAnswer' name='prefAutoAnswer' type='checkbox'></div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class='text-center'>
+                            <button class='btn btn-primary butAccept' id='prefbuttonaccept'></button>
+                        </div>
+                        </form>
+                    </div> <!-- end div container fluid no padding -->
+                </div> <!-- end div modal body -->
+            </div> <!-- end div modal content -->
+        </div> <!-- end div modal dialog -->
+    </div> <!-- end div preference pane -->
+
+    <div id='registerdialog' class="modal fade" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h3 class="modal-title" id='enterregcode'>Enter Registration Code:</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="form-group">
+                                    <label for='regcode' id='regcodelabel'>Registration Code:</label> 
+                                    <input class='form-control' id='regcode' name='regcode' tabindex='1' type='text' value=''>
+                                </div>
+                                <div class="form-group">
+                                    <label for='regname' id='regnamelabel'>Registration Name:</label>
+                                    <input class='form-control' id='regname' name='regname' tabindex='2' type='text' value=''>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <img alt='logo' src="images/pixel.gif" class='logo'>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                 <button class='btn btn-warning butCancel' id='registrationcancel'>Cancel</button>
+                                 <button class='btn btn-primary butAccept' id='registrationaccept'>Accept</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id='logindialog' class="modal fade" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id='enterseccode'>Login Details</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div id='invalidcredentials'></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <form>
+                                <div class="form-group">
+                                    <label for='myextension' id='extenlabel'>Extension:</label> 
+                                    <input class='form-control' id='myextension' name='username' autocomplete='username' tabindex='1' type='text' value='' autofocus>
+                                </div>
+                                <div class="form-group">
+                                    <label for='securitycode' id='secretlabel'>Password:</label>
+                                    <input class='form-control' autocomplete='current-password' id='securitycode' name='securitycode' tabindex='2' type='password' value=''>
+                                </div>
+                                </form>
+                            </div>
+                            <div class="col-md-4">
+                                <img alt='logo' src="images/pixel.gif" class='logo'>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                 <button class='btn btn-primary butAccept' id='logindialogaccept'></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id='tagscontainer' class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <div class='content'><span class='fa fa-tags pull-left' style='padding: 7px 5px; font-size:1.5em;'></span><h3 class='modal-title phonebooktagstitle' data-trans='Tags'>Tags</h3></div>
+                </div>
+                <div class="modal-body">
+                    <iframe id='iframetags' src="" style="width:100%;height:600px;border:0;"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-trans="close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id='broadcastcontainer' class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <div class='content'><span class='fa fa-bullhorn pull-left' style='padding: 7px 5px; font-size:1.5em;'></span><h3 class='modal-title broadcasttitle' data-trans='broadcast'>Broadcast</h3></div>
+                </div>
+                <div class="modal-body">
+                    <div id='broadcast_loader' class='text-center'>
+                    <svg class="circular">
+                        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="4" stroke-miterlimit="10"/>
+                    </svg>
+                    </div>
+                    <iframe id='iframebroadcast' src="" style="width:100%;height:600px;border:0;"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary btnSendBroadcast" data-trans="send">Send</button>
+                    <button type="button" class="btn btn-default" data-trans="close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id='conversationcontainer' class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <div class='content'><span class='fa fa-users pull-left' style='padding: 7px 5px; font-size:1.5em;'></span><h3 class='modal-title conversationtitle' data-trans='Create group'>Create group</h3></div>
+                </div>
+                <div class="modal-body">
+                    <div id='conversation_loader' class='text-center'>
+                    <svg class="circular">
+                        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="4" stroke-miterlimit="10"/>
+                    </svg>
+                    </div>
+                    <iframe id='iframeconversation' src="" style="width:100%;height:600px;border:0;display:none;"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary btnSendConversation" data-trans="send">Send</button>
+                    <button type="button" class="btn btn-default" data-trans="close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id='flashconnector'>
+    <!--h1>we're building the buildings as fast as we can</h1><br-->
+    <img alt='logo' height="128" src="images/telephone_128.png" style='display:none;' width="128"></div>
+</body>
+</html>

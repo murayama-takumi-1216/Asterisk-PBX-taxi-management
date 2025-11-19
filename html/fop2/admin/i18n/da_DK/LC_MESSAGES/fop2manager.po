@@ -1,0 +1,903 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Panel Manager danish translation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-16 22:30+0100\n"
+"PO-Revision-Date: 2014-03-17 12:26+0100\n"
+"Last-Translator: Per Fabrin Sørensen\n"
+"Language-Team: Nicolas Gudino <asternic@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+msgid "Field %s added to table %s"
+msgstr "Felt %s Tilføjet tabel %s"
+
+msgid  "Add User"
+msgstr "Tilføj bruger"
+
+msgid  "From here you can manage Panel users and permissions, and also mark the groups the user will be able to view or the plugins it will have enabled."
+msgstr "Herfra kan du styre Panel brugere og tilladelser, samt markere Grupper som brugeren vil kunne se, eller de tilføjelser der er aktive."
+
+msgid "From here you can install, uninstall, upload and configure plugins. You can get plugins from online repositories, or upload and manage local plugins."
+msgstr "Herfra kan du installere, afinstallere, uploade og konfigurere tilføjelser. Du kan hente tilføjelser fra online repositorier, eller uploade og styre lokale tilføjelser. "
+
+msgid  "Login Details"
+msgstr "Log ind detaljer"
+
+msgid  "Group Details"
+msgstr "Gruppe detaljer"
+
+msgid  "Restricted Permission Details"
+msgstr "Begrænset tilladelses detaljer"
+
+msgid  "The extension number for this user."
+msgstr "Lokalnummeret for denne bruger."
+
+msgid  "Extension"
+msgstr "Lokalnummer"
+
+msgid  "The secret to login to the panel. If the user was autocreated on install time, the password will be the voicemail pin, if it has no voicemail enabled, it will be the same extension number."
+msgstr "Password til log ind i panel. Hvis brugeren var oprettet automatisk under installation, vil koden være den til telefonsvarer. Hvis ikke telefonsvarer er aktiveret er det det samme som lokalnummeret."
+
+msgid  "Secret"
+msgstr "Password"
+
+msgid  "Choose a template to quickly set or change permissions, groups and plugins."
+msgstr "Vælg en skabelon for hurtigt at sætte eller ændre tilladelser, grupper og tilføjelser."
+
+msgid "User Preferences"
+msgstr "Brugerindstillinger"
+
+msgid  "(pick template)"
+msgstr "(Vælg skabelon)"
+
+msgid  "(pick one)"
+msgstr "(Vælg en)"
+
+msgid  "(pick group)"
+msgstr "(Vælg gruppe)"
+
+msgid  "(pick plugin)"
+msgstr "(Vælg tilføjelse)"
+
+msgid  "Restricted Permissions"
+msgstr "Begrænsede tilladelser"
+
+msgid  "Permissions"
+msgstr "Tilladelser"
+
+msgid  "Permissions let you specify what actions the user will be able to perform inside the panel. For example, if you do not want to give the users the ability to listen to ongoing calls, do not select the spy permission."
+msgstr "Tilladelser lader dig bestemme hvad brugerne vil kunne udføre i panel. F.eks, hvis du ikke vil give brugeren mulighed for at lytte til samtaler skal du ikke vælge tilladelse til at spionere."
+
+msgid  "Template"
+msgstr "Skabelon"
+
+msgid  "Choose the permission you want to grant to the user."
+msgstr "Vlg tilladelsen du vil give brugeren."
+
+msgid  "(pick permission)"
+msgstr "(Vælg tilladelse)"
+
+msgid  "Groups"
+msgstr "Grupper"
+
+msgid  "Group"
+msgstr "Gruppe"
+
+msgid  "Select the groups you want the user to see in the panel. If no groups are selected the user will be able to see all buttons."
+msgstr "Vælg grupper som brugeren skal se i panelet. Hvis ingen grupper er valgt, vil brugeren kunne se alle grupper."
+
+msgid  "All Buttons"
+msgstr "Alle knapper"
+
+msgid  "All Extensions"
+msgstr "Alle lokalnumre"
+
+msgid  "All Queues"
+msgstr "Alle køer"
+
+msgid  "All Conferences"
+msgstr "Alle konferencer"
+
+msgid  "All Trunks"
+msgstr "Alle linier"
+
+msgid  "Plugins"
+msgstr "Tilføjelser"
+
+msgid  "Select the plugins you want to load for this user."
+msgstr "Vælg tilføjelser du vil aktivere for denne bruger."
+
+msgid  "Submit Changes"
+msgstr "Aktiver ændringer"
+
+msgid  "Delete User %s"
+msgstr "Slet bruger %s"
+
+msgid  "Are you sure?"
+msgstr "Er du sikker?"
+
+msgid  "Please insert an extension number."
+msgstr "Indsæt lokalnummer."
+
+msgid  "The extension must be numeric."
+msgstr "Lokalnummeret skal være nummerisk."
+
+msgid  "That extension already exists."
+msgstr "Lokalnummeret eksisterer allerede."
+
+msgid  "Changes saved successfully"
+msgstr "Ændringerne gemt succesfuldt."
+
+msgid  "Users"
+msgstr "Brugere"
+
+msgid  "Buttons"
+msgstr "Knapper"
+
+msgid  "Templates"
+msgstr "Skabeloner"
+
+msgid  "Extensions"
+msgstr "Lokalnumre"
+
+msgid  "Queues"
+msgstr "Køer"
+
+msgid  "Trunks"
+msgstr "Linier"
+
+msgid  "Parks"
+msgstr "Parkeringer"
+
+msgid  "Conferences"
+msgstr "Konferencer"
+
+msgid  "Save"
+msgstr "Gem"
+
+msgid  "Upload"
+msgstr "Upload"
+
+msgid  "Edit button options"
+msgstr "Rette muligheder på knapper"
+
+msgid  "You can change button labels and privacy options -to prevent the button to be monitored and/or hide the CallerID- among other things. You can also sort the list by dragging elements up and down or using the Sort options in the Actions menu."
+msgstr "Du kan ændre knappe titler og privat muligheder, for at forebygge at knappen bliver overvåget, og/eller skjule opkalds identitet bland andet. Du kan også sortere listen ved at trække elementer op og ned eller sbruge sorteringsmuligheden i Udførelses menuen."
+
+msgid  "Sort by Name"
+msgstr "sorter efter navn"
+
+msgid  "Sort by Number"
+msgstr "Sorter efter nummer"
+
+msgid  "If you changed any extension names and want to reread them from the regular backend config and update the panel config, click this button."
+msgstr "Hvis du har ændret et lokalnummers navn og vil genskabe det fra standard FreePBX konfigurationen og opdatere panel konfigurationen, Klik her"
+
+msgid  "Show/Hide advanced fields for buttons."
+msgstr "Vis/gem avancerede felter for knapper."
+
+msgid  "%d buttons removed from system opdatering"
+msgstr "%d Knapper fjernet fra system opdatering"
+
+msgid  "%d buttons added from system opdatering"
+msgstr "%d Knapper tilføjet fra system opdatering"
+
+msgid "%d buttons updated"
+msgstr "%d Knapper opdateret"
+
+msgid  "Enable or disable this button from the panel view."
+msgstr "Aktiver eller deaktiver denne knap fra panel visning."
+
+msgid  "You can change the button label to be displayed on the panel."
+msgstr "Du kan ændre om knappens titel skal vises i displayet."
+
+msgid  "You can group extensions visually on the panel page. If no group is specified all the extensions are going to be displayed on the Extensions box. If you type another name, a new box will be added with the name you choose. Any buttons with the same group name will be displayed on that box."
+msgstr "Du kan gruppere lokalnumre visuelt på panel siden. Hvis ingen grupper er specificeret vil alle lokalnumre blive vist i lokalnummer boksen. Hvis du skriver et andet navn vil en ny boks blive tilføjet med det valgte navn. Alle knapper med samme gruppenavn vil blive vist i denne boks."
+
+msgid "You can group queues visually on the panel page. If no group is specified all the queues are going to be displayed on the Queues box. If you type another name, a new box will be added with the name you choose. Any buttons with the same group name will be displayed on that box."
+msgstr "Du kan gruppere køer visuelt på panel siden. Hvis ingen grupper er specificeret vil alle køer blive vist i køer boksen. Hvis du skriver et andet navn vil en ny boks blive tilføjet med det valgte navn. Alle knapper med samme gruppenavn vil blive vist i denne boks."
+
+msgid  "This option can be used to disable monitoring or CallerID display on the button."
+msgstr "Denne mulighed kan bruges til at deaktivere overvågning eller visning af opkalds ID på knappen."
+
+msgid  "ASTDB key to search for custom states. Default configuration is for displaying Call Forward Unconditional states."
+msgstr "ASTB tast til at søge efter brugerdefinerede tilstand. Standard konfigurationen er at vise ubetingede tilstand."
+
+msgid  "You can set an email for every button to enable the option to email the user directly from the panel."
+msgstr "Du kan angive en email for hver knap for for at aktivere muligheden til at emaile hver direkt fra panelet."
+
+msgid  "Channel to use as originator when performing a dial from the panel. You can use a Local type channel and use sip headers for setting the phone to auto answer."
+msgstr "Kanal til at bruge som ophaver når der ringes fra panel. Du kan bruge en lokal type kanal og bruge en SIP header for at sætte telefonen på auto svar."
+
+msgid  "number@context for external/mobile transfers. If @context is omited it will use the default one for the extension."
+msgstr "Nummer@contekst viderestilling til eksternt/mobil nummer. Hvis @kontekst ikke angives vil standard blive brugt for lokalnummeret."
+
+msgid  "Options to pass to chanspy. Can be used to restrict spying to certain groups (option g, SPYGROUP) or silence the beep (option q). Example: qg(SALES)"
+msgstr "Mulighed til at gå til kanal spion. Kan bruges til at begrænse visse grupper (mulighed q, SPYGROUP) eller undgå beeplyden (mulighed g). Eksempel: qg(SALES)"
+
+msgid  "Extra Channel. You can use it to add extra channels to affect the status of this button."
+msgstr "Ekstra kanal. Du kan bruge det til at tilfje ekstra kanaler til at påvirke status af denne knap."
+
+msgid  "Comma separated lists of tags. They will be searched/matched when you use the Filter input box on the panel."
+msgstr "Komma separeret liste af markering. De vil blive søgt/matched filter input boksen i panelet."
+
+msgid  "Zap/Dahdi Channels (Eg: 1-24)"
+msgstr "Zap/Dahdi kanaler (Eks: 1-24)"
+
+msgid  "You must specify the channel number range for zap/dahdi trunks in this field."
+msgstr "Du må specificere kanal nummer området for zap/dahdi liinier i dette felt."
+
+msgid  "Extra Channel"
+msgstr "Ekstra kanaler"
+
+msgid  "You might want to specify an additional device name or put the correct device name in case you are using custom trunks."
+msgstr "Du vil måske ønske at angive yderligere device navne eller skrive det korrekte device navn i tilfælde du bruger brugerdefinerede linier."
+
+msgid  "Channel to use as queue member when adding/removing/pausing this button into a queue."
+msgstr "Kanal til at bruge som kø medlem når denne knap tilføjes/fjernes/sættes på pause i en kø."
+
+msgid  "Voicemail mailbox to query for new voicemail."
+msgstr "Telefonsvarer mailboks til at tjekke for ny besked."
+
+msgid  "Saving..."
+msgstr "Gemmer..."
+
+msgid  "Label"
+msgstr "Titel"
+
+msgid  "Synchronize Labels"
+msgstr "Synkroniser titler"
+
+msgid  "No"
+msgstr "Nej"
+
+msgid  "Yes"
+msgstr "Ja"
+
+msgid  "Enabled"
+msgstr "Aktiveret"
+
+msgid  "Privacy"
+msgstr "Privatliv"
+
+msgid  "Email"
+msgstr "Email"
+
+msgid  "External Transfer"
+msgstr "Ekstern viderestilling"
+
+msgid  "Channel"
+msgstr "Kanal"
+
+msgid  "Originate Channel"
+msgstr "Oprindelig kanal"
+
+msgid  "Tags"
+msgstr "Mærker"
+
+msgid  "Custom ASTDB"
+msgstr "Brugerdefineret ASTDB"
+
+msgid  "ChanSpy Options"
+msgstr "muligheder for ChanSpy"
+
+msgid  "Add Group"
+msgstr "Tilføj Gruppe"
+
+msgid  "Groups can be used to restrict the buttons a user should see in his panel. You can create a group with only 5 extensions and assign it to a user in the Users tab, so he can only see those extensions."
+msgstr "Grupper kan bruges til at begrnsede knapper en bruger må se i sit panel. Du kan oprette en gruppe med kun 5 lokalnumre og tildele den til en bruger i bruger fanen, så kan brugeren kun se disse lokalnumre."
+
+msgid  "Name"
+msgstr "Navn"
+
+msgid  "Included Buttons"
+msgstr "Inkluderede knapper"
+
+msgid  "Select the buttons you want to include in this group."
+msgstr "Vælg knapperne du vil inkludere i denne gruppe."
+
+msgid  "Check All"
+msgstr "Marker alle"
+
+msgid  "Delete Group %s"
+msgstr "Slet gruppe %s"
+
+msgid  "Edit User %s"
+msgstr "Rediger bruger %s"
+
+msgid  "Edit Group %s"
+msgstr "Rediger gruppe %s"
+
+msgid "Edit"
+msgstr "Rediger"
+
+msgid  "Please enter a group name."
+msgstr "Venligst indsæt et gruppenavn."
+
+msgid  "Ringgroups"
+msgstr "Ringe grupper"
+
+msgid  "A template is a set of permissions, groups and plugins that you can assign to users in one step inside the Users menu for easy and quick management."
+msgstr "En skabelon er et sæt af tilladelser, grupper og tilføjelser som du kan tildele brugere i et trin, inde i brugermenuen for nem hurtig opsætning."
+
+msgid  "Add Template"
+msgstr "Tilføj skabelon"
+
+msgid  "Edit Template %s"
+msgstr "Rediger skabelon %s"
+
+msgid  "Template Details"
+msgstr "Skabelon detaljer"
+
+msgid  "Template %s deleted!"
+msgstr "Skabelon %s Slettet!"
+
+msgid  "Template %s inserted!"
+msgstr "Skabelon %s tilføjet!"
+
+msgid  "User %s deleted!"
+msgstr "Bruger %s slettet!"
+
+msgid  "User %s inserted!"
+msgstr "Bruger %s tilføjet!"
+
+msgid  "Group %s deleted!"
+msgstr "Gruppe %s slettet!"
+
+msgid  "Group %s inserted!"
+msgstr "Gruppe %s tilføjet!"
+
+msgid  "Restricted Permission %s deleted!"
+msgstr "Begrænset tilladelse %s slettet!"
+
+msgid  "Restricted Permission %s inserted!"
+msgstr "Begrænset tilladelse %s tilføjet!"
+
+msgid  "Delete Template %s"
+msgstr "Slet skabelon %s"
+
+msgid  "Delete Restricted Permission %s"
+msgstr "Slet begrænset tilladelse %s"
+
+msgid  "Select the groups you want to add to this template. If no groups are selected the user will be able to see all buttons."
+msgstr "Vælg grupperne du vil tilføje denne skabelon. Hvis ingen grupper er valgt vil brugeren kunne se alle knapper."
+
+msgid  "Select the plugins you want to enable in this template."
+msgstr "Vælg den tilføjelse du vil aktivere i denne skabelon."
+
+msgid  "Make Default"
+msgstr "Gør til standard"
+
+msgid  "Assign this template by default when adding new users."
+msgstr "Tildel denne skabelon som standard når brugere tilføjes."
+
+msgid  "The name for this template."
+msgstr "Navnet for denne skabelon."
+
+msgid  "Choose the permission you wish to include in this template."
+msgstr "Vælg tilladelse du vil inkludere i denne skabelon."
+
+msgid  "The name for this group."
+msgstr "Navn for denne gruppe."
+
+msgid  "Add Restricted Permission"
+msgstr "Tilføj begrænset tilladelse"
+
+msgid  "Restricted permissions lets you limit actions to a specific set of extensions/groups. They are only used for restricting actions. If you want a quick way to assign permissions, then you should use Templates as restricted permissions will limit user actions."
+msgstr "Begrænsede tilladelser lader dig begrænse handlinger til et specifikt set af lokalnumre/brugere. De bruges kun til at begrænse handlinger. Hvis du vil tildele tilladelser på en hurtig måde, skal du bruge skabeloner da begrænsede tilladelser vil begrænse bruger handlinger."
+
+msgid  "Edit Restricted Permission %s"
+msgstr "Rediger begrænsede tilladelser %s"
+
+msgid  "The name for this permission."
+msgstr "Navnet for denne tilladelse."
+
+msgid  "Choose the permission you want to include in this advanced permission."
+msgstr "Vælg tilladelsen du vil inkludere i denne avancerede tilladelse."
+
+msgid  "Restrict to Groups"
+msgstr "Begræns til grupper"
+
+msgid  "Select the groups you want to restrict this permission to. You will be able to perform the actions only to the extension/buttons that are part of the selected groups. If no groups are selected, the permission will be allowed to every button on the panel."
+msgstr "Vælg grupperne du vil begrænse denne tilladelse til, Du kan kun udføre handlinger for lokalnumre/knapper der er en del af de valgte grupper. Hvis ingen grupper er valgt vil tilladelsen være for alle knapper i panelet."
+
+msgid  "Please insert a permission name."
+msgstr "Venligst indsæt tilladelsens navn."
+
+msgid  "That name is reserved for stock permissions, choose another one."
+msgstr "Dette navn er reserveret for indeværende tilladelser, venligst vælg et andet."
+
+msgid  "Accept"
+msgstr "Aksepter"
+
+msgid  "Cancel"
+msgstr "Annuller"
+
+
+msgid  "The following error(s) occurred processing the uploaded file: %s"
+msgstr "Følgende fejl opstod under behandling af filen til upload: %s"
+
+msgid  "Plugin installed successfully. You need to enable it globally or assign it to some users to make it available."
+msgstr "Tilføjelse installeret succesfuldt. Du skal aktivere den globalt eller tildele den til nogen brugere for at gøre den tilgængelig."
+
+msgid  "Online Repository - Available Plugins"
+msgstr "Online repositorie - Tilgængelige tilføjelser" 
+
+msgid  "Globally Enabled"
+msgstr "Globalt aktiveret"
+
+msgid  "Uninstall"
+msgstr "Afinstallere"
+
+msgid  "Install"
+msgstr "Installer"
+
+msgid  "Buy"
+msgstr "Optaget"
+
+msgid  "Update"
+msgstr "Opgrader"
+
+msgid  "Free"
+msgstr "Gratis"
+
+msgid  "Online Repository not reachable/accessible"
+msgstr "Online repositoriet er ikke tilgængeligt"
+
+msgid  "Locally Available Plugins"
+msgstr "Lokalt tilgængelige tilføjelser"
+
+msgid  "Upload Plugin"
+msgstr "Upload tilføjelse"
+
+msgid  "You can upload a tar gzip file containing a panel plugin from your local system. If a plugin with the same name already exists, it will be overwritten."
+msgstr "Du kan oploade en tar gzip fil indeholdende en panel tilføjelse fra dit lokale system. Hvis en tilføjelse med samme navn findes allerede, viil den blive overskrevet."
+
+msgid  "Available Version"
+msgstr "Tilgængelig version"
+
+msgid  "Installed Version"
+msgstr "Installeret version"
+
+msgid  "Browse"
+msgstr "Gennemse"
+
+msgid  "Welcome"
+msgstr "Velkommen"
+
+msgid "Error extracting plugin archive"
+msgstr "Fejl ved udpakning af tilføjelse"
+
+msgid "Hide/Show Plugin Settings"
+msgstr "Skjul/vis tilføjelses indstilling"
+
+msgid "Settings"
+msgstr "Indstillinger"
+
+msgid "Add Section"
+msgstr "Tilføj sektion"
+
+msgid "Remove Section"
+msgstr "Fjern sektion"
+
+msgid "Please wait..."
+msgstr "Venligst vent..."
+
+msgid "Enter Section"
+msgstr "Indsæt sektion"
+
+msgid "That section already exists!"
+msgstr "Den sektion findes allerede!"
+
+msgid "Section cannot be empty!"
+msgstr "Sektionen kan ikke være tom!"
+
+msgid  "%s users added"
+msgstr "%s Brugere tilføjet"
+
+msgid  "%s buttons added"
+msgstr "%s Knapper tilføjet"
+
+msgid  "Configuration saved"
+msgstr "Konfigurationen gemt"
+
+msgid "Error finding uploaded file. Did you select one? Check your PHP and/or web server configuration."
+msgstr "Uploade fil ikke fundet. Har du valgt en? Check din PHP og/eller webserver version" 
+
+msgid "File must be in tar+gzip (.tgz or .tar.gz) format"
+msgstr "Filen skal være i tar+gzip format. (tgz o .tar.gz)"
+
+msgid "Filename does not have the correct format: it must be pluginname-version.tar.gz (eg. customplugin-0.1.tar.gz)"
+msgstr "Filnavnet har ikke korrekt format: Det skal være tilføjelsesnavn-version.tar.gz (Eks: customplugin-0.1.tar.gz)"
+
+msgid  "Panel Server is not responding. Be sure the service is running!"
+msgstr "Panel server svarer ikke. Vær sikker på servicen kører!"
+
+msgid  "Licensed Plugins"
+msgstr "Registreret tilføjelse"
+
+msgid  "There are no licensed plugins"
+msgstr "Der er ingen registrerede tilføjelser"
+
+msgid  "Panel Server Status: OK"
+msgstr "Panel Server Status: OK"
+
+msgid  "lets you configure users, permissions, button details and options. It will also let you install, uninstall and configure plugins. It will read data from your configuration backend and populate its own tables with your preferences."
+msgstr "lader dig konfigurere brugere, tilladelser og knappers detaljer muligheder. Den vil også lade dig installere, afinstallere og configurere tiilføjelser. Den vil læse data fra dit system og generere sine egne preferencer."
+
+msgid  "Close"
+msgstr "Luk"
+
+msgid  "Upgrade Available"
+msgstr "Opgradering tilgængelig"
+
+msgid  "Upgrade"
+msgstr "Opgrader"
+
+msgid "New %s version %s available for download"
+msgstr "Ny %s Version %s tilgængelig for download"
+
+msgid  "(Your current version is %s)"
+msgstr "(Din nuværende version er %s)"
+
+msgid  "Reloaded"
+msgstr "Genstartet"
+
+msgid  "Reload Panel"
+msgstr "Genstart Panel"
+
+msgid  "Show Changelog"
+msgstr "Vis Changelog"
+
+msgid  "Hide Changelog"
+msgstr "Gem Changelog"
+
+msgid "File extracted successfully!"
+msgstr "Filen udpakket succesfuldt!"
+
+msgid  "Cannot read file %s for extraction"
+msgstr "Kan ikke læse fil %s for udpakning"
+
+msgid "Extraction directory %s does not exists!"
+msgstr "Udpaknings folder %s eksisterer ikke!"
+
+msgid "Error while extracting file %s into directory %s"
+msgstr "Fejl under udpakning af fil %s ind i folder %s"
+
+msgid "Problem trying to find the extracted upgrade files. There is no %s directory."
+msgstr "Problem med at finde de udpakkede filer. Der er ingen %s folder."
+
+msgid "The permission name is already in use."
+msgstr "Tilladelsens navn er allerede i brug."
+
+msgid "The template name is already in use."
+msgstr "Navnet på skabelonen er allerde i brug."
+
+msgid "The name cannot be empty!"
+msgstr "Navnet kan ikke være tomt!"
+
+msgid "The user number is already in use."
+msgstr "Bruger nummeret er allerede i brug."
+
+msgid "Create option"
+msgstr "Opret mulighed"
+
+msgid "Price"
+msgstr "Pris"
+
+msgid "Backend Engine: %s"
+msgstr "Backend system: %s"
+
+msgid "Language" 
+msgstr "Sprog"
+
+msgid "User" 
+msgstr "Bruger"
+
+msgid "Password" 
+msgstr "Password"
+
+msgid "Log in" 
+msgstr "Log ind"
+
+msgid "Invalid Credentials" 
+msgstr "Ugyldige oplysninger"
+
+msgid "Actions"
+msgstr "Handlinger"
+
+msgid "That name is reserved for default groups, choose another one."
+msgstr "Navnet er reserveret for standard grupper, vælg et andet."
+
+msgid "Logout"
+msgstr "Log ud"
+
+msgid "Recreate Users"
+msgstr "Genskab bruger"
+
+msgid "Variable to send to the Asterisk Manager when issuing Originate commands specific for setting a phone to auto answer via sip headers or similar. This will be used if the user toggles auto answer in its own Preferences setting"
+msgstr "Variabel at sende til Asterisk manager ved udstedelse Stammer kommandoer specifikke for at sætte en telefon til autosvar via SIP overskrifter eller lignende. Dette vil blive brugt, hvis brugeren skifter autosvar i sin egen præferenceindstillingen"
+
+msgid "Variables to send to the Asterisk Manager when issuing Originate commands (performing a dial from the panel)."
+msgstr "Variabler til at sende til Asterisk manager ved udstedelse Stammer kommandoer (udfører en ringes fra Panel)."
+
+msgid "Originate Variables"
+msgstr "Stammer Variabler"
+
+msgid "AutoAnswer Header"
+msgstr "Automatisk Svar Header"
+
+msgid "File %s removed successfully"
+msgstr "Fil %s fjernet med succes"
+
+msgid "Could not remove file %s!"
+msgstr "Kunne ikke fjerne fil %s!"
+
+msgid "Edit Setting"
+msgstr "Rediger Indstilling"
+
+msgid "Search"
+msgstr "Søgning"
+
+msgid "Batch Update"
+msgstr "Batch opdatering"
+
+msgid "Batch Update via CSV File"
+msgstr "Masse opdatering via CSV-fil"
+
+msgid "Select a CSV file to upload with data to perform the mass update. You must pass an extension field in the CSV file to match against the Button extension. For example:"
+msgstr "Vælg en CSV-fil til at uploade data til at udføre massen opdatering. Du skal bestå en udvidelse felt i CSV-filen til at matche mod knap forlængelse. For eksempel:"
+
+msgid "Please assign fields for your CSV file columns. The extension field is mandatory and will be used to match the corresponding extension in the Panel Buttons list. Columns with no assigned field will be discarded."
+msgstr "enligst tildele felter for dine CSV fil kolonner. Forlængelsen felt er obligatorisk og vil blive brugt til at matche den tilsvarende udvidelse i listen Panel Knapper. Kolonner uden tildelte område vil blive kasseret."
+
+msgid "Empty file?"
+msgstr "Er filen tom?"
+
+msgid "Could not copy uploaded file"
+msgstr "Kan ikke uploade filen"
+
+msgid "Could not upload file"
+msgstr "Kunne ikke uploade filen"
+
+msgid "Please assing data columns"
+msgstr "Venligst tildele et felt til datakolonner"
+
+msgid "Please assign the extension field to a column"
+msgstr "Por favor asigne el campo extensión a alguna columna de datos."
+
+msgid "Tennats"
+msgstr "Lejere"
+
+msgid "Version"
+msgstr "Version"
+
+msgid "Dashboard"
+msgstr "Instrumentbræt"
+
+msgid "Preferences"
+msgstr "Præferencer"
+
+msgid "Sounds"
+msgstr "Lyde"
+
+msgid "Chat Sounds"
+msgstr "Chat Lyde"
+
+msgid "Queue Sounds"
+msgstr "Kø Lyde"
+
+msgid "Ring Sounds"
+msgstr "Ring Lyde"
+
+msgid "Display"
+msgstr "Display"
+
+msgid "Default Queue View"
+msgstr "Standard Kø Display"
+
+msgid "Dynamic Line Display"
+msgstr "Dynamisk Linie Display"
+
+msgid "Popup"
+msgstr "Popup"
+
+msgid "Automatic Popup"
+msgstr "Automatisk Popup"
+
+msgid "Notify Duration"
+msgstr "Varihed af notifikation"
+
+msgid "Url"
+msgstr "Url"
+
+msgid "Phone"
+msgstr "Τelefon"
+
+msgid "Auto Answer"
+msgstr "Auto Svar"
+
+msgid "Summary"
+msgstr "Sammenlagt"
+
+msgid "Detailed"
+msgstr "Detaljeret"
+
+msgid "PHP SQLite module not installed"
+msgstr "PHP SQLite module not installed"
+
+msgid "You must install the SQLite module for PHP if you want to change/set global settings and user preferences from this tool."
+msgstr "You must install the SQLite module for PHP if you want to change/set global settings and user preferences from this tool."
+
+msgid "Add"
+msgstr "Tilføj"
+
+msgid "Add %s"
+msgstr "Tilføj %s"
+
+msgid  "Delete %s"
+msgstr "Slet %s"
+
+msgid  "Delete"
+msgstr "Slet"
+
+msgid "Settings let you change some default behaviour for the Switchboard, like enabling drag&amp;drop, webSocket, changing the number of lines to display per button, change available presence options, etc."
+msgstr "En configuración pueden modificarse opciones básicas de configuración y apariencia del panel, como habilitar drag&amp;drop, web sockets, cambiar el número de líneas a mostrar por botón, configurar opciones de presencia, etc"
+
+msgid "Access Control"
+msgstr "Adgangskontrol"
+
+msgid "Resource"
+msgstr "Ressource"
+
+msgid "Required Roles"
+msgstr "Krævede Roller"
+
+msgid "From here you can define what roles are needed to access different resources on Panel Manager."
+msgstr "From here you can define what roles are needed to access different resources on Panel Manager."
+
+msgid "Panel Manager Users"
+msgstr "Panel Manager Users"
+
+msgid "From here you can manage Panel Manager users and their role"
+msgstr "Herfra kan du styre Panel Manager-brugere og deres rolle"
+
+msgid "Value cannot be empty."
+msgstr "Værdien kan ikke være tom"
+
+msgid "Please insert a login name."
+msgstr "Indsæt venligst et login-navn"
+
+msgid "Please fill the password"
+msgstr "Skal du udfylde den adgangskode"
+
+msgid "Please select a role for this user."
+msgstr "Vælg en rolle for denne bruger"
+
+msgid "That user already exists."
+msgstr "Bruger findes allerede"
+
+msgid "Add Record"
+msgstr "Add Record"
+
+msgid "Export"
+msgstr "Export"
+
+msgid "Import"
+msgstr "Import"
+
+msgid "No records found"
+msgstr "No records found"
+
+msgid "First"
+msgstr "First"
+
+msgid "Previous"
+msgstr "Previous"
+
+msgid "Next"
+msgstr "Next"
+
+msgid "Last"
+msgstr "Last"
+
+msgid "Page"
+msgstr "Page"
+
+msgid "of"
+msgstr "of"
+
+msgid "Total records found"
+msgstr "Total records found"
+
+msgid "View Record"
+msgstr "View Record"
+
+msgid "Edit Record"
+msgstr "Edit Record"
+
+msgid "Record inserted"
+msgstr "Record inserted"
+
+msgid "File was uploaded successfully"
+msgstr "File was uploaded successfully"
+
+msgid "Success!"
+msgstr "Success!"
+
+msgid "Record updated"
+msgstr "Record updated"
+
+msgid "An error has occurred"
+msgstr "An error has occurred"
+
+msgid "Record deleted"
+msgstr "Record deleted"
+
+msgid "Delete Marked"
+msgstr "Delete Marked"
+
+msgid "Ignoring field "
+msgstr "Ignoring field "
+
+msgid "No valid fields to import!"
+msgstr "No valid fields to import!"
+
+msgid "%s records imported"
+msgstr "%s records imported"
+
+msgid "Problems with the file upload. Check permissions on the upload directory."
+msgstr "Problems with the file upload. Check permissions on the upload directory."
+
+msgid "Error inserting record:<br>"
+msgstr "Error inserting record:<br>"
+
+msgid "Error updating record"
+msgstr "Error updating record"
+
+msgid "%s records deleted"
+msgstr "%s records deleted"
+
+msgid "Could not delete records"
+msgstr "Could not delete records"
+
+msgid "There are no records to export"
+msgstr "There are no records to export"
+
+msgid "All %s records on this page are selected."
+msgstr "All %s records on this page are selected."
+
+msgid "Select all %s records."
+msgstr "Select all %s records."
+
+msgid "All %s records are selected."
+msgstr "All %s records are selected."
+
+msgid "Clear Selection"
+msgstr "Clear Selection"
+
+msgid "Please correct this value"
+msgstr "Please correct this value"
+
+msgid "Time must be greater than $1 field"
+msgstr "Time must be greater than $1 field"
+
+msgid "Date must be greater than $1 field"
+msgstr "Date must be greater than $1 field"
+
+msgid "CSS Class to apply to the button, so you can modify the style for an individual button via css. You will have to add your classes to css/theme/theme.css"
+msgstr "CSS Class to apply to the button, so you can modify the style for an individual button via css. You will have to add your classes to css/theme/theme.css"
+
+msgid "Toggle Advanced Fields"
+msgstr "Toggle Advanced Fields"
+
+msgid "Accountcode to use when Originating calls with this extension from the panel."
+msgstr "Accountcode to use when Originating calls with this extension from the panel."
+
+msgid "To enable or disable the Presence select box"
+msgstr "Sådan aktiveres eller deaktiveres feltet Tilstedeværelsesvalg"

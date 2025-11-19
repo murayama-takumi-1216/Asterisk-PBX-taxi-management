@@ -1,0 +1,160 @@
+.downloadicon
+{
+	background:url(../images/sprites01.png);
+	background-position:0 -416px;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	float:left;
+	height:16px;
+	margin-top:2px;
+	width:16px;
+}
+
+.playicon
+{
+	background:url(../images/sprites01.png);
+	background-position:0 -384px;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	float:left;
+	height:16px;
+	margin-top:2px;
+	width:16px;
+}
+
+.waiticon
+{
+	background:url(../images/sprites01.png);
+	background-position:0 -80px;
+	background-repeat:no-repeat;
+	cursor:wait;
+	height:16px;
+	margin-top:2px;
+	width:16px;
+}
+
+.pauseicon
+{
+	background:url(../images/sprites01.png);
+	background-position:0 -400px;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	float:left;
+	height:16px;
+	margin-top:2px;
+	width:16px;
+}
+
+.trashemptyicon
+{
+	background:url(../images/toolbar/trash.png);
+	background-repeat:no-repeat;
+	float:right;
+	height:32px;
+	margin-right:10px;
+	margin-top:3px;
+	width:32px;
+}
+
+.trashfullicon
+{
+	background:url(../images/toolbar/trashfull.png);
+	background-repeat:no-repeat;
+	float:right;
+	height:32px;
+	margin-right:10px;
+	margin-top:3px;
+	width:32px;
+}
+
+.xalt-data-row
+{
+	background-color:#DAD6B9;
+	left:0;
+	position:relative;
+	top:0;
+	z-index:0;
+}
+
+.xdata-row
+{
+	background-color:#e0e0B0;
+	left:0;
+	position:relative;
+	top:0;
+	z-index:0;
+}
+
+xdiv.pager {
+    text-align: center;
+    margin: 0.1em 0;
+}
+
+xdiv.pager span {
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    line-height: 0.8em;
+    text-align: center;
+    cursor: pointer;
+    background: #B1BA8D;
+    color: #fff;
+    margin-right: 0.3em;
+    font-size: 85%;
+    padding: 6px 3px 0px 3px;
+    border-radius: 3px;
+    border: 1px solid #999999;
+}
+
+xdiv.pager span.active {
+    background: #cc9;
+}
+
+.audioButton {
+        background: url("../images/audiobutton.png") no-repeat 0 0px;
+        display: block;
+        cursor: pointer;
+        margin: 0px;
+        padding: 0 2px 0 2px;
+        float:left;
+        _border:1px solid blue;
+        width:20px;
+        height:20px;
+}
+
+.audioButton:hover {
+        background-position: 0 -20px;
+}
+
+.audioButton.playing {
+        background-position: 0 -40px;
+}
+
+.audioButton.playing:hover {
+        background-position: 0 -60px;
+}
+
+.audioButton.error {
+        background-position: 0 -80px;
+}
+
+.audioButton.dload {
+        background-position: 0 -99px;
+}
+
+.audioButton.dload:hover {
+        background-position: 0 -119px;
+}
+
+.audioButton.loading,
+.audioButton.loading:hover {
+        background: url("../images/loading.gif") no-repeat 0 0px;
+        text-indent: 0!important;
+}
+
+.tabhover
+{
+	background:#FFFF20 none repeat scroll 0;
+}
+
+

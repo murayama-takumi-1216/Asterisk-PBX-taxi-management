@@ -1,0 +1,157 @@
+/*!
+ * jQuery contextMenu - Plugin for simple contextMenu handling
+ *
+ * Version: git-master
+ *
+ * Authors: Rodney Rehm, Addy Osmani (patches for FF)
+ * Web: http://medialize.github.com/jQuery-contextMenu/
+ *
+ * Licensed under
+ *   MIT License http://www.opensource.org/licenses/mit-license
+ *   GPL v3 http://opensource.org/licenses/GPL-3.0
+ *
+ */
+
+.context-menu-list {
+    margin:0; 
+    padding:3px;
+    
+    min-width: 120px;
+    max-width: 250px;
+    display: inline-block;
+    position: absolute;
+    list-style-type: none;
+    
+    background: #EEE;
+   
+    -moz-border-radius: 5px;
+    _-moz-box-shadow: 2px 2px 3px rgba(100,100,100,0.75);
+    -webkit-border-radius: 5px;
+    _-webkit-box-shadow: 2px 2px 3px rgba(100,100,100,0.75);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.2),0 1px 5px 0 rgba(0,0,0,0.12);
+    border: 1px solid #aaa;
+    padding: 1;
+    border-radius: 5px;
+
+    font-size: 12px;
+	
+}
+
+.context-menu-list > li {
+    margin:0;
+    height:20px;
+    border-bottom: 1px dotted #ddd; 
+}
+
+.context-menu-item {
+    padding: 0 2px 0 24px;
+    background-color: #EEE;
+    position: relative;
+    -webkit-user-select: none;
+       -moz-user-select: -moz-none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.context-menu-separator {
+    padding-bottom:0;
+    border-bottom: 1px solid #DDD;
+}
+
+.context-menu-item > label > input,
+.context-menu-item > label > textarea {
+    -webkit-user-select: text;
+       -moz-user-select: text;
+        -ms-user-select: text;
+            user-select: text;
+}
+
+.context-menu-item.hover {
+    cursor: pointer;
+    background-color: #CCC;
+}
+
+.context-menu-item.disabled {
+    color: #666;
+}
+
+.context-menu-input.hover,
+.context-menu-item.disabled.hover {
+    cursor: default;
+    background-color: #EEE;
+}
+
+.context-menu-submenu:after {
+    content: ">";
+    color: #666;
+    position: absolute;
+    top: 0;
+    right: 3px;
+    z-index: 1;
+}
+
+/* icons
+    #protip:
+    In case you want to use sprites for icons (which I would suggest you do) have a look at
+    http://css-tricks.com/13224-pseudo-spriting/ to get an idea of how to implement 
+    .context-menu-item.icon:before {}
+ */
+
+.context-menu-item.icon-chat      { background-image: url(../images/sprites_context.png); background-position:0    2px; background-repeat: no-repeat;}
+.context-menu-item.icon-setcf     { background-image: url(../images/sprites_context.png); background-position:0  -18px; background-repeat: no-repeat;}
+.context-menu-item.icon-email     { background-image: url(../images/sprites_context.png); background-position:0  -35px; background-repeat: no-repeat;}
+.context-menu-item.icon-addto     { background-image: url(../images/sprites_context.png); background-position:0  -54px; background-repeat: no-repeat;}
+.context-menu-item.icon-kick      { background-image: url(../images/sprites_context.png); background-position:0  -54px; background-repeat: no-repeat;}
+.context-menu-item.icon-removefrom{ background-image: url(../images/sprites_context.png); background-position:0  -72px; background-repeat: no-repeat;}
+.context-menu-item.icon-unpause   { background-image: url(../images/sprites_context.png); background-position:0  -91px; background-repeat: no-repeat;}
+.context-menu-item.icon-pause     { background-image: url(../images/sprites_context.png); background-position:0 -110px; background-repeat: no-repeat;}
+.context-menu-item.icon-sms       { background-image: url(../images/sprites_context.png); background-position:0 -128px; background-repeat: no-repeat;}
+.context-menu-item.icon-lock      { background-image: url(../images/sprites_context.png); background-position:0 -147px; background-repeat: no-repeat;}
+.context-menu-item.icon-mute      { background-image: url(../images/sprites_context.png); background-position:0 -165px; background-repeat: no-repeat;}
+.context-menu-item.icon-info      { background-image: url(../images/sprites_context.png); background-position:0 -182px; background-repeat: no-repeat;}
+.context-menu-item.icon-mobile    { background-image: url(../images/sprites_context.png); background-position:0 -203px; background-repeat: no-repeat;}
+.context-menu-item.icon-phone     { background-image: url(../images/sprites_context.png); background-position:0 -222px; background-repeat: no-repeat;}
+
+/* vertically align inside labels */
+.context-menu-input > label > * { vertical-align: top; }
+
+/* position checkboxes and radios as icons */
+.context-menu-input > label > input[type="checkbox"],
+.context-menu-input > label > input[type="radio"] {
+    margin-left: -17px;
+}
+.context-menu-input > label > span {
+    margin-left: 5px;
+}
+
+.context-menu-input > label,
+.context-menu-input > label > input[type="text"],
+.context-menu-input > label > textarea,
+.context-menu-input > label > select {
+    display: block;
+    width: 100%;
+    
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+         -o-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.context-menu-input > label > textarea {
+    height: 100px;
+}
+.context-menu-item > .context-menu-list {
+    display: none;
+    /* re-positioned by js */
+    right: -5px;
+    top: 5px;
+}
+
+.context-menu-item.hover > .context-menu-list {
+    display: block;
+}
+
+.context-menu-accesskey {
+    text-decoration: underline;
+}

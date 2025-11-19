@@ -1,0 +1,102 @@
+<module>
+    <menu>
+        <item>
+             <name>Dashboard</name>
+             <action>index.php</action>
+             <icon>fa-tachometer</icon>
+        </item>
+        <item>
+             <name>Tenants</name>
+             <action>pagebs.fop2contexts.php</action>
+             <icon>fa-building</icon>
+             <requiredlevel>admin</requiredlevel>
+        </item>
+        <item>
+             <name>Users</name>
+             <action>pagebs.fop2users.php</action>
+             <icon>fa-user</icon>
+        </item>
+        <item>
+             <name>Buttons</name>
+             <action>pagebs.fop2buttons.php</action>
+             <icon>fa-th-large</icon>
+        </item>
+        <item>
+             <name>Groups</name>
+             <action>pagebs.fop2groups.php</action>
+             <icon>fa-users</icon>
+         </item>
+         <item>
+             <name>Templates</name>
+             <action>pagebs.fop2templates.php</action>
+             <icon>fa-list-alt</icon>
+         </item>
+         <item>
+             <name>Permissions</name>
+             <action>pagebs.fop2permissions.php</action>
+             <icon>fa-exclamation-triangle</icon>
+         </item>
+         <item>
+             <name>Plugins</name>
+             <action>pagebs.fop2plugins.php</action>
+             <icon>fa-plug</icon>
+             <requiredlevel>admin</requiredlevel>
+         </item>
+         <item>
+             <name>Settings</name>
+             <action>pagebs.fop2settings.php</action>
+             <requiredversion>23000</requiredversion>
+             <requiredlevel>admin</requiredlevel>
+         </item>
+         <item>
+             <name>Actions</name>
+             <icon>fa-bolt</icon>
+             <menu>
+                 <item>
+                     <name>Reload Panel</name>
+                     <action>onclick="fop2Reload(); return false;"</action>
+                 </item>
+                 <item>
+                     <name>Reload Asterisk</name>
+                     <requiredlevel>admin</requiredlevel>
+                     <action>onclick="asteriskReload(); return false;"</action>
+                 </item>
+             </menu>
+         </item>
+         <item>
+             <name>Admin</name>
+             <requiredlevel>admin</requiredlevel>
+             <icon>fa-shield-alt</icon>
+             <onlywithnativeauth>yes</onlywithnativeauth>
+             <menu>
+                 <item>
+                     <name>Users</name>
+                     <requiredlevel>admin</requiredlevel>
+                     <action>pagebs.adminusers.php</action>
+                     <onlywithnativeauth>yes</onlywithnativeauth>
+                 </item>
+                 <item>
+                     <name>Access Control</name>
+                     <requiredlevel>admin</requiredlevel>
+                     <action>pagebs.adminacl.php</action>
+                     <onlywithnativeauth>yes</onlywithnativeauth>
+                 </item>
+             </menu>
+       </item>
+    </menu>
+    <description>Panel Manager: Allow you to configure panel users, buttons, templates, etc.</description>
+    <changelog>
+        *1.1.1*   Fixes for multi tenant (mirta,thirdlane). Sync labels in FreePBX automagically. Plugin setting sections honor types.
+        *1.1.0*   Fix plugin section prompt to fit new alertify syntax
+        *1.0.9*   Real time filter in users tab. Updated alertify library. Mass update of button metadata via CSV file. Option to exclude context in multi tenant.
+        *1.0.8*   General Settings now available via Panel Manager (and not from presence.js). Improved plugin config handlers.
+        *1.0.7*   Improved multi tenant support. Add AccountCode advanced field. Fix pagination to not skip last page.
+        *1.0.6*   Add pagination to fop2buttons. Fix queue context and park context discovery in freepbx. Use correct state interface in user/device mode.
+        *1.0.5*   Add auto answer and originate header advanced fields. Change group and label on the fly on the panel display with no reload. Bugfixes.
+        *1.0.4*   Multi Tenant support for Elastix3 and Thirdlane
+        *1.0.3*   Add fop2reload action because of asterisk reload bug from asterisk 11.8 and up
+        *1.0.2*   Propagate template changes to users with that template assigned
+        *1.0.1*   Bug Fixes (use correct context in queue buttons and park buttons in FreePBX)
+        *1.0.0*   Stable release
+    </changelog>
+</module>

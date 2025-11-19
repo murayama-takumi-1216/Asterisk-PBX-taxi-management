@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c:*)",
+      "Bash(..venvpyScriptspython.exe manage.py clearsessions)",
+      "Bash(python manage.py clearsessions:*)",
+      "Bash(\"E:\\workana\\carlos project\\www_backup\\var\\www\\application\\venvpy\\Scripts\\python.exe\" manage.py clearsessions)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

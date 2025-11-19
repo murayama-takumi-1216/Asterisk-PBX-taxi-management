@@ -1,0 +1,23 @@
+<plugin>
+    <rawname>configonreload</rawname>
+    <name>Panel Manager Autoconfiguration</name>
+    <version>1.0.4</version>
+    <global>yes</global>
+    <description>Needed for having new buttons added/removed from the panel when your backend performs an asterisk reload. You must have the Panel Manager installed and point the reload_script variable to the full path of the update_conf.php script.</description>
+    <description-es_ES>Este plugin actualizará las bases de datos del Panel Manager con nuevos botones o configuraciones cada vez que Asterisk sea recargado (reload). Debe apuntar la variable scriptreload a la ruta completa del script update_conf.php del Panel Manager.</description-es_ES>
+   <params>
+        <param>
+            <name>reload_script</name>
+            <type>string</type>
+            <multi>no</multi>
+            <default>/usr/bin/php -v /var/www/html/fop2/admin/update_conf.php</default>
+        </param>
+    </params>
+    <changelog>
+        *1.0.4*   Call FOP2RELOAD userevent when finish to signal FOP2 to reload configs
+        *1.0.3*   Add channelreload event support so it also reloads on it
+        *1.0.2*   Set config name to use name_name for consistency
+        *1.0.1*   Add reload on User Event
+        *1.0.0*   Stable release
+    </changelog>
+</plugin>

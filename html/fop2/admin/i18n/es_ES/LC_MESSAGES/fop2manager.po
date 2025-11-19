@@ -1,0 +1,996 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Panel Manager spanish translation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-16 22:30+0100\n"
+"PO-Revision-Date: 2014-03-17 12:26+0100\n"
+"Last-Translator: Nicolas Gudino <asternic@gmail.com>\n"
+"Language-Team: Nicolas Gudino <asternic@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+msgid "Field %s added to table %s"
+msgstr "Campo %s agregado a la tabla %s"
+
+msgid  "Add User"
+msgstr "Añadir Usuario"
+
+msgid  "From here you can manage Panel users and permissions, and also mark the groups the user will be able to view or the plugins it will have enabled."
+msgstr "Desde aquí pueden administrarse usuarios y permisos para el panel, como así también restringir los botones que se mostrarán para un usuario seleccionando los grupos que desee que vea. También podrá seleccionar los plugins que desee activar para el usuario."
+
+msgid "From here you can install, uninstall, upload and configure plugins. You can get plugins from online repositories, or upload and manage local plugins."
+msgstr "Desde aquí es posible instalar, desinstalar, subir y configurar Complementos para el panel. Puede obtener complementos en línea desde los repositorios en línea, o bien subir y administrar complementos localmente."
+
+msgid  "Login Details"
+msgstr "Detalles de Ingreso"
+
+msgid  "Group Details"
+msgstr "Detalles del Grupo"
+
+msgid  "Restricted Permission Details"
+msgstr "Detalles del Permiso Restrictivo"
+
+msgid  "The extension number for this user."
+msgstr "El número de extensión para este usuario."
+
+msgid  "Extension"
+msgstr "Extensión"
+
+msgid  "The secret to login to the panel. If the user was autocreated on install time, the password will be the voicemail pin, if it has no voicemail enabled, it will be the same extension number."
+msgstr "La clave para ingresar al panel. Si el usuario se creó automáticamente utilizar la clave de voicemail, si no tuviera voicemail activado entonces el mismo número de extensión será la clave."
+
+msgid  "Secret"
+msgstr "Clave"
+
+msgid "User Preferences"
+msgstr "Preferencias de Usuario"
+
+msgid  "Choose a template to quickly set or change permissions, groups and plugins."
+msgstr "Elija una plantilla para asignar grupos, permisos y plugins rápidamente."
+
+msgid  "(pick group)"
+msgstr "(elija grupo)"
+
+msgid  "(pick plugin)"
+msgstr "(elija complemento)"
+
+msgid  "(pick template)"
+msgstr "(elija plantilla)"
+
+msgid  "(pick one)"
+msgstr "(elija uno)"
+
+msgid  "Restricted Permissions"
+msgstr "Permisos Restrictivos"
+
+msgid  "Permissions"
+msgstr "Permisos"
+
+msgid  "Permissions let you specify what actions the user will be able to perform inside the panel. For example, if you do not want to give the users the ability to listen to ongoing calls, do not select the spy permission."
+msgstr "Los permisos permiten asignar las acciones que el usuario podrá realizar dentro del panel. Por ejemplo, si no desea que un usuario pueda espiar otros llamados, no elija ni le asigne el permiso spy."
+
+msgid  "Template"
+msgstr "Plantilla"
+
+msgid  "Choose the permission you want to grant to the user."
+msgstr "Elija los permisos que desee asignar a este usuario."
+
+msgid  "(pick permission)"
+msgstr "(elija permiso)"
+
+msgid  "Groups"
+msgstr "Grupos"
+
+msgid  "Group"
+msgstr "Grupo"
+
+msgid  "Select the groups you want the user to see in the panel. If no groups are selected the user will be able to see all buttons."
+msgstr "Elija los grupos que desea que este usuario pueda ver en el panel. Si no selecciona ningún grupo el usuario podrá ver todos los botones sin restricción."
+
+msgid  "All Buttons"
+msgstr "Todos los Botones"
+
+msgid  "All Extensions"
+msgstr "Todas las Extensiones"
+
+msgid  "All Queues"
+msgstr "Todas las Colas"
+
+msgid  "All Conferences"
+msgstr "Todas las Conferencias"
+
+msgid  "All Trunks"
+msgstr "Todos los Troncales"
+
+msgid  "Plugins"
+msgstr "Complementos"
+
+msgid  "Select the plugins you want to load for this user."
+msgstr "Elija los plugins que desea habilitar para este usuario."
+
+msgid  "Submit Changes"
+msgstr "Guardar Cambios"
+
+msgid  "Delete User %s"
+msgstr "Eliminar Usuario %s"
+
+msgid  "Are you sure?"
+msgstr "¿Está seguro?"
+
+msgid  "Please insert an extension number."
+msgstr "Por favor ingrese un número de extensión."
+
+msgid  "The extension must be numeric."
+msgstr "La extensión debe ser numérica."
+
+msgid  "That extension already exists."
+msgstr "Esta extensión ya existe."
+
+msgid  "Changes saved successfully"
+msgstr "Los cambios se han guardado exitosamente"
+
+msgid  "Users"
+msgstr "Usuarios"
+
+msgid  "Buttons"
+msgstr "Botones"
+
+msgid  "Templates"
+msgstr "Plantillas"
+
+msgid  "Extensions"
+msgstr "Extensiones"
+
+msgid  "Queues"
+msgstr "Colas"
+
+msgid  "Trunks"
+msgstr "Troncales"
+
+msgid  "Parks"
+msgstr "Aparcamiento"
+
+msgid  "Conferences"
+msgstr "Conferencias"
+
+msgid  "Save"
+msgstr "Guardar"
+
+msgid  "Upload"
+msgstr "Subir"
+
+msgid  "Edit button options"
+msgstr "Opciones de edición de botones"
+
+msgid "Edit"
+msgstr "Editar"
+
+msgid  "You can change button labels and privacy options -to prevent the button to be monitored and/or hide the CallerID- among other things. You can also sort the list by dragging elements up and down or using the Sort options in the Actions menu."
+msgstr "Desde aquí es posible modificar opciones para la visualización de botones, como ser nombre, privacidad -para prevenir que una extensión sea pasible de escuchas o para ocular el identificador de llamados-, grupos -para agrupar visualmente en el panel-,  entre varias otras opciones. Es posible también cambiar el orden de los mismos, ya sea por nombre o número usando las respectivas opciones en el menú Acciones, o bien arrastrando y soltando cada fila para ordenarlos de cualquier modo."
+
+msgid  "Sort by Name"
+msgstr "Ordenar por Nombre"
+
+msgid  "Sort by Number"
+msgstr "Ordenar por Número"
+
+msgid  "If you changed any extension names and want to reread them from the regular backend config and update the panel config, click this button."
+msgstr "Si cambi los nombres de las extensiones en su configuración y desea refrescar los datos en el panel, pulse este botón"
+
+msgid  "Show/Hide advanced fields for buttons."
+msgstr "Muestra/Oculta campos avanzados para los botones."
+
+msgid  "%d buttons removed from system update"
+msgstr "%d botones removidos por actualización del sistema"
+
+msgid  "%d buttons added from system update"
+msgstr "%d botones agregados por actualización del sistema"
+
+msgid "%d buttons updated"
+msgstr "%d botones actualizados"
+
+msgid  "Enable or disable this button from the panel view."
+msgstr "Habilita o deshabilita este botón de la vista del panel."
+
+msgid  "You can change the button label to be displayed on the panel."
+msgstr "Es posible cambiar los nombres de las extensiones en el panel."
+
+msgid  "You can group extensions visually on the panel page. If no group is specified all the extensions are going to be displayed on the Extensions box. If you type another name, a new box will be added with the name you choose. Any buttons with the same group name will be displayed on that box."
+msgstr "Es posible agrupar extensiones visualmente en el panel. Si no se especifíca ningún grupo, los botones se mostrarán en la sección 'Extensiones'. Si se escribe algún nombre de grupo, se creará una nueva sección en el panel con dicho nombre. Cualquier botón que tenga el mismo grupo se mostrará en ese sector."
+
+msgid "You can group queues visually on the panel page. If no group is specified all the queues are going to be displayed on the Queues box. If you type another name, a new box will be added with the name you choose. Any buttons with the same group name will be displayed on that box."
+msgstr "Es posible agrupar colas visualmente en el panel. Si no se especifíca ningún grupo, los botones se mostrarán en la sección 'Colas'. Si se escribe algún nombre de grupo, se creará una nueva sección en el panel con dicho nombre. Cualquier botón que tenga el mismo grupo se mostrará en ese sector."
+
+msgid  "This option can be used to disable monitoring or CallerID display on the button."
+msgstr "Esta opción puede ser utilizada para impedir las escuchas o bien ocultar el identificador de llamados en este botón."
+
+msgid  "ASTDB key to search for custom states. Default configuration is for displaying Call Forward Unconditional states."
+msgstr "Entrada ASTDB a utilizar para indicar estados como ser redirección de llamados o similar. En FreePBX la configuración automática rastrea la redirección de llamados."
+
+msgid  "You can set an email for every button to enable the option to email the user directly from the panel."
+msgstr "Puede configurar la dirección de correo electrónico para cada botón, de manera de habilitar la opciíon de envío de correo directamente desde el panel."
+
+msgid  "Channel to use as originator when performing a dial from the panel. You can use a Local type channel and use sip headers for setting the phone to auto answer."
+msgstr "Canal a usar para originar llamados desde el panel. Es posible usar un canal de tipo Local y utilizar SIP headers para indicar al teléfono que atienda automáticamente."
+
+msgid  "number@context for external/mobile transfers. If @context is omited it will use the default one for the extension."
+msgstr "numero@contexto para transferir a número externos/a móvil. Si @contexto es omitido se usará el mismo contexto del botón."
+
+msgid  "Options to pass to chanspy. Can be used to restrict spying to certain groups (option g, SPYGROUP) or silence the beep (option q). Example: qg(SALES)"
+msgstr "Opciones para pasar a chanspy. Puede ser usado para restringir la escucha a ciertos grupos (opción g, SPYGROUP), silenciar el beep (opción q). Ejemplo: qg(SALES)"
+
+msgid  "Extra Channel. You can use it to add extra channels to affect the status of this button."
+msgstr "Canal Extra. Puede ser usado para agregar canales adicionales a monitorear que afectarán el estado de este botón."
+
+msgid  "Comma separated lists of tags. They will be searched/matched when you use the Filter input box on the panel."
+msgstr "Lista separada por coma de etiquetas. Las mismas serán utilizadas cuando realice búsquedas desde la caja de Filtro en el panel."
+
+msgid  "Zap/Dahdi Channels (Eg: 1-24)"
+msgstr "Canales Zap/Dahdi Channels (Ej: 1-30)"
+
+msgid  "You must specify the channel number range for zap/dahdi trunks in this field."
+msgstr "Debe espicificar un rango de canales para troncales zap/dahdi en este campo."
+
+msgid  "Extra Channel"
+msgstr "Canal Extra"
+
+msgid  "You might want to specify an additional device name or put the correct device name in case you are using custom trunks."
+msgstr "Puede especificar un nombre adicional de dispositivo o canal, o bien el nombre real del mismo en caso de que utilice troncales custom en FreePBX."
+
+msgid  "Channel to use as queue member when adding/removing/pausing this button into a queue."
+msgstr "Canal a usar como miembro de cola cuando se agrega/quita o pausa este botón."
+
+msgid  "Voicemail mailbox to query for new voicemail."
+msgstr "Buzón de voz a consultar para indicar nuevos mensajes."
+
+msgid  "Saving..."
+msgstr "Guardando..."
+
+msgid  "Label"
+msgstr "Etiqueta"
+
+msgid  "Synchronize Labels"
+msgstr "Sincronizar Etiquetas"
+
+msgid  "No"
+msgstr "No"
+
+msgid  "Yes"
+msgstr "Si"
+
+msgid  "Enabled"
+msgstr "Habilitado"
+
+msgid  "Privacy"
+msgstr "Privacidad"
+
+msgid  "Email"
+msgstr "Correo Electrónico"
+
+msgid  "External Transfer"
+msgstr "Número Externo"
+
+msgid  "Channel"
+msgstr "Canal"
+
+msgid  "Originate Channel"
+msgstr "Canal de Origen"
+
+msgid  "Tags"
+msgstr "Etiquetas"
+
+msgid  "Custom ASTDB"
+msgstr "ASTDB Custom"
+
+msgid  "ChanSpy Options"
+msgstr "Opciones ChanSpy"
+
+msgid  "Add Group"
+msgstr "Añadir Grupo"
+
+msgid  "Groups can be used to restrict the buttons a user should see in his panel. You can create a group with only 5 extensions and assign it to a user in the Users tab, so he can only see those extensions."
+msgstr "Los grupos pueden ser usados para restringir la vista de botones en el panel. Puede por ejemplo crer un grupo con 5 extensiones y asignar ese grupo a un usuario en la solapa Usuarios, de forma de que el mismo sólo pueda ver esas extensiones en su panel."
+
+msgid  "Name"
+msgstr "Nombre"
+
+msgid  "Included Buttons"
+msgstr "Botones incluídos"
+
+msgid  "Select the buttons you want to include in this group."
+msgstr "Elija los botones que desee incluir dentro del grupo."
+
+msgid  "Check All"
+msgstr "Marcar Todos"
+
+msgid  "Delete Group %s"
+msgstr "Eliminar Grupo %s"
+
+msgid  "Edit User %s"
+msgstr "Editar Usuario %s"
+
+msgid  "Edit Group %s"
+msgstr "Editar Grupo %s"
+
+msgid  "Please enter a group name."
+msgstr "Ingrese un nombre de grupo por favor."
+
+msgid  "Ringgroups"
+msgstr "Grupos de Llamada"
+
+msgid  "A template is a set of permissions, groups and plugins that you can assign to users in one step inside the Users menu for easy and quick management."
+msgstr "Una plantilla es un conjunto de permisos, grupos y plugins que puede asignarse en un sólo paso desde el menú Usuarios para facilitar la administración de los mismos."
+
+msgid  "Add Template"
+msgstr "Añadir Plantilla"
+
+msgid  "Edit Template %s"
+msgstr "Editar Plantilla %s"
+
+msgid  "Template Details"
+msgstr "Detalles de la Plantilla"
+
+msgid  "Template %s deleted!"
+msgstr "Plantilla %s eleminada!"
+
+msgid  "Template %s inserted!"
+msgstr "Plantilla %s agregada!"
+
+msgid  "User %s deleted!"
+msgstr "Usuario %s eleminado!"
+
+msgid  "User %s inserted!"
+msgstr "Usuario %s agregado!"
+
+msgid  "Group %s deleted!"
+msgstr "Grupo %s eleminado!"
+
+msgid  "Group %s inserted!"
+msgstr "Grupo %s agregado!"
+
+msgid  "Restricted Permission %s deleted!"
+msgstr "Permiso restrictivo %s eleminado!"
+
+msgid  "Restricted Permission %s inserted!"
+msgstr "Permiso restrictivo %s agregado!"
+
+msgid  "Delete Template %s"
+msgstr "Eliminar Plantilla %s"
+
+msgid  "Delete Restricted Permission %s"
+msgstr "Eliminar Permiso Restrictivo %s"
+
+msgid  "Select the groups you want to add to this template. If no groups are selected the user will be able to see all buttons."
+msgstr "Elija los grupos que desee agregar a esta plantilla. Si no se seleccionan grupos, el usuario podrá ver todos los botones."
+
+msgid  "Select the plugins you want to enable in this template."
+msgstr "Elija los plugins que desee habilitar en esta plantilla."
+
+msgid  "Make Default"
+msgstr "Plantilla por Omisión"
+
+msgid  "Assign this template by default when adding new users."
+msgstr "Asignar esta plantilla automáticamente cuando se creen nuevos usuarios en la solapa Usuarios."
+
+msgid  "The name for this template."
+msgstr "El nombre de esta plantilla."
+
+msgid  "Choose the permission you wish to include in this template."
+msgstr "Elija los permisos que desee incluir en esta plantilla."
+
+msgid  "The name for this group."
+msgstr "El nombre de este grupo."
+
+msgid  "Add Restricted Permission"
+msgstr "Añadir Permiso Restrictivo"
+
+msgid  "Restricted permissions lets you limit actions to a specific set of extensions/groups. They are only used for restricting actions. If you want a quick way to assign permissions, then you should use Templates as restricted permissions will limit user actions."
+msgstr "Los Permisos Restrictivos le permiten limitar acciones a un grupo de extensiones en particular. Solo deben utilizarse para restringir las acciones a un grupo. Si desea un modo rápido de asignar permisos, debe usar plantillas en lugar de permisos avanzados, ya que estos permisos solo limitarán las acciones que los usuarios podrán realizar."
+
+msgid  "Edit Restricted Permission %s"
+msgstr "Editar Permiso Restrictivo %s"
+
+msgid  "The name for this permission."
+msgstr "El nombre de este permiso."
+
+msgid  "Choose the permission you want to include in this advanced permission."
+msgstr "Elija el permiso que desee incluir en este permiso avanzado."
+
+msgid  "Restrict to Groups"
+msgstr "Restringir permisos a estos Grupos"
+
+msgid  "Select the groups you want to restrict this permission to. You will be able to perform the actions only to the extension/buttons that are part of the selected groups. If no groups are selected, the permission will be allowed to every button on the panel."
+msgstr "Elija los grupos a los cuales desea restringir los permisos arriba elejidos. Sólo podrá realizar dichas acciones en los botones que estén incluídos en los grupos marcados. Si no selecciona grupos, entonces el permiso aplicará para todos los botones del panel."
+
+msgid  "Please insert a permission name."
+msgstr "Por favor ingrese un nombre de permiso."
+
+msgid  "That name is reserved for stock permissions, choose another one."
+msgstr "Ese nombre está reservado para los permisos standard del panel. Por favor elija otro nombre."
+
+msgid  "Accept"
+msgstr "Aceptar"
+
+msgid  "Cancel"
+msgstr "Cancelar"
+
+
+msgid  "The following error(s) occurred processing the uploaded file: %s"
+msgstr "Han ocurrido los siguientes errores al intentar subir el archivo: %s"
+
+msgid  "Plugin installed successfully. You need to enable it globally or assign it to some users to make it available."
+msgstr "Plugin instalado con éxito. Debe habilitarlo globalmente o bien asignarlo a un usuario desde la solapa Usuarios para hacerlo disponible."
+
+msgid  "Online Repository - Available Plugins"
+msgstr "Repositorio en línea - Complementos Disponibles"
+
+msgid  "Globally Enabled"
+msgstr "Habilitar Globalmente"
+
+msgid  "Uninstall"
+msgstr "Desinstalar"
+
+msgid  "Install"
+msgstr "Instalar"
+
+msgid  "Buy"
+msgstr "Comprar"
+
+msgid  "Update"
+msgstr "Actualizar"
+
+msgid  "Free"
+msgstr "Gratis"
+
+msgid  "Online Repository not reachable/accessible"
+msgstr "Repositorio en línea no disponible o no accesible"
+
+msgid  "Locally Available Plugins"
+msgstr "Complementos Disponibles Localmente"
+
+msgid  "Upload Plugin"
+msgstr "Subir Complemento"
+
+msgid  "You can upload a tar gzip file containing a panel plugin from your local system. If a plugin with the same name already exists, it will be overwritten."
+msgstr "Puede subir un archivo tar.gz conteniendo un plugin/complemento del panel a su sistema local. Si un plugin con el mismo nombre ya existe, será reemplazado."
+
+msgid  "Available Version"
+msgstr "Versión Disponible"
+
+msgid  "Installed Version"
+msgstr "Versión Instalada"
+
+msgid  "Browse"
+msgstr "Explorar"
+
+msgid  "Welcome"
+msgstr "Bienvenido"
+
+msgid "Error extracting plugin archive"
+msgstr "Error al extraer el archivo comprimido"
+
+msgid "Hide/Show Plugin Settings"
+msgstr "Muestra/Oculta Configuración del Complemento"
+
+msgid "Settings"
+msgstr "Configuración"
+
+msgid "Add Section"
+msgstr "Añadir Sección"
+
+msgid "Remove Section"
+msgstr "Quitar Sección"
+
+msgid "Please wait..."
+msgstr "Por favor espere..."
+
+msgid "Enter Section"
+msgstr "Ingrese Sección"
+
+msgid "That section already exists!"
+msgstr "Esa sección ya existe!"
+
+msgid "Section cannot be empty!"
+msgstr "La sección no puede quedar vacía!"
+
+msgid  "%s users added"
+msgstr "%s usuarios agregados"
+
+msgid  "%s buttons added"
+msgstr "%s botones agregados"
+
+msgid  "Configuration saved"
+msgstr "Configuración guardada"
+
+msgid "Error finding uploaded file. Did you select one? Check your PHP and/or web server configuration."
+msgstr "No se encontró el archivo subido. Eligió alguno? Verifique la configuración de PHP o de su servidor web." 
+
+msgid "File must be in tar+gzip (.tgz or .tar.gz) format"
+msgstr "El archivo debe estar en formato tar+gzip (.tgz o .tar.gz)"
+
+msgid "Filename does not have the correct format: it must be pluginname-version.tar.gz (eg. customplugin-0.1.tar.gz)"
+msgstr "El nombre de archivo no tiene el formato correcto: debe ser nombreplugin-version.tar.gz (Ejemplo: customplugin-0.1.tar.gz)"
+
+msgid  "Panel Server is not responding. Be sure the service is running!"
+msgstr "El servidor del panel no está respondiendo. Asegurese de que el servicio está corriendo!"
+
+msgid  "Licensed Plugins"
+msgstr "Complementos Licenciados"
+
+msgid  "There are no licensed plugins"
+msgstr "No hay plugins licenciados"
+
+msgid  "Panel Server Status: OK"
+msgstr "Estado de Servidor del Panel: OK"
+
+msgid  "lets you configure users, permissions, button details and options. It will also let you install, uninstall and configure plugins. It will read data from your configuration backend and populate its own tables with your preferences."
+msgstr "le permitirá configurar usuarios, permisos, detalles de botones y opciones. También le permitirá instalar, desinstalar y configurar plugins del panel. El módulo lee información de configuración del backend y la utiliza para rellenar sus propias tablas."
+
+msgid  "Close"
+msgstr "Cerrar"
+
+msgid  "Upgrade Available"
+msgstr "Actualización Disponible"
+
+msgid  "Upgrade"
+msgstr "Actualizar"
+
+msgid "New %s version %s available for download"
+msgstr "Nuevo %s versión %s disponible para descarga"
+
+msgid  "(Your current version is %s)"
+msgstr "(Su versión actual es la %s)"
+
+msgid  "Panel Reloaded"
+msgstr "Panel Recargado"
+
+msgid  "Reload Panel"
+msgstr "Recargar Panel"
+
+msgid  "Asterisk Reloaded"
+msgstr "Asterisk Recargado"
+
+msgid  "Reload Asterisk"
+msgstr "Recargar Asterisk"
+
+
+msgid  "Show Changelog"
+msgstr "Mostrar Changelog"
+
+msgid  "Hide Changelog"
+msgstr "Ocultar Changelog"
+
+msgid "File extracted successfully!"
+msgstr "Archivo descomprimido con exito!"
+
+msgid  "Cannot read file %s for extraction"
+msgstr "Imposible leer el archivo %s para descomprimir"
+
+msgid "Extraction directory %s does not exists!"
+msgstr "La carpeta %s para extraer la actualización no existe!"
+
+msgid "Error while extracting file %s into directory %s"
+msgstr "Error al intentar descomprimir el archivo %s en la carpeta %s"
+
+msgid "Problem trying to find the extracted upgrade files. There is no %s directory."
+msgstr "Hubo un problema al tratar de acceder al directorio %s. Abortando."
+
+msgid "The permission name is already in use."
+msgstr "Ese nombre de permiso ya existe."
+
+msgid "The template name is already in use."
+msgstr "Ese nombre de plantilla ya existe."
+
+msgid "The name cannot be empty!"
+msgstr "Debe ingresar un nombre!"
+
+msgid "The user number is already in use."
+msgstr "Ese número de usuario ya existe."
+
+msgid "Create option"
+msgstr "Crear opción"
+
+msgid "Price"
+msgstr "Precio"
+
+msgid "Backend Engine: %s"
+msgstr "Motor de Configuración: %s"
+
+msgid "Language" 
+msgstr "Idioma"
+
+msgid "User" 
+msgstr "Usuario"
+
+msgid "Password" 
+msgstr "Contraseña"
+
+msgid "Log in" 
+msgstr "Acceder"
+
+msgid "Invalid Credentials" 
+msgstr "Credenciales Inválidas"
+
+msgid "Actions"
+msgstr "Acciones"
+
+msgid "That name is reserved for default groups, choose another one."
+msgstr "Ese nombre está reservado para los grupos por omisión. Elija otro nombre."
+
+msgid "Logout"
+msgstr "Salir"
+
+msgid "Recreate Users"
+msgstr "Recrear Usuarios"
+
+msgid "Variable to send to the Asterisk Manager when issuing Originate commands specific for setting a phone to auto answer via sip headers or similar. This will be used if the user toggles auto answer in its own Preferences setting"
+msgstr "Variables a enviar en el comando Originate via Asterisk Manager, específicamente para indicar a un dispositivo que atienda automáticamente o similar. Esta variable será enviada si el usuario selecciona la opción auto atender desde las preferencias personales del panel"
+
+msgid "Variables to send to the Asterisk Manager when issuing Originate commands (performing a dial from the panel)."
+msgstr "Variables a enviar via Asterisk Manager durante un comando Originate (como cuando se realiza un dial desde el panel)."
+
+msgid "Originate Variables"
+msgstr "Variables de Originación"
+
+msgid "AutoAnswer Header"
+msgstr "Encabezados de Auto Respuesta"
+
+msgid "Could not remove file %s!"
+msgstr "No se pudo eliminar el archivo %s!"
+
+msgid "File %s removed successfully"
+msgstr "Archivo %s eliminado con éxito"
+
+msgid "Edit Setting"
+msgstr "Editar Configuración"
+
+msgid "Enable javascript debugging on the browser."
+msgstr "Habilitar debug javascript en la consola del navegador."
+
+msgid "To enable or disable desktop notifications (notification boxes that popup outside the browser, so you can see them with the browser minimized). This does not work with all browsers."
+msgstr "Habilita o deshabilita notificaciones de escritorio (que aparecen por fuera del navegador, de manera que se puedan ver con el navegador minimizado). Esta opción no funciona con todos los navegadores."
+
+msgid "Dial prefix to use on click to call from phonebook or when using the dial box."
+msgstr "Prefijo de marcado para utilizar al originar llamadas desde el panel, ya sea en click to call o bien desde los contactos o usando la caja de marcado"
+
+msgid "To enable or disable the 'Other' option on the panel presence selection, that lets users chose the reason for their state besides the predefined ones."
+msgstr "Habilita o deshabilita la opción 'Otro' que permite a los usuarios elegir una razón arbitraria de pausa/dnd, en la selección de presencia del panel."
+
+msgid "When you click on a queue button, the extension display will hide all extensions but the ones matching their names with its queue members. If this is enabled, then queue filtering won't be active."
+msgstr "Cuando se selecciona un botón de cola, la lista de extensiones es filtrada para mostrar solo aquellos que coincidan en nombre con los miembros de la cola elegida. Si se activa esta configuración, el filtro de extensiones no se activará al seleccionar una cola."
+
+msgid "Lets you control if you want to enable or disable the Voicemail Explorer feature. Requires a voicemail license to be effective."
+msgstr "Permite decidir si quiere habilitarse o no la opción de Voicemail. Se require tener licencai de voicemail para que sea efectiva."
+
+msgid "Lets you disable the use of HTML5 Websocket as the communications protocol. If disabled, Adobe Flash will be used instead."
+msgstr "Le permite desactivar la utilización de HTML5 Websocket como protocolo de comunicación. Si se desactiva se utilizara Adobe Flash xmlsockets en su lugar"
+
+msgid "Mode in which you want queue buttons to be displayed by default. The summary view will show only the number of logged in agents and number of waiting calls, while the full view will show every queue member and all waiting calls in detail."
+msgstr "Modo de mostrar información en los botones de cola. La vista sumario muestra solamente la cantidad de agentes y número de llamados en espera, mientras que la lsita completa muestra un detalle tamto de los agentes como de los llamados esperando."
+
+msgid "When enabled, extension buttons won't show any inactive lines, making them shorter. But also the display will be irregular as some buttons will be taller than others depending on the number of active lines."
+msgstr "Cuando se habilita esta opción, los botones de extensión no mostrarán líneas inactivas, haciendolos más pequeños. Solo se muestran las línas que están efectivamente activas. Esto hace que los botones tengan tamaño irregular y su presentación en pantalla no sea tan prolija."
+
+msgid "This setting lets you control if you want drag&amp;drop transfers to be enabled in Panel."
+msgstr "Esta opción le permite controlar la utilización de drag&amp;drop para realizar transferencias y redirección de llamados."
+
+msgid "When enabled, this option will hide all extension buttons that are lagged or unregistered."
+msgstr "Con esta opción habilitada, todas las extensiones que no estén registradas se ocultarán de la vista."
+
+msgid "Main Language"
+msgstr "Idioma primario"
+
+msgid "URL to use when the logout button is clicked in the Panel UI."
+msgstr "URL a utilizar cuando se selecciona la opción 'Salir' desde la interfaz del panel."
+
+msgid "If you do not want to show the extension number in a button label, then enable this setting."
+msgstr "Si no desea mostrar el número de extensión en los botones de extensión del panel, habilite esta configuración."
+
+msgid "Duration in seconds you want notifications to be displayed."
+msgstr "Duración en segundos de las notificaciones en pantalla."
+
+msgid "Date format to use on Chat events."
+msgstr "Formato de fecha a utilizar en eventos de Chat."
+
+msgid "Number of lines to show per button."
+msgstr "Número de líneas a mostrar por botón de extensión."
+
+msgid "To control if you want sounds for chat events."
+msgstr "Habilita/Deshabilita los sonidos para eventos de Chat."
+
+msgid "To control if you want sounds for queue events."
+msgstr "Habilita/Deshabilita los sonidos para eventos de Cola."
+
+msgid "To enable or disable the RING sound when your extension receives a call."
+msgstr "Habilita/Deshabilita el sonido RING cuando su extensión recibe un llamado."
+
+msgid "With this setting, all extension buttons will start in unregistered state (greyed out)."
+msgstr "Con esta opción habilitada, todas los botones de extensión comenzarán mostrados como NO registrados (grisados)."
+
+msgid "Format in which voicemail files are stored, this must be the same as configured in /etc/asterisk/voicemail.conf"
+msgstr "Formato en el que se almacena el voicemail. Este seteo debe ser el mismo al indicado en /etc/asterisk/voicemail.conf"
+
+msgid "To control if you want a warning when the Panel page is about to be closed."
+msgstr "Para controlar si desea un diálogo de atención cuando se cierra la ventana/pestaña del panel"
+
+msgid "To control if you want a confirmation when a hangup action is performed from the panel."
+msgstr "Para controlar si desea una confirmación al momento de cortar un llamado desde el panel."
+
+msgid "Search"
+msgstr "Buscar"
+
+msgid "Batch Update"
+msgstr "Actualización por lotes"
+
+msgid "Batch Update via CSV File"
+msgstr "Actualización por lotes desde archivo CSV"
+
+msgid "Select a CSV file to upload with data to perform the mass update. You must pass an extension field in the CSV file to match against the Button extension. For example:"
+msgstr "Elija un archivo CSV para subir con los datos a actualizar. El archivo de datos debe contener el campo extensión para actualizar los registros de botón correspondientes. Por ejemplo:"
+
+msgid "Please assign fields for your CSV file columns. The extension field is mandatory and will be used to match the corresponding extension in the Panel Buttons list. Columns with no assigned field will be discarded."
+msgstr "Por favor asigne los campos correspondientes a las columnas de datos CSV. El campo extensión es obligatorio y será usado para emparejar con el correspondiente registro de la lista de botones. Las columnas que no contengan un campo asignado serán descartadas."
+
+msgid "Empty file?"
+msgstr "Archivo vacío?"
+
+msgid "Could not copy uploaded file"
+msgstr "No fue posible copiar el archivo subido"
+
+msgid "Could not upload file"
+msgstr "No fue posible subir el archivo"
+
+msgid "Please assing data columns"
+msgstr "Por favor asigne algún campo a las columnas de datos"
+
+msgid "Please assign the extension field to a column"
+msgstr "Por favor asigne el campo extensión a alguna columna de datos"
+
+msgid "Tenants"
+msgstr "Inquilinos"
+
+msgid "Version"
+msgstr "Versión"
+
+msgid "Dashboard"
+msgstr "Tablero"
+
+msgid "Preferences"
+msgstr "Preferencias"
+
+msgid "Sounds"
+msgstr "Sonidos"
+
+msgid "Chat Sounds"
+msgstr "Sonido de Chat"
+
+msgid "Queue Sounds"
+msgstr "Sonido de Cola"
+
+msgid "Ring Sounds"
+msgstr "Sonido de llamada"
+
+msgid "Display"
+msgstr "Presentación"
+
+msgid "Default Queue View"
+msgstr "Vista de cola por defecto"
+
+msgid "Dynamic Line Display"
+msgstr "Visualización de Línea dinámica"
+
+msgid "Popup"
+msgstr "Popup"
+
+msgid "Automatic Popup"
+msgstr "Popup Automático"
+
+msgid "Notify Duration"
+msgstr "Duración de notificación"
+
+msgid "Url"
+msgstr "Url"
+
+msgid "Phone"
+msgstr "Τeléfono"
+
+msgid "Auto Answer"
+msgstr "Auto Responder"
+
+msgid "Summary"
+msgstr "Sumario"
+
+msgid "Detailed"
+msgstr "Detallado"
+
+msgid "PHP SQLite module not installed"
+msgstr "El módulo PHP Sqlite no está instalado"
+
+msgid "You must install the SQLite module for PHP if you want to change/set global settings and user preferences from this tool."
+msgstr "Debe instalar soporte de SQLite en PHP para poder configurar las preferencias globales y de usuarios usando esta herramienta."
+
+msgid "Add"
+msgstr "Añadir"
+
+msgid "Add %s"
+msgstr "Añadir %s"
+
+msgid  "Delete %s"
+msgstr "Eliminar %s"
+
+msgid  "Delete"
+msgstr "Eliminar"
+
+msgid "Settings let you change some default behaviour for the Switchboard, like enabling drag&amp;drop, webSocket, changing the number of lines to display per button, change available presence options, etc."
+msgstr "En configuración pueden modificarse opciones básicas de configuración y apariencia del panel, como habilitar drag&amp;drop, web sockets, cambiar el número de líneas a mostrar por botón, configurar opciones de presencia, etc"
+
+msgid "Access Control"
+msgstr "Control de Acceso"
+
+msgid "Resource"
+msgstr "Recurso"
+
+msgid "Required Roles"
+msgstr "Roles requeridos"
+
+msgid "From here you can define what roles are needed to access different resources on Panel Manager."
+msgstr "Aquí podrá definir que roles son necesarios para acceder a distintos recursos del Panel Manager."
+
+msgid "Panel Manager Users"
+msgstr "Usuarios Panel Manager"
+
+msgid "From here you can manage Panel Manager users and their role"
+msgstr "En esta sección podrá administrar los usuarios y roles que pueden acceder al Panel Manager"
+
+msgid "Value cannot be empty."
+msgstr "El valor no puede quedar vacío."
+
+msgid "Please insert a login name."
+msgstr "Por favor ingrese un nombre de ingreso."
+
+msgid "Please fill the password"
+msgstr "Por favor ingrese una contraseña"
+
+msgid "Please select a role for this user."
+msgstr "Por favor elija un rol para este usuario."
+
+msgid "That user already exists."
+msgstr "Ese usuario ya existe."
+
+msgid "Add Record"
+msgstr "Agregar Registro"
+
+msgid "Export"
+msgstr "Exportar"
+
+msgid "Import"
+msgstr "Importar"
+
+msgid "No records found"
+msgstr "No se encontraron registros"
+
+msgid "First"
+msgstr "Primero"
+
+msgid "Previous"
+msgstr "Anterior"
+
+msgid "Next"
+msgstr "Siguiente"
+
+msgid "Last"
+msgstr "Ultimo"
+
+msgid "Page"
+msgstr "Pagina"
+
+msgid "of"
+msgstr "de"
+
+msgid "Total records found"
+msgstr "Total de registros encontrados"
+
+msgid "View Record"
+msgstr "Ver Registro"
+
+msgid "Edit Record"
+msgstr "Editar Registro"
+
+msgid "Record inserted"
+msgstr "Registro insertado"
+
+msgid "File was uploaded successfully"
+msgstr "El archivo se subio con exito"
+
+msgid "Success!"
+msgstr "Exito!"
+
+msgid "Record updated"
+msgstr "Registro actualizado"
+
+msgid "An error has occurred"
+msgstr "Ha ocurrido un error"
+
+msgid "Record deleted"
+msgstr "Registro borrado"
+
+msgid "Delete Marked"
+msgstr "Borrar Marcados"
+
+msgid "Ignoring field "
+msgstr "Ignorando el campo "
+
+msgid "No valid fields to import!"
+msgstr "No hay campos válidos para importar"
+
+msgid "%s records imported"
+msgstr "%s registros importados"
+
+msgid "Problems with the file upload. Check permissions on the upload directory."
+msgstr "Hubo problemas al subir el archivo. Verifique permisos del directorio upload."
+
+msgid "Error inserting record:<br>"
+msgstr "Ocurrió un error al inserar el registro:<br>"
+
+msgid "Error updating record"
+msgstr "Ocurrió un error al actualizar el registro"
+
+msgid "%s records deleted"
+msgstr "%s registros eliminados"
+
+msgid "Could not delete records"
+msgstr "No fue posible eliminar los registros"
+
+msgid "There are no records to export"
+msgstr "No hay registros para exportar"
+
+msgid "All %s records on this page are selected."
+msgstr "Los %s registros en esta página han sido seleccionados."
+
+msgid "Select all %s records."
+msgstr "Seleccionar el total de %s registros."
+
+msgid "All %s records are selected."
+msgstr "La totalidad (%s) de los registros han sido seleccionados."
+
+msgid "Clear Selection"
+msgstr "Limpiar Selección"
+
+msgid "Please correct this value"
+msgstr "Por favor corrija este valor"
+
+msgid "Time must be greater than $1 field"
+msgstr "La hora debe ser mayor al campo $1"
+
+msgid "Date must be greater than $1 field"
+msgstr "La fecha debe ser mayor al campo $1"
+
+msgid "Panel Manager upgraded!"
+msgstr "Panel Manager actualizado!"
+
+msgid "Notification"
+msgstr "Notificación"
+
+msgid "CSS Class to apply to the button, so you can modify the style for an individual button via css. You will have to add your classes to css/theme/theme.css"
+msgstr "Clase CSS para aplicar en el botón, de modo que se puede usar un estilo particular para cada botón. Puede agregar sus clases en el archivo css/theme/theme.css"
+
+msgid "Toggle Advanced Fields"
+msgstr "Alternar Campos Avanzados"
+
+msgid "Accountcode to use when Originating calls with this extension from the panel."
+msgstr "Accountcode a utilizar cuando se original llamadas desde el panel."
+
+msgid "To enable or disable the Presence select box"
+msgstr "Habilita o deshabilita la selección de Presencia en el panel"
+
+msgid "Extra Fields"
+msgstr "Campos Extra"
+
+msgid "Select extra field defaults for this template"
+msgstr "Elija los valores por defecto para los campos extra en esta plantilla"
+
+

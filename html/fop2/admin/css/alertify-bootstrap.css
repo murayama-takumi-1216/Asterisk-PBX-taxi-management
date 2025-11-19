@@ -1,0 +1,141 @@
+/**
+ * alertifyjs 1.5.0 http://alertifyjs.com
+ * AlertifyJS is a javascript framework for developing pretty browser dialogs and notifications.
+ * Copyright 2015 Mohammad Younes <Mohammad@alertifyjs.com> (http://alertifyjs.com) 
+ * Licensed under MIT <http://opensource.org/licenses/mit-license.php>*/
+.alertify .ajs-dimmer {
+  background-color: #000;
+  opacity: .5;
+}
+.alertify .ajs-dialog {
+  max-width: 600px;
+  min-height: 122px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+}
+.alertify .ajs-header {
+  color: #333;
+  border-bottom: 1px solid #e5e5e5;
+  border-radius: 6px 6px 0 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+.alertify .ajs-body {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+.alertify.ajs-resizable .ajs-content,
+.alertify.ajs-maximized:not(.ajs-resizable) .ajs-content {
+  top: 58px;
+  bottom: 68px;
+}
+.alertify .ajs-footer {
+  background-color: #fff;
+  padding: 15px;
+  border-top: 1px solid #e5e5e5;
+  border-radius: 0 0 6px 6px;
+}
+.alertify-notifier .ajs-message {
+    background: #3276b1;
+    padding: 15px 14px 15px;
+    border-radius: 4px;
+    color: #D9EDF7;
+    border: 1px solid #285e8e;
+}
+.alertify-notifier .ajs-message.ajs-success {
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
+  color: #ecf0f1;
+  background: #27ae60;
+  border: 1px solid #2ecc71;
+}
+.alertify-notifier .ajs-message.ajs-error {
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
+  color: #ecf0f1;
+  background: #e74c3c;
+  border: 1px solid #c0392b;
+}
+.alertify-notifier .ajs-message.ajs-warning {
+  background: #ffa500;
+  border-color: #ffd510;
+  color: #333;
+  border: 1px solid #ffcc71;
+}
+
+
+.ajs-buttons {
+    margin: 0px 15px;
+    padding: 14px 0px 15px;
+    border-radius: 0 0 6px 6px;
+    box-shadow: inset 0 1px 0 #FFF;
+    text-align: right;
+}
+.ajs-button,
+.ajs-button:hover,
+.ajs-button:focus,
+.ajs-button:active {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.ajs-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #2B72D5;
+}
+.ajs-button:active {
+    position: relative;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
+}
+.ajs-cancel,
+.ajs-cancel:hover,
+.ajs-cancel:focus,
+.ajs-cancel:active {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.ajs-cancel:hover,
+.ajs-cancel:focus,
+.ajs-cancel:active {
+    color: #ffffff;
+    background-color: #d2322d;
+    border-color: #ac2925;
+}
+.ajs-ok,
+.ajs-ok:hover,
+.ajs-ok:focus,
+.ajs-ok:active {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+.ajs-ok:hover,
+.ajs-ok:focus,
+.ajs-ok:active {
+    color: #ffffff;
+    background-color: #47a447;
+    border-color: #398439;
+}
+.ajs-input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 4px;
+    border-radius: 2px;
+    border: 1px solid #CCC;
+}

@@ -1,0 +1,22 @@
+{
+	"name": "adrian0350/php-ami",
+	"description": "PHP Asterisk Management Interface for PHP ^5.1.6 ʕ•ᴥ•ʔ",
+	"type": "library",
+	"keywords": ["Asterisk", "AMI", "Elastix"],
+	"homepage": "https://github.com/Adrian0350/PHP-AMI",
+	"license": "Apache-2.0",
+	"authors": [
+		{
+			"name": "Marcelo Gornstein",
+			"email": "marcelog@gmail.com"
+		},
+		{
+			"name": "Jaime Zúñiga",
+			"email": "jaime.ziga@gmail.com",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.1.6"
+	}
+}

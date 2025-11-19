@@ -1,0 +1,1016 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Panel Manager Ukraine translation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-16 22:30+0100\n"
+"PO-Revision-Date: 2023-10-31 03:20+0200\n"
+"Last-Translator: LLC LeNET <support@lenet.com.ua>\n"
+"Language-Team: LLC LeNET <support@lenet.com.ua>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Language: uk_UA\n"
+"X-Generator: Poedit 1.8.7\n"
+
+msgid "Field %s added to table %s"
+msgstr "Поле %s додано до таблиці %s"
+
+msgid "Add User"
+msgstr "Додати Користувача"
+
+msgid "From here you can manage Panel users and permissions, and also mark the groups the user will be able to view or the plugins it will have enabled."
+msgstr "Звідси ви можете керувати користувачами і дозволами для інформаційної панелі, а також обмежити кнопки, які будуть відображатися для користувача, вибравши групи, які ви хочете, щоб вони бачили. Ви також можете вибрати плагіни, які хочете активувати для користувача."
+
+msgid "From here you can install, uninstall, upload and configure plugins. You can get plugins from online repositories, or upload and manage local plugins."
+msgstr "Звідси ви можете встановлювати, видаляти, завантажувати та налаштовувати доповнення для панелі. Ви можете отримати доповнення онлайн з онлайн-репозиторіїв або завантажити та керувати доповненнями локально."
+
+msgid "Login Details"
+msgstr "Дані для Входу"
+
+msgid "Group Details"
+msgstr "Інформація про Групу"
+
+msgid "Restricted Permission Details"
+msgstr "Інформація про Обмежені Дозволи"
+
+msgid "The extension number for this user."
+msgstr "Внутрішній номер цього користувача."
+
+msgid "Extension"
+msgstr "Внутрішній Номер"
+
+msgid "The secret to login to the panel. If the user was autocreated on install time, the password will be the voicemail pin, if it has no voicemail enabled, it will be the same extension number."
+msgstr "Пароль для входу в панель. Якщо користувач був створений автоматично, використовуйте пароль голосової пошти, якщо у користувача не активована голосова пошта, то паролем буде той самий внутрішній номер."
+
+msgid "Secret"
+msgstr "Пароль"
+
+msgid "User Preferences"
+msgstr "Налаштування Користувача"
+
+msgid "Choose a template to quickly set or change permissions, groups and plugins."
+msgstr "Виберіть шаблон, щоб швидко призначити групи, дозволи та плагіни."
+
+msgid "(pick group)"
+msgstr "(виберіть групу)"
+
+msgid "(pick plugin)"
+msgstr "(виберіть плагін)"
+
+msgid "(pick template)"
+msgstr "(виберіть шаблон)"
+
+msgid "(pick one)"
+msgstr "(іиберіть щось)"
+
+msgid "Restricted Permissions"
+msgstr "Обмежені Дозволи"
+
+msgid "Permissions"
+msgstr "Дозволи"
+
+msgid "Permissions let you specify what actions the user will be able to perform inside the panel. For example, if you do not want to give the users the ability to listen to ongoing calls, do not select the spy permission."
+msgstr "Дозволи дозволяють призначати дії, які користувач може виконувати на панелі. Наприклад, якщо ви не хочете, щоб користувач міг стежити за іншими дзвінками, не вибирайте та не призначайте дозвіл шпигунства."
+
+msgid "Template"
+msgstr "Шаблон"
+
+msgid "Choose the permission you want to grant to the user."
+msgstr "Виберіть дозволи, які ви хочете призначити цьому користувачеві."
+
+msgid "(pick permission)"
+msgstr "(вибрати дозвіл)"
+
+msgid "Groups"
+msgstr "Групи"
+
+msgid "Group"
+msgstr "Група"
+
+msgid "Select the groups you want the user to see in the panel. If no groups are selected the user will be able to see all buttons."
+msgstr "Виберіть групи, які ви хочете, щоб цей користувач міг бачити на панелі. Якщо ви не виберете жодної групи, користувач зможе бачити всі кнопки без обмежень."
+
+msgid "All Buttons"
+msgstr "Усі Кнопки"
+
+msgid "All Extensions"
+msgstr "Усі Внутрішні Номери"
+
+msgid "All Queues"
+msgstr "Всі Черги"
+
+msgid "All Conferences"
+msgstr "Всі Конференції"
+
+msgid "All Trunks"
+msgstr "Всі Транки"
+
+msgid "Plugins"
+msgstr "Плагіни"
+
+msgid "Select the plugins you want to load for this user."
+msgstr "Виберіть плагіни які ви хочете ввімкнути для цього користувача."
+
+msgid "Submit Changes"
+msgstr "Застосувати Зміни"
+
+msgid "Delete User %s"
+msgstr "Видалити Користувача %s"
+
+msgid "Are you sure?"
+msgstr "Ви впевнені?"
+
+msgid "Please insert an extension number."
+msgstr "Будь ласка введіть внутрішній номер."
+
+msgid "The extension must be numeric."
+msgstr "Внутрішній номер має бути числовим."
+
+msgid "That extension already exists."
+msgstr "Таке внутрішній номер вже існує."
+
+msgid "Changes saved successfully"
+msgstr "Зміни успішно збережено"
+
+msgid "Users"
+msgstr "Користувачі"
+
+msgid "Buttons"
+msgstr "Кнопки"
+
+msgid "Templates"
+msgstr "Шаблони"
+
+msgid "Extensions"
+msgstr "Внутрішні Номери"
+
+msgid "Queues"
+msgstr "Черги"
+
+msgid "Trunks"
+msgstr "Транкі"
+
+msgid "Parks"
+msgstr "Парковка"
+
+msgid "Conferences"
+msgstr "Конференції"
+
+msgid "Save"
+msgstr "Зберегти"
+
+msgid "Upload"
+msgstr "Завантажити"
+
+msgid "Edit button options"
+msgstr "Опції редагування кнопок"
+
+msgid "Edit"
+msgstr "Редагувати"
+
+msgid "You can change button labels and privacy options -to prevent the button to be monitored and/or hide the CallerID- among other things. You can also sort the list by dragging elements up and down or using the Sort options in the Actions menu."
+msgstr "Звідси можна змінити параметри відображення кнопок, такі як назва, конфіденційність - щоб запобігти прослуховуванню абонента або приховати ідентифікатор абонента, групи - щоб візуально згрупувати їх на панелі, а також деякі інші параметри. Також можна змінити порядок кнопок за назвою або номером, використовуючи відповідні опції в меню Дії, або перетягуючи кожен рядок, щоб відсортувати їх у довільному порядку."
+
+msgid "Sort by Name"
+msgstr "Сортувати за Назвою"
+
+msgid "Sort by Number"
+msgstr "Сортувати за Номером"
+
+msgid "If you changed any extension names and want to reread them from the regular backend config and update the panel config, click this button."
+msgstr "Якщо ви змінили назви внутрішніх номерів у вашій конфігурації і хочете оновити дані в панелі, натисніть цю кнопку"
+
+msgid "Show/Hide advanced fields for buttons."
+msgstr "Показати/Приховати додаткові поля для кнопок."
+
+msgid "%d buttons removed from system update"
+msgstr "%d кнопки видалено з оновлення системи"
+
+msgid "%d buttons added from system update"
+msgstr "%d кнопки додано після оновлення системи"
+
+msgid "%d buttons updated"
+msgstr "%d кнопок оновлено"
+
+msgid "Enable or disable this button from the panel view."
+msgstr "Вмикає або вимикає цю кнопку на панелі інструментів."
+
+msgid "You can change the button label to be displayed on the panel."
+msgstr "На панелі можна змінити назви внутрішніх номерів."
+
+msgid "You can group extensions visually on the panel page. If no group is specified all the extensions are going to be displayed on the Extensions box. If you type another name, a new box will be added with the name you choose. Any buttons with the same group name will be displayed on that box."
+msgstr "На панелі можна візуально групувати внутрішні номери. Якщо групу не вказано, кнопки відображатимуться в розділі \"Внутрішні Номери\". Якщо ввести назву групи, на панелі буде створено новий розділ з такою назвою. Будь-яка кнопка з тієї ж групи буде відображатися в цій секції."
+
+msgid "You can group queues visually on the panel page. If no group is specified all the queues are going to be displayed on the Queues box. If you type another name, a new box will be added with the name you choose. Any buttons with the same group name will be displayed on that box."
+msgstr "На панелі можна візуально групувати черги. Якщо група не вказана, кнопки відображатимуться в секції \"Черги\". Якщо ввести будь-яку назву групи, на панелі буде створено новий розділ з такою назвою. Будь-яка кнопка з тією ж групою буде відображатися в цій секції."
+
+msgid "This option can be used to disable monitoring or CallerID display on the button."
+msgstr "Ця опція може бути використана для запобігання підслуховуванню або для приховування CallerID на цій кнопці."
+
+msgid "ASTDB key to search for custom states. Default configuration is for displaying Call Forward Unconditional states."
+msgstr "Запис ASTDB, який використовується для позначення таких станів, як переадресація виклику або подібних. У FreePBX автоматична конфігурація відстежує переадресацію викликів."
+
+msgid "You can set an email for every button to enable the option to email the user directly from the panel."
+msgstr "Ви можете налаштувати адресу електронної пошти для кожної кнопки, щоб увімкнути можливість надсилати пошту безпосередньо з панелі."
+
+msgid "Channel to use as originator when performing a dial from the panel. You can use a Local type channel and use sip headers for setting the phone to auto answer."
+msgstr "Канал, який буде використовуватися для надходження викликів від панелі. Можна використовувати канал типу Local і використовувати SIP-заголовки для того, щоб наказати телефону відповідати автоматично."
+
+msgid "number@context for external/mobile transfers. If @context is omited it will use the default one for the extension."
+msgstr "numero@contexto для переходу на зовнішній/мобільний номер. Якщо @context не вказано, буде використано той самий контекст, що і для кнопки."
+
+msgid "Options to pass to chanspy. Can be used to restrict spying to certain groups (option g, SPYGROUP) or silence the beep (option q). Example: qg(SALES)"
+msgstr "Опції для перемикання на прослуховування. Можна використовувати для обмеження прослуховування певних груп (опція g, SPYGROUP), вимкнення звукового сигналу (опція q). Приклад: qg(SALES)"
+
+msgid "Extra Channel. You can use it to add extra channels to affect the status of this button."
+msgstr "Додатковий Канал. Використовується для додавання додаткових каналів до моніторингу, які впливатимуть на стан цієї кнопки."
+
+msgid "Comma separated lists of tags. They will be searched/matched when you use the Filter input box on the panel."
+msgstr "Список тегів через кому. Вони будуть використані під час пошуку у вікні Фільтр на панелі."
+
+msgid "Zap/Dahdi Channels (Eg: 1-24)"
+msgstr "Канали Zap/Dahdi (Наприклад: 1-24)"
+
+msgid "You must specify the channel number range for zap/dahdi trunks in this field."
+msgstr "У цьому полі необхідно вказати діапазон каналів для транків zap/dahdi."
+
+msgid "Extra Channel"
+msgstr "Канал Extra"
+
+msgid "You might want to specify an additional device name or put the correct device name in case you are using custom trunks."
+msgstr "Ви можете вказати додаткове ім'я пристрою або каналу, або власне ім'я каналу, якщо ви використовуєте спеціальні транки у FreePBX."
+
+msgid "Channel to use as queue member when adding/removing/pausing this button into a queue."
+msgstr "Канал, який буде використовуватися як член черги при додаванні/видаленні або призупиненні цієї кнопки."
+
+msgid "Voicemail mailbox to query for new voicemail."
+msgstr "Голосова пошта, до якої слід звертатися, щоб дізнатися про нові повідомлення."
+
+msgid "Saving..."
+msgstr "Збереження..."
+
+msgid "Label"
+msgstr "Мітка"
+
+msgid "Synchronize Labels"
+msgstr "Синхронізація Міток"
+
+msgid "No"
+msgstr "Ні"
+
+msgid "Yes"
+msgstr "Так"
+
+msgid "Enabled"
+msgstr "Увімкнено"
+
+msgid "Privacy"
+msgstr "Приватність"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "External Transfer"
+msgstr "Зовнішній Трансфер"
+
+msgid "Channel"
+msgstr "Канал"
+
+msgid "Originate Channel"
+msgstr "Originate Channel"
+
+msgid "Tags"
+msgstr "Мітки"
+
+msgid "Custom ASTDB"
+msgstr "Спеціальний ASTDB"
+
+msgid "ChanSpy Options"
+msgstr "Опції ChanSpy"
+
+msgid "Add Group"
+msgstr "Додати Групу"
+
+msgid "Groups can be used to restrict the buttons a user should see in his panel. You can create a group with only 5 extensions and assign it to a user in the Users tab, so he can only see those extensions."
+msgstr "Групи можна використовувати для обмеження відображення кнопок на панелі. Наприклад, ви можете створити групу з 5 розширень і призначити цю групу користувачеві на вкладці \"Користувачі\", щоб він міг бачити тільки ці розширення на своїй панелі."
+
+msgid "Name"
+msgstr "Ім'я"
+
+msgid "Included Buttons"
+msgstr "Кнопки в Комплекті"
+
+msgid "Select the buttons you want to include in this group."
+msgstr "Виберіть кнопки, які ви хочете включити до групи."
+
+msgid "Check All"
+msgstr "Перевірте Всі"
+
+msgid "Delete Group %s"
+msgstr "Видалити Групу %s"
+
+msgid "Edit User %s"
+msgstr "Редагувати Користувача %s"
+
+msgid "Edit Group %s"
+msgstr "Редагувати Групу %s"
+
+msgid "Please enter a group name."
+msgstr "Будь ласка введіть назву групи."
+
+msgid "Ringgroups"
+msgstr "Групи Виклику"
+
+msgid "A template is a set of permissions, groups and plugins that you can assign to users in one step inside the Users menu for easy and quick management."
+msgstr "Шаблон це набір дозволів, груп і плагінів, які можна призначити в один крок з меню \"Користувачі\" для полегшення адміністрування."
+
+msgid "Add Template"
+msgstr "Додати Шаблон"
+
+msgid "Edit Template %s"
+msgstr "Редагувати Шаблон %s"
+
+msgid "Template Details"
+msgstr "Інформація про Шаблон"
+
+msgid "Template %s deleted!"
+msgstr "Шаблон %s видалено!"
+
+msgid "Template %s inserted!"
+msgstr "Шаблон %s додано!"
+
+msgid "User %s deleted!"
+msgstr "Користувача %s видалено!"
+
+msgid "User %s inserted!"
+msgstr "Користувач %s додано!"
+
+msgid "Group %s deleted!"
+msgstr "Групу %s видалено!"
+
+msgid "Group %s inserted!"
+msgstr "Групу %s додано!"
+
+msgid "Restricted Permission %s deleted!"
+msgstr "Обмежений Дозвіл %s видалено!"
+
+msgid "Restricted Permission %s inserted!"
+msgstr "Обмежувальні Дозволи %s додано!"
+
+msgid "Delete Template %s"
+msgstr "Видалити Шаблон %s"
+
+msgid "Delete Restricted Permission %s"
+msgstr "Видалити Обмежувальний Дозвіл %s"
+
+msgid "Select the groups you want to add to this template. If no groups are selected the user will be able to see all buttons."
+msgstr "Виберіть групи, які ви хочете додати до цього шаблону. Якщо жодної групи не вибрано, користувач зможе бачити всі кнопки."
+
+msgid "Select the plugins you want to enable in this template."
+msgstr "Виберіть плагіни які ви хочете ввімкнути в цьому шаблоні."
+
+msgid "Make Default"
+msgstr "Встановити За замовчуванням"
+
+msgid "Assign this template by default when adding new users."
+msgstr "Призначити цей шаблон автоматично при створенні нових користувачів на вкладці Користувачі."
+
+msgid "The name for this template."
+msgstr "Назва цього шаблону."
+
+msgid "Choose the permission you wish to include in this template."
+msgstr "Виберіть дозволи які ви хочете включити в цей шаблон."
+
+msgid "The name for this group."
+msgstr "Назва цієї групи."
+
+msgid "Add Restricted Permission"
+msgstr "Додати Обмежувальний Дозвіл"
+
+msgid "Restricted permissions lets you limit actions to a specific set of extensions/groups. They are only used for restricting actions. If you want a quick way to assign permissions, then you should use Templates as restricted permissions will limit user actions."
+msgstr "Обмежувальні дозволи дають змогу обмежити дії певною групою розширень. Їх слід використовувати лише для обмеження дій групи. Якщо вам потрібен швидкий спосіб призначення дозволів, вам слід використовувати шаблони замість розширених дозволів, оскільки ці дозволи обмежують лише дії, які зможуть виконувати користувачі."
+
+msgid "Edit Restricted Permission %s"
+msgstr "Редагувати Обмежувальний Дозвіл %s"
+
+msgid "The name for this permission."
+msgstr "Назва цього дозволу."
+
+msgid "Choose the permission you want to include in this advanced permission."
+msgstr "Виберіть дозвіл, який ви хочете включити до цього розширеного дозволу."
+
+msgid "Restrict to Groups"
+msgstr "Обмежити Дозволи для цих Груп"
+
+msgid "Select the groups you want to restrict this permission to. You will be able to perform the actions only to the extension/buttons that are part of the selected groups. If no groups are selected, the permission will be allowed to every button on the panel."
+msgstr "Виберіть групи, для яких ви хочете обмежити вищевказані дозволи. Ви зможете виконувати ці дії лише над тими кнопками, які входять до обраних груп. Якщо ви не виберете групи, то дозвіл буде застосовано до всіх кнопок на панелі."
+
+msgid "Please insert a permission name."
+msgstr "Будь ласка введіть ім'я дозволу."
+
+msgid "That name is reserved for stock permissions, choose another one."
+msgstr "Це ім'я зарезервовано для стандартних прав доступу до панелі. Будь ласка, виберіть інше ім'я."
+
+msgid "Accept"
+msgstr "Прийняти"
+
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgid "The following error(s) occurred processing the uploaded file: %s"
+msgstr "При спробі завантажити файл виникли наступні помилки: %s"
+
+msgid "Plugin installed successfully. You need to enable it globally or assign it to some users to make it available."
+msgstr "Плагін успішно встановлено. Щоб зробити його доступним, ви повинні увімкнути його глобально або призначити користувачеві на вкладці \"Користувачі\"."
+
+msgid "Online Repository - Available Plugins"
+msgstr "Онлайн Репозиторій - Доступні Доповнення"
+
+msgid "Globally Enabled"
+msgstr "Увімкнено Глобально"
+
+msgid "Uninstall"
+msgstr "Видалити"
+
+msgid "Install"
+msgstr "Встановити"
+
+msgid "Buy"
+msgstr "Придбати"
+
+msgid "Update"
+msgstr "Оновити"
+
+msgid "Free"
+msgstr "Безкоштовно"
+
+msgid "Online Repository not reachable/accessible"
+msgstr "Онлайн Репозиторій відсутній або недоступний"
+
+msgid "Locally Available Plugins"
+msgstr "Локальні Доступні Плагіни"
+
+msgid "Upload Plugin"
+msgstr "Завантажити Плагін"
+
+msgid "You can upload a tar gzip file containing a panel plugin from your local system. If a plugin with the same name already exists, it will be overwritten."
+msgstr "Ви можете завантажити файл tar.gz, що містить плагін панелі, у вашу локальну систему. Якщо плагін із такою назвою вже існує, його буде замінено."
+
+msgid "Available Version"
+msgstr "Доступна Версія"
+
+msgid "Installed Version"
+msgstr "Встановлена ​Версія"
+
+msgid "Browse"
+msgstr "Переглянути"
+
+msgid "Welcome"
+msgstr "Ласкаво Просимо"
+
+msgid "Error extracting plugin archive"
+msgstr "Помилка розпакування архіву плагіна"
+
+msgid "Hide/Show Plugin Settings"
+msgstr "Приховати/Показати Налаштування Плагіна"
+
+msgid "Settings"
+msgstr "Налаштування"
+
+msgid "Add Section"
+msgstr "Додати Розділ"
+
+msgid "Remove Section"
+msgstr "Видалити Розділ"
+
+msgid "Please wait..."
+msgstr "Будь ласка зачекайте..."
+
+msgid "Enter Section"
+msgstr "Увійдіть до Розділу"
+
+msgid "That section already exists!"
+msgstr "Цей розділ вже існує!"
+
+msgid "Section cannot be empty!"
+msgstr "Розділ не може залишатися порожнім!"
+
+msgid "%s users added"
+msgstr "%s користувачів додано"
+
+msgid "%s buttons added"
+msgstr "Додано кнопки %s"
+
+msgid "Configuration saved"
+msgstr "Конфігурацію збережено"
+
+msgid "Error finding uploaded file. Did you select one? Check your PHP and/or web server configuration."
+msgstr "Завантажений файл не знайдено. Ви вибрали його? Перевірте конфігурацію вашого PHP або веб-сервера."
+
+msgid "File must be in tar+gzip (.tgz or .tar.gz) format"
+msgstr "Архів має бути у форматі tar+gzip (.tgz або .tar.gz)"
+
+msgid "Filename does not have the correct format: it must be pluginname-version.tar.gz (eg. customplugin-0.1.tar.gz)"
+msgstr "Ім'я файлу не у правильному форматі: воно має бути nameplugin-version.tar.gz (Приклад: customplugin-0.1.tar.gz)."
+
+msgid "Panel Server is not responding. Be sure the service is running!"
+msgstr "Панель Сервера не відповідає на запити сервера. Переконайтеся, що сервіс працює!"
+
+msgid "Licensed Plugins"
+msgstr "Ліцензійні Плагіни"
+
+msgid "There are no licensed plugins"
+msgstr "Відсутні ліцензійні плагіни"
+
+msgid "Panel Server Status: OK"
+msgstr "Стан Сервера Панелі: OK"
+
+msgid "lets you configure users, permissions, button details and options. It will also let you install, uninstall and configure plugins. It will read data from your configuration backend and populate its own tables with your preferences."
+msgstr "дозволить вам налаштувати користувачів, дозволи, деталі кнопок та опції. Він також дозволить вам встановлювати, видаляти і налаштовувати плагіни панелі. Модуль зчитує інформацію про конфігурацію з бекенду і використовує її для заповнення власних таблиць."
+
+msgid "Close"
+msgstr "Закрити"
+
+msgid "Upgrade Available"
+msgstr "Доступне Оновлення"
+
+msgid "Upgrade"
+msgstr "Оновлення"
+
+msgid "New %s version %s available for download"
+msgstr "Нова %s версія %s доступна для завантаження"
+
+msgid "(Your current version is %s)"
+msgstr "(Поточна версія - %s)"
+
+msgid "Panel Reloaded"
+msgstr "Панель Перезавантажено"
+
+msgid "Reload Panel"
+msgstr "Перезавантажити Панель"
+
+msgid "Asterisk Reloaded"
+msgstr "Asterisk Перезавантажено"
+
+msgid "Reload Asterisk"
+msgstr "Перезавантажити Asterisk"
+
+msgid "Show Changelog"
+msgstr "Показати Журнал Змін"
+
+msgid "Hide Changelog"
+msgstr "Приховати Журнал Змін"
+
+msgid "File extracted successfully!"
+msgstr "Файл успішно розпаковано!"
+
+msgid "Cannot read file %s for extraction"
+msgstr "Неможливо прочитати файл %s для розпакування"
+
+msgid "Extraction directory %s does not exists!"
+msgstr "Каталог розпакування %s не існує!"
+
+msgid "Error while extracting file %s into directory %s"
+msgstr "Помилка під час розпакування файлу %s до каталогу %s"
+
+msgid "Problem trying to find the extracted upgrade files. There is no %s directory."
+msgstr "Проблема при спробі знайти розпаковані файли оновлення. Не існує каталогу %s."
+
+msgid "The permission name is already in use."
+msgstr "Така назва дозволу вже існує."
+
+msgid "The template name is already in use."
+msgstr "Така назва шаблону вже існує."
+
+msgid "The name cannot be empty!"
+msgstr "Ім'я не може бути порожнім!"
+
+msgid "The user number is already in use."
+msgstr "Цей номер користувача вже існує."
+
+msgid "Create option"
+msgstr "Створити опцію"
+
+msgid "Price"
+msgstr "Вартість"
+
+msgid "Backend Engine: %s"
+msgstr "Механізм Конфігурації: %s"
+
+msgid "Language"
+msgstr "Мова"
+
+msgid "User"
+msgstr "Користувач"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Log in"
+msgstr "Увійдіть в систему"
+
+msgid "Invalid Credentials"
+msgstr "Невірні Облікові Дані"
+
+msgid "Actions"
+msgstr "Дії"
+
+msgid "That name is reserved for default groups, choose another one."
+msgstr "Ця назва зарезервована для груп за замовчуванням. Виберіть іншу назву."
+
+msgid "Logout"
+msgstr "Вийти з Системи"
+
+msgid "Recreate Users"
+msgstr "Відновити Користувачів"
+
+msgid "Variable to send to the Asterisk Manager when issuing Originate commands specific for setting a phone to auto answer via sip headers or similar. This will be used if the user toggles auto answer in its own Preferences setting"
+msgstr "Змінні для надсилання у команді Originate через Asterisk Manager, зокрема, щоб вказати пристрою на автоматичну присутність абощо. Ця змінна буде надіслана, якщо користувач вибере опцію автоприсутності на панелі особистих налаштувань."
+
+msgid "Variables to send to the Asterisk Manager when issuing Originate commands (performing a dial from the panel)."
+msgstr "Змінні для надсилання через Asterisk Manager під час виконання команди Originate (наприклад, під час набору з панелі)."
+
+msgid "Originate Variables"
+msgstr "Змінні Походження"
+
+msgid "AutoAnswer Header"
+msgstr "Заголовки Автовідповіді"
+
+msgid "Could not remove file %s!"
+msgstr "Не вдалося видалити файл %s!"
+
+msgid "File %s removed successfully"
+msgstr "Файл %s успішно видалено"
+
+msgid "Edit Setting"
+msgstr "Редагувати Налаштування"
+
+msgid "Enable javascript debugging on the browser."
+msgstr "Увімкніть налагодження JavaScript в консолі браузера."
+
+msgid "To enable or disable desktop notifications (notification boxes that popup outside the browser, so you can see them with the browser minimized). This does not work with all browsers."
+msgstr "Вмикає або вимикає сповіщення на робочому столі (які з'являються за межами браузера, щоб їх можна було бачити, коли браузер згорнуто). Цей параметр працює не з усіма браузерами."
+
+msgid "Dial prefix to use on click to call from phonebook or when using the dial box."
+msgstr "Префікс набору, який використовується при здійсненні дзвінків з панелі, або при натисканні на дзвінок, або з контактів, або через вікно набору номера."
+
+msgid "To enable or disable the 'Other' option on the panel presence selection, that lets users chose the reason for their state besides the predefined ones."
+msgstr "Вмикає або вимикає опцію \"Інше\", яка дозволяє користувачам обирати довільну причину паузи/зупинки у виборі присутності панелі."
+
+msgid "When you click on a queue button, the extension display will hide all extensions but the ones matching their names with its queue members. If this is enabled, then queue filtering won't be active."
+msgstr "При натисканні кнопки черги список внутрішніх номерів фільтрується, щоб показати тільки ті, які збігаються за назвою з членами вибраної черги. Якщо цей параметр увімкнено, фільтр внутрішніх номерів не буде активовано при виборі черги."
+
+msgid "Lets you control if you want to enable or disable the Voicemail Explorer feature. Requires a voicemail license to be effective."
+msgstr "Дозволяє вам вирішити, чи вмикати опцію голосової пошти. Для того, щоб ця функція була ефективною, потрібно ліцензувати голосову пошту."
+
+msgid "Lets you disable the use of HTML5 Websocket as the communications protocol. If disabled, Adobe Flash will be used instead."
+msgstr "Дозволяє вимкнути використання HTML5 Websocket як протоколу зв'язку. Якщо вимкнено, замість нього використовуватимуться xml-сокети Adobe Flash."
+
+msgid "Mode in which you want queue buttons to be displayed by default. The summary view will show only the number of logged in agents and number of waiting calls, while the full view will show every queue member and all waiting calls in detail."
+msgstr "Режим відображення інформації в кнопках черги. Зведений вид показує тільки кількість агентів і кількість дзвінків, що очікують, тоді як повний вид показує деталізацію як агентів, так і дзвінків, що очікують на розгляд."
+
+msgid "When enabled, extension buttons won't show any inactive lines, making them shorter. But also the display will be irregular as some buttons will be taller than others depending on the number of active lines."
+msgstr "Якщо цю опцію увімкнено, кнопки розширення не показуватимуть неактивні рядки, що зменшить їхній розмір. Відображатимуться лише ті лінії, які є активними. Це призводить до того, що розмір кнопок стає нерівномірним, а їхнє відображення - не таким акуратним."
+
+msgid "This setting lets you control if you want drag&amp;drop transfers to be enabled in Panel."
+msgstr "Ця опція дозволяє контролювати використання перетягування для переведення та переадресації викликів."
+
+msgid "When enabled, this option will hide all extension buttons that are lagged or unregistered."
+msgstr "У разі ввімкнення цієї опції всі незареєстровані внутрішні номери будуть приховані для перегляду."
+
+msgid "Main Language"
+msgstr "Основна Мова"
+
+msgid "URL to use when the logout button is clicked in the Panel UI."
+msgstr "URL яку слід використовувати при виборі опції \"Вихід\" в Інтерфейсі Панелі."
+
+msgid "If you do not want to show the extension number in a button label, then enable this setting."
+msgstr "Якщо ви не бажаєте відображати внутрішній номер на кнопках внутрішнього номера на панелі, увімкніть цей параметр."
+
+msgid "Duration in seconds you want notifications to be displayed."
+msgstr "Тривалість екранних сповіщень у секундах."
+
+msgid "Date format to use on Chat events."
+msgstr "Формат Дати який буде використовуватися в подіях Чату."
+
+msgid "Number of lines to show per button."
+msgstr "Кількість рядків для відображення на кожній кнопці внутрішнього номера."
+
+msgid "To control if you want sounds for chat events."
+msgstr "Вмикає/Вимикає звуки для подій в Чату."
+
+msgid "To control if you want sounds for queue events."
+msgstr "Вмикає/Вимикає звуки для подій Черги."
+
+msgid "To enable or disable the RING sound when your extension receives a call."
+msgstr "Дозволяє Увімкнути/Вимкнути звук ДЗВІНКІВ коли на ваш внутрішній номер надходить дзвінок."
+
+msgid "With this setting, all extension buttons will start in unregistered state (greyed out)."
+msgstr "Якщо цю опцію увімкнено, всі кнопки внутрішніх номерів відображатимуться як НЕ зареєстровані (сірим кольором)."
+
+msgid "Format in which voicemail files are stored, this must be the same as configured in /etc/asterisk/voicemail.conf"
+msgstr "Формат у якому зберігається голосова пошта. Цей параметр має збігатися з параметром вказаним у файлі /etc/asterisk/voicemail.conf."
+
+msgid "To control if you want a warning when the Panel page is about to be closed."
+msgstr "Керування діалогом уваги коли вікно/вкладка панелі закривається"
+
+msgid "To control if you want a confirmation when a hangup action is performed from the panel."
+msgstr "Дозволяє контролювати чи потрібно підтверджувати виклик коли він обривається з панелі."
+
+msgid "Search"
+msgstr "Пошук"
+
+msgid "Batch Update"
+msgstr "Пакетне Оновлення"
+
+msgid "Batch Update via CSV File"
+msgstr "Пакетне Оновлення з файлу CSV"
+
+msgid "Select a CSV file to upload with data to perform the mass update. You must pass an extension field in the CSV file to match against the Button extension. For example:"
+msgstr "Виберіть CSV-файл для завантаження даних які потрібно оновити. Файл даних повинен містити поле розширення для оновлення відповідних записів кнопок. Наприклад:"
+
+msgid "Please assign fields for your CSV file columns. The extension field is mandatory and will be used to match the corresponding extension in the Panel Buttons list. Columns with no assigned field will be discarded."
+msgstr "Будь ласка призначте відповідні поля для стовпців даних CSV. Поле розширення є обов'язковим і буде використовуватися для зіставлення з відповідним записом у списку кнопок. Стовпці які не містять зіставлених полів будуть відкинуті."
+
+msgid "Empty file?"
+msgstr "Порожній файл?"
+
+msgid "Could not copy uploaded file"
+msgstr "Не вдалося скопіювати завантажений файл"
+
+msgid "Could not upload file"
+msgstr "Не вдалося завантажити файл"
+
+msgid "Please assing data columns"
+msgstr "Будь ласка призначте будь-які поля для стовпців даних"
+
+msgid "Please assign the extension field to a column"
+msgstr "Будь ласка, призначте поле внутрішнього номера для стовпця"
+
+msgid "Tenants"
+msgstr "Орендарі"
+
+msgid "Version"
+msgstr "Версія"
+
+msgid "Dashboard"
+msgstr "Панель Приладів"
+
+msgid "Preferences"
+msgstr "Налаштування"
+
+msgid "Sounds"
+msgstr "Звуки"
+
+msgid "Chat Sounds"
+msgstr "Звук Чату"
+
+msgid "Queue Sounds"
+msgstr "Звук Черги"
+
+msgid "Ring Sounds"
+msgstr "Звук Дзвінка"
+
+msgid "Display"
+msgstr "Представлення"
+
+msgid "Default Queue View"
+msgstr "Вигляд Черги За замовчуванням"
+
+msgid "Dynamic Line Display"
+msgstr "Відображення Динамічних Ліній"
+
+msgid "Popup"
+msgstr "Спливаюче Вікно"
+
+msgid "Automatic Popup"
+msgstr "Автоматичне Спливаюче Вікно"
+
+msgid "Notify Duration"
+msgstr "Тривалість Повідомлення"
+
+msgid "Url"
+msgstr "Url"
+
+msgid "Phone"
+msgstr "Телефон"
+
+msgid "Auto Answer"
+msgstr "Автовідповідач"
+
+msgid "Summary"
+msgstr "Підсумок"
+
+msgid "Detailed"
+msgstr "Детальніше"
+
+msgid "PHP SQLite module not installed"
+msgstr "Не встановлено модуль PHP Sqlite"
+
+msgid "You must install the SQLite module for PHP if you want to change/set global settings and user preferences from this tool."
+msgstr "Ви повинні встановити підтримку SQLite в PHP, щоб мати можливість налаштовувати глобальні та користувацькі параметри за допомогою цього інструменту."
+
+msgid "Add"
+msgstr "Додати"
+
+msgid "Add %s"
+msgstr "Додати %s"
+
+msgid "Delete %s"
+msgstr "Видалити %s"
+
+msgid "Delete"
+msgstr "Видалити"
+
+msgid "Settings let you change some default behaviour for the Switchboard, like enabling drag&amp;drop, webSocket, changing the number of lines to display per button, change available presence options, etc."
+msgstr "У конфігурації ви можете змінити основні параметри конфігурації та зовнішній вигляд панелі, наприклад, увімкнути перетягування, веб-сокети, змінити кількість рядків для відображення на кожній кнопці, налаштувати параметри присутності тощо."
+
+msgid "Access Control"
+msgstr "Контроль Доступу"
+
+msgid "Resource"
+msgstr "Ресурс"
+
+msgid "Required Roles"
+msgstr "Необхідні Ролі"
+
+msgid "From here you can define what roles are needed to access different resources on Panel Manager."
+msgstr "Тут ви можете визначити, які ролі потрібні для доступу до різних ресурсів Диспетчера Панелей."
+
+msgid "Panel Manager Users"
+msgstr "Диспетчер Панелі Користувачів"
+
+msgid "From here you can manage Panel Manager users and their role"
+msgstr "У цьому розділі ви можете керувати користувачами і ролями, які мають доступ до Диспетчера Панелей."
+
+msgid "Value cannot be empty."
+msgstr "Значення не може бути порожнім."
+
+msgid "Please insert a login name."
+msgstr "Будь ласка введіть ім'я користувача."
+
+msgid "Please fill the password"
+msgstr "Будь ласка введіть пароль"
+
+msgid "Please select a role for this user."
+msgstr "Будь ласка оберіть роль для цього користувача."
+
+msgid "That user already exists."
+msgstr "Такий користувач вже існує."
+
+msgid "Add Record"
+msgstr "Додати Запис"
+
+msgid "Export"
+msgstr "Експорт"
+
+msgid "Import"
+msgstr "Імпорт"
+
+msgid "No records found"
+msgstr "Не знайдено жодного запису"
+
+msgid "First"
+msgstr "Перший"
+
+msgid "Previous"
+msgstr "Попередні"
+
+msgid "Next"
+msgstr "Далі"
+
+msgid "Last"
+msgstr "Останній"
+
+msgid "Page"
+msgstr "Сторінка"
+
+msgid "of"
+msgstr "з"
+
+msgid "Total records found"
+msgstr "Всього знайдено записів"
+
+msgid "View Record"
+msgstr "Переглянути Запис"
+
+msgid "Edit Record"
+msgstr "Редагувати Запис"
+
+msgid "Record inserted"
+msgstr "Запис вставлено"
+
+msgid "File was uploaded successfully"
+msgstr "Файл успішно завантажено"
+
+msgid "Success!"
+msgstr "Успішно!"
+
+msgid "Record updated"
+msgstr "Запис оновлено"
+
+msgid "An error has occurred"
+msgstr "Виникла помилка"
+
+msgid "Record deleted"
+msgstr "Запис видалено"
+
+msgid "Delete Marked"
+msgstr "Видалити Позначено"
+
+msgid "Ignoring field "
+msgstr "Ігнорувати поле "
+
+msgid "No valid fields to import!"
+msgstr "Немає допустимих полів для імпорту!"
+
+msgid "%s records imported"
+msgstr "%s імпортованих записів"
+
+msgid "Problems with the file upload. Check permissions on the upload directory."
+msgstr "Виникли проблеми із завантаженням файлу. Перевірте права доступу до каталогу завантаження."
+
+msgid "Error inserting record:<br>"
+msgstr "Виникла помилка під час вставки запису:<br>"
+
+msgid "Error updating record"
+msgstr "Помилка оновлення запису"
+
+msgid "%s records deleted"
+msgstr "%s записів видалено"
+
+msgid "Could not delete records"
+msgstr "Не вдалося видалити записи"
+
+msgid "There are no records to export"
+msgstr "Немає записів для експорту"
+
+msgid "All %s records on this page are selected."
+msgstr "Усі %s записів на цій сторінці вибрано."
+
+msgid "Select all %s records."
+msgstr "Вибрати всі %s записів."
+
+msgid "All %s records are selected."
+msgstr "Усі %s записів вибрано."
+
+msgid "Clear Selection"
+msgstr "Очистити Вибір"
+
+msgid "Please correct this value"
+msgstr "Будь ласка виправте це значення"
+
+msgid "Time must be greater than $1 field"
+msgstr "Час має бути більшим за поле $1"
+
+msgid "Date must be greater than $1 field"
+msgstr "Дата повинна бути більшою за поле $1"
+
+msgid "Panel Manager upgraded!"
+msgstr "Диспетчер Панелей оновлено!"
+
+msgid "Notification"
+msgstr "Повідомлення"
+
+msgid "CSS Class to apply to the button, so you can modify the style for an individual button via css. You will have to add your classes to css/theme/theme.css"
+msgstr "CSS клас для застосування до кнопки, щоб для кожної кнопки можна було використовувати певний стиль. Ви можете додати свої класи у файл css/theme/theme.css."
+
+msgid "Toggle Advanced Fields"
+msgstr "Перемикання Розширених Полів"
+
+msgid "Accountcode to use when Originating calls with this extension from the panel."
+msgstr "Код облікового запису який буде використовуватися при здійсненні оригінальних дзвінків з панелі."
+
+msgid "To enable or disable the Presence select box"
+msgstr "Вмикає або вимикає вибір Присутність на панелі."
+
+msgid "Extra Fields"
+msgstr "Додаткові Поля"
+
+msgid "Select extra field defaults for this template"
+msgstr "Виберіть значення за замовчуванням для додаткових полів у цьому шаблоні"
+
+msgid "none"
+msgstr "жодного"
+
+msgid "all"
+msgstr "все"
+
+msgid "clid"
+msgstr "clid"
+
+msgid "monitor"
+msgstr "монітор"
+
+msgid "Panel Manager Autoconfiguration"
+msgstr "Автоконфігурація Диспетчера Панелей"
+
+msgid "Reload Script:"
+msgstr "Перезавантажити Скрипт:"
+
+msgid "Reload Script"
+msgstr "Перезавантажити Скрипт"
+
+msgid "consoleDebug"
+msgstr "консольНалагодження"

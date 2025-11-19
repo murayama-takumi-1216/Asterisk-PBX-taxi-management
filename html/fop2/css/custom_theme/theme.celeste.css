@@ -1,0 +1,98 @@
+.logo {
+   width:128px;
+   height:128px;
+   background: url(../../images/telephone_128.png) no-repeat;
+}
+
+/* Window Background Colors */
+.boxstylebg {
+  background: #CFF;
+}
+
+/* Window Header Colors */
+.widget-color>header {
+  border-color: #3161A0!important;
+  background: #3161A0;
+  color: #fff;
+}
+
+.widget-color>header h3{
+  color: #fff;
+}
+
+/* Toolbar Icons */
+.toolbar_dial_button {
+  background: url(images/dial.png) no-repeat;
+}
+
+.toolbar_blindtransfer_button {
+  background: url(images/blindtransfer.png) no-repeat;
+}
+
+.toolbar_supervisedtransfer_button {
+  background: url(images/supervisedtransfer.png) no-repeat;
+}
+
+.toolbar_voicemailtransfer_button {
+  background: url(images/voicemailtransfer.png) no-repeat;
+}
+
+.toolbar_mobiletransfer_button {
+  background: url(images/mobiletransfer.png) no-repeat;
+}
+
+.toolbar_pickup_button {
+  background: url(images/pickup.png) no-repeat;
+}
+
+.toolbar_spy_button {
+  background: url(images/spy.png) no-repeat;
+}
+
+.toolbar_whisper_button {
+  background: url(images/whisper.png) no-repeat;
+}
+
+.toolbar_hangup_button {
+  background: url(images/hangup.png) no-repeat;
+}
+
+.toolbar_record_button {
+  background: url(images/record.png) no-repeat;
+}
+
+.toolbar_preferences_button {
+  background: url(../../images/toolbar/config.png) no-repeat;
+}
+
+.toolbar_phonebook_button {
+  background: url(../../images/toolbar/phonebook.png) no-repeat;
+}
+
+.toolbar_logout_button {
+  background: url(../../images/toolbar/logout.png) no-repeat;
+}
+
+/* 
+   Background color for queue member entries, park entries
+   trunk entries and conference entries
+*/
+.aentry, .pentry, .tentry, .centry {
+  background-color: #A4E6E8;
+}
+
+/* Background color for calls waiting in queue */
+.qentry {
+  background-color: #EEF9AF;
+}
+
+/* Button States */
+.free {
+  background-color: #B7F0EC;
+}
+
+.busy {
+  background-color: #F4C782;
+}
+
+

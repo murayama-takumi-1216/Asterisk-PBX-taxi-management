@@ -1,0 +1,65 @@
+# OS junk files
+Thumbs.db
+Desktop.ini
+*.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+.python-version
+.pytest_cache/
+.coverage*
+*.cover
+*.py,cover
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+env/
+env*/
+venv/
+venv*/
+.venv/
+.venv*/
+
+# Django/static/media artifacts
+staticfiles/
+static/
+media/
+*.log
+
+# Node/Frontend
+node_modules/
+.parcel-cache/
+.cache/
+yarn-error.log
+pnpm-lock.yaml
+
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+.DS_Store
+*.swp
+*.swo
+
+# Build artifacts
+dist/
+build/
+/application/apps_taxi/staticfiles/
+/application/apps_taxi/media/
+/application/apps_taxi/.pytest_cache/
+
+# Local environment overrides
+*.env
+*.local
+*.secret
+env-*.txt
+

@@ -1,0 +1,60 @@
+<html>
+<head>
+
+</head>
+<body>
+
+<script>
+  function iniciarWebSocket() {
+    try {
+      const socket = new WebSocket("ws://127.0.0.1:8765");
+      socket.onopen = (event) => {
+        socket.send("Esto es una prueba de mensaje enviado ...");
+        console.log("Conectado al servidor WebSocket.");
+      };
+
+      socket.onmessage = (event) => {
+        console.log("Evento recibido del servidor:", event.data);
+      };
+
+      socket.onclose = (event) => {
+        console.log("Desconectado del servidor WebSocket.");
+      };
+    } catch (exception) {
+      console.log("Error al cargar websocket ----->", exception)
+    }
+  }
+
+  /*
+  const socket = new WebSocket("ws://127.0.0.1:8765");
+
+  socket.onopen = () => {
+    console.log("Conectado al servidor WebSocket.");
+  };
+
+  socket.onmessage = (event) => {
+    console.log("Evento recibido del servidor:", event.data);
+  };
+
+  socket.onclose = () => {
+    console.log("Desconectado del servidor WebSocket.");
+  };
+   */
+
+  // // Create WebSocket connection.
+  // const socket = new WebSocket("ws://localhost:8765");
+  //
+  // // Connection opened
+  // socket.addEventListener("open", (event) => {
+  //   socket.send("Hello Server!");
+  // });
+  //
+  // // Listen for messages
+  // socket.addEventListener("message", (event) => {
+  //   console.log("Message from server ", event.data);
+  // });
+
+</script>
+</body>
+
+</html>
