@@ -9,7 +9,10 @@
       "Bash(\"E:\\workana\\carlos project\\www_backup\\var\\www\\application\\venvpy\\Scripts\\python.exe\" \"E:\\workana\\carlos project\\www_backup\\var\\www\\application\\apps_taxi\\manage.py\" check)",
       "Bash(dir /b /s popper.min.js 2)",
       "Bash(nul)",
-      "Bash(dir /b /s bootstrap.min.js 2)"
+      "Bash(dir /b /s bootstrap.min.js 2)",
+      "Bash(\"E:\\workana\\carlos project\\www_backup\\var\\www\\application\\venvpy\\Scripts\\python.exe\" manage.py setup_permissions)",
+      "Bash(set DJANGO_READ_DOT_ENV_FILE=True)",
+      "Bash(\"E:\\workana\\carlos project\\www_backup\\var\\www\\application\\venvpy\\Scripts\\python.exe\" fix_murayama_permissions.py)"
     ],
     "deny": [],
     "ask": []
