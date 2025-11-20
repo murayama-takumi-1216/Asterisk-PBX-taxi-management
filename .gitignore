@@ -53,8 +53,6 @@ pnpm-lock.yaml
 # Build artifacts
 dist/
 build/
-/application/apps_taxi/staticfiles/
-/application/apps_taxi/media/
 /application/apps_taxi/.pytest_cache/
 
 # Local environment overrides
