@@ -6,7 +6,10 @@
       "Bash(python manage.py clearsessions:*)",
       "Bash(\"E:\\workana\\carlos project\\www_backup\\var\\www\\application\\venvpy\\Scripts\\python.exe\" manage.py clearsessions)",
       "Bash(python manage.py check:*)",
-      "Bash(\"E:\\workana\\carlos project\\www_backup\\var\\www\\application\\venvpy\\Scripts\\python.exe\" \"E:\\workana\\carlos project\\www_backup\\var\\www\\application\\apps_taxi\\manage.py\" check)"
+      "Bash(\"E:\\workana\\carlos project\\www_backup\\var\\www\\application\\venvpy\\Scripts\\python.exe\" \"E:\\workana\\carlos project\\www_backup\\var\\www\\application\\apps_taxi\\manage.py\" check)",
+      "Bash(dir /b /s popper.min.js 2)",
+      "Bash(nul)",
+      "Bash(dir /b /s bootstrap.min.js 2)"
     ],
     "deny": [],
     "ask": []
